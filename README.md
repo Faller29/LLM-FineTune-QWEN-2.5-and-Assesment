@@ -137,5 +137,6 @@ Go to `http://127.0.0.1:7860/` in your browser. It uses the **same Qwen2.5 chat 
 Specific differences: original NVIDIA code uses NeMo Curator/Framework and NVIDIA's tokenizer; our curation is a Python implementation of the **blog-described rules**, and our CPU learner is a separate implementation. Different tokenization may change which length-filtered records pass. Dataset composition may be biased by the explicit sample ceiling. NVIDIA's 8B quality/benchmark results cannot be extrapolated to the 0.49B model.
 
 For your academic record save screenshots of: raw examples; FastText+Nano filter report; curation counts; CPU eligibility report; base predictions; LoRA optimizer steps and validation; same-question base vs LoRA comparisons.
-#   L L M - F i n e T u n e - Q W E N - 2 . 5 - a n d - A s s e s m e n t  
+#   L L M - F i n e T u n e - Q W E N - 2 . 5 - a n d - A s s e s m e n t 
+ 
  
