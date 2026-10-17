@@ -1,0 +1,6 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "test": "data/cpu/test.jsonl",
+  "max_new_tokens": 128,
+  "rows": 8
+}

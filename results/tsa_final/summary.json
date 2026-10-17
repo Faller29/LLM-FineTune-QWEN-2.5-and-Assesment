@@ -1,0 +1,113 @@
+{
+  "completion": {
+    "expected": 35,
+    "observed": 35,
+    "complete": true,
+    "missing_ids": []
+  },
+  "answer_key_score": {
+    "earned_points_so_far": 10,
+    "maximum_points": 35,
+    "accuracy": 0.2857142857142857,
+    "invalid": 2,
+    "prediction_counts": {
+      "A": 0,
+      "B": 0,
+      "C": 3,
+      "D": 9,
+      "E": 21,
+      "INVALID": 2
+    },
+    "wilson95_descriptive": [
+      0.16326536236434688,
+      0.45054934863182616
+    ],
+    "uniform_guess_accuracy": 0.2,
+    "best_constant_letter_accuracy": 0.2857142857142857,
+    "binomial_upper_tail_against_uniform_guessing": 0.14572785271282007,
+    "note": "The binomial calculation assumes independent uniform guesses. Public, selected items are not a random sample of all reasoning tasks."
+  },
+  "criteria": [
+    {
+      "criterion": "Main Conclusion",
+      "correct": 2,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.4
+    },
+    {
+      "criterion": "Drawing a Conclusion",
+      "correct": 1,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.2
+    },
+    {
+      "criterion": "Identifying an Assumption",
+      "correct": 0,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.0
+    },
+    {
+      "criterion": "Assessing the Impact of Additional Evidence",
+      "correct": 3,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.6
+    },
+    {
+      "criterion": "Detecting Reasoning Errors",
+      "correct": 1,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 2,
+      "accuracy": 0.2
+    },
+    {
+      "criterion": "Matching Arguments",
+      "correct": 3,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.6
+    },
+    {
+      "criterion": "Applying Principles",
+      "correct": 0,
+      "maximum_points": 5,
+      "completed": 5,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 0.0
+    }
+  ],
+  "output_budget_hits": 0,
+  "seconds": 2248.989,
+  "explanation_review": {
+    "status": "not_scored",
+    "additional_TSA_points": 0
+  },
+  "limitations": [
+    "35 original items from the study, in English; not the full study protocol.",
+    "Seven measured argument-analysis skills; no global critical-thinking certification.",
+    "One completion per item under one decoding configuration.",
+    "Public question exposure during pretraining cannot be ruled out.",
+    "Answer-key correctness and explanation quality are separate.",
+    "Neither a correct answer nor a thinking tag proves internal process faithfulness.",
+    "Five items per criterion give coarse, uncertain category estimates.",
+    "Raw-score percentages are not Oxford admissions scaled scores or human percentiles."
+  ],
+  "purpose": "final_35_item_assessment",
+  "protocol": "TSA original-item subset, English, one completion per item"
+}

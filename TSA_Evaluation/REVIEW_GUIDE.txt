@@ -1,0 +1,99 @@
+REVIEWING QWEN TSA RESPONSES
+
+Purpose: inspect answer extraction and the validity of written explanations.
+Primary test: the 35 original TSA questions, scored against published UCLES keys.
+Supplemental review: documented AI-assisted or human judgments; no extra TSA points.
+
+For the ChatGPT reviewer
+
+Read the entire question, every option, the reference key, and the RAW response.
+Do not rate a response based only on the extracted letter or fluent writing.
+The sources give keys; a published explanation is not supplied for every item.
+Use the question's actual argument to justify your review. If a key appears
+disputable, flag it for independent checking; do not silently rewrite the key.
+
+Keep correct-answer performance separate from explanation validity. A correct
+choice can have a flawed rationale. A response can contain a sound observation
+without identifying the correct option. Thinking tags alone receive no credit.
+
+Answer audit
+
+answer_status:
+  clear:     The response unambiguously states one selected option.
+  ambiguous: It leaves conflicting options without a clear resolution.
+  missing:   It gives no selected option.
+  pending:   This item has not yet been reviewed.
+
+For clear answers, record choice_as_written as A/B/C/D/E and answer_evidence as
+an exact excerpt of the MODEL RESPONSE that establishes that selection.
+For ambiguous, missing or pending answers, choice_as_written must be null.
+Do not choose the gold letter on behalf of the model. Do not count an option
+quoted merely as a rejected alternative as the model's final selection.
+If a choice is only inside an unfinished thinking section, document that fact
+and the uncertainty rather than automatically treating it as a final answer.
+
+Explanation audit
+
+explanation_status:
+  supported:    The stated justification identifies the relevant relationship
+                and supports the selected answer without a material error.
+  flawed:       It contains a material invalid inference, contradiction,
+                invented premise, or misreading.
+  insufficient: It states an answer or repeats words without enough reasoning
+                to assess the justification.
+  missing:      There is no explanatory content.
+  unclear:      The explanation cannot be judged confidently; explain why.
+  pending:      Not yet reviewed.
+
+These categories describe the written explanation. They do not establish
+whether it faithfully reports the model's internal process.
+An incorrect selected answer will generally not have a supported justification
+for that choice. Credit an accurate partial observation in the comment while
+retaining the material flaw or insufficiency category.
+
+Criterion-specific checks
+
+Main conclusion: distinguishes the main claim from a supporting reason,
+background detail, example or subordinate conclusion.
+Drawing a conclusion: supports the conclusion with what the passage supplies;
+does not overgeneralize or import unsupported information.
+Assumption: identifies a required unstated link, rather than an optional
+additional fact or a restatement of the conclusion.
+Additional evidence: explains the relevant effect on the argument, rather
+than treating any interesting information as support.
+Reasoning errors: identifies the actual error and its consequence for the
+conclusion; does not invent a different flaw.
+Matching arguments: identifies logical structure, including invalid structure
+when present, rather than merely matching topics or wording.
+Applying principles: applies the same principle and its relevant conditions
+consistently, rather than choosing the most familiar or agreeable option.
+
+Evidence and review record
+
+Use review_template.json as the schema.
+Fill reviewer_name honestly (for example, "ChatGPT, AI-assisted review"),
+and reviewer_type as Manual or human.
+Preserve run_config_sha256, responses_sha256 and all response IDs.
+For supported/flawed/insufficient/unclear explanations, supply an exact excerpt
+in explanation_evidence and a substantive comment explaining the judgment.
+If no explanation exists, use missing and state that in the comment.
+Keep unreviewed entries pending rather than assigning them zero or flawed.
+
+Review each response on its own merits. Do not favor the target model, verbosity,
+polished language, a particular answer letter, or a high overall score.
+Check disagreements against the source paper/key and supplied passage.
+Flag genuinely ambiguous judgments for a human reviewer.
+
+Return a readable account of each question's points (0/1), explanation judgment,
+and justification, plus a filled JSON ratings file if asked.
+If response extraction was wrong, preserve the original automatic score and
+show the separately audited score and exact corrections.
+Do not add the explanation audit to the TSA points or create a "thinking score."
+
+Presentation
+
+Report the answer-key total and seven criterion totals, extraction failures,
+budget/truncation flags, and explanation-status counts. Use exact examples for
+claims about the kinds of errors or successful reasoning demonstrated.
+State that the review was AI-assisted. For stronger formal evidence, obtain an
+independent human review of ambiguous cases and a predefined sample or all items.

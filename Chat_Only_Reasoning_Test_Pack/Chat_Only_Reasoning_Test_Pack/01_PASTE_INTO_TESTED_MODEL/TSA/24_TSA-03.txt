@@ -1,0 +1,9 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+People are quick to connect attempts to reduce the effects of climate change with the protection of the environment. However, responding to climate change is much more important for humanity than for nature. In the history of the planet, the relative stability of temperatures in the last ten thousand years is the exception rather than the norm. Nature has always found a way to adapt to large temperature variations but human civilisations, all of which have evolved in the last ten thousand years, have developed in a period with unusually reliable and predictable weather. Nature will find a way to move on, but climate change is potentially devastating for humans.
+Which one of the following best expresses the main conclusion of the above argument?
+A People are quick to connect climate change policies with environmental protection.
+B Acting against climate change is more important for humans than for the environment.
+C Nature has always found a way to adapt to large temperature variations.
+D Human civilisations have not yet been exposed to really large variations in temperature.
+E Nature will find a way to adapt, but climate change is potentially devastating for humans.

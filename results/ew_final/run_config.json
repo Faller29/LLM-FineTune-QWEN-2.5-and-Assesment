@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "purpose": "EW_assessment",
+  "identity": {
+    "backend": "direct_cpu",
+    "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "base_model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "tokenizer_revision": null,
+    "adapter_path": "D:\\MSCS213-Simulation - Copy\\results\\qwen_lora\\best",
+    "adapter_fingerprints": {
+      "adapter_config.json": "205e79006dcead87640e4bc791c08cd7eae520abc155556bd4869a87c00d58db",
+      "adapter_model.safetensors": "9245bfb2edd2f5ee9fb0325911c5b7bacb0a440ed101449430ae5bc880ef3af0"
+    },
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "transformers": "4.57.6",
+      "peft": "0.18.1"
+    },
+    "dtype": "float32",
+    "do_sample": "per_completion: false at T=0, true at T>0",
+    "device": "cpu",
+    "python": "3.12.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "model_context_limit": 32768
+  },
+  "code_fingerprints": {
+    "EW_Evaluation\\ew_core.py": "c643512f780f44588734797e9fa4415c12d991e96129d2eba5f3b07cce4067f7",
+    "EW_Evaluation\\prepare_ew.py": "de420451ffc11252da1920d9c0851be17707f4e9af38e67ce37149097be47471",
+    "EW_Evaluation\\ew_backend.py": "47a9e93b812a37e396984ee8ec0ad2c9cdae40dc0589cb358a8fc48b6ad2da7c",
+    "EW_Evaluation\\evaluate_ew.py": "0841683ef5fbb2fd8f43734867c91b36fd2122cbfd9636ca758b3e2da12ee15e",
+    "EW_Evaluation\\ew_manifest.json": "7fe5563c7ac246878ff26a8c1f6d798282a4c5f489ede1dc1521630f956a4e7d",
+    "TSA_Evaluation\\evaluate_tsa.py": "88eb17e362008499617de916dc5597ad95d77cc6e75f9aefd4df27a7d9fb41d6",
+    "TSA_Evaluation\\tsa_core.py": "051b4ccfb5509c50762b290738ab7c6b9672f2f42153a5674db304f5fa6f7671"
+  },
+  "materials_sha256": "a2b393b512bec371a5ba9ad34faea5e0c43c78f82cde3bd4548e92dc2fa87fd1",
+  "settings": {
+    "scope": "full",
+    "temperatures": [
+      0.0
+    ],
+    "rounds": 1,
+    "mode": "on",
+    "system_prompt": "detailed thinking on",
+    "max_input": 2048,
+    "max_new_tokens": 2048,
+    "threads": 4,
+    "seed": 42,
+    "fresh_chat_per_scenario": true,
+    "reference_answers_sent_to_model": false,
+    "sampling_at_positive_temperatures": {
+      "top_p": 1.0,
+      "top_k": 0
+    }
+  },
+  "input_tokens": {
+    "EW-ORIGINAL": 922,
+    "EW-NEW-1": 466,
+    "EW-NEW-2": 483,
+    "EW-NEW-3": 397
+  },
+  "plan": [
+    {
+      "id": "EW-ORIGINAL-T0-R001",
+      "scenario_id": "EW-ORIGINAL",
+      "temperature": 0.0,
+      "round": 1,
+      "generation_seed": 42
+    },
+    {
+      "id": "EW-NEW-1-T0-R001",
+      "scenario_id": "EW-NEW-1",
+      "temperature": 0.0,
+      "round": 1,
+      "generation_seed": 43
+    },
+    {
+      "id": "EW-NEW-2-T0-R001",
+      "scenario_id": "EW-NEW-2",
+      "temperature": 0.0,
+      "round": 1,
+      "generation_seed": 44
+    },
+    {
+      "id": "EW-NEW-3-T0-R001",
+      "scenario_id": "EW-NEW-3",
+      "temperature": 0.0,
+      "round": 1,
+      "generation_seed": 45
+    }
+  ],
+  "tsa_context": {
+    "same_model_and_adapter_verified": true,
+    "path": "D:\\MSCS213-Simulation - Copy\\results\\tsa_final",
+    "run_config_sha256": "cc974f4074c691ee97dc106283468f9969d5155878b5302a6d867bcd000aa92e",
+    "responses_sha256": "defd4658ca66e800b201374a2ec16f55be7e01f2d3d54c86803d184fa67826bd",
+    "automatic_answer_points": 10,
+    "maximum_points": 35,
+    "accuracy": 0.2857142857142857,
+    "note": "TSA and EW are reported separately; they are not added into a new composite score."
+  }
+}

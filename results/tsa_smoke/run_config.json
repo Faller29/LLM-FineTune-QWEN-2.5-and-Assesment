@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "purpose": "pipeline_check_only",
+  "identity": {
+    "backend": "direct_cpu",
+    "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "base_model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "tokenizer_revision": null,
+    "adapter_path": "D:\\MSCS213-Simulation - Copy\\results\\qwen_lora\\best",
+    "adapter_fingerprints": {
+      "adapter_config.json": "205e79006dcead87640e4bc791c08cd7eae520abc155556bd4869a87c00d58db",
+      "adapter_model.safetensors": "9245bfb2edd2f5ee9fb0325911c5b7bacb0a440ed101449430ae5bc880ef3af0"
+    },
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "transformers": "4.57.6",
+      "peft": "0.18.1"
+    },
+    "dtype": "float32",
+    "do_sample": false,
+    "device": "cpu",
+    "python": "3.12.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "model_context_limit": 32768
+  },
+  "code_fingerprints": {
+    "tsa_core.py": "051b4ccfb5509c50762b290738ab7c6b9672f2f42153a5674db304f5fa6f7671",
+    "evaluate_tsa.py": "88eb17e362008499617de916dc5597ad95d77cc6e75f9aefd4df27a7d9fb41d6",
+    "prepare_tsa.py": "2591fc17b788124ac0ab6bdc2a855bf358aef6b4ce29d23b916da26d6ee00d30",
+    "item_manifest.json": "793184cfd3d9a2dd47c358bc75363a4568ec8fdab9cf5a1027e84b0747279258"
+  },
+  "items_sha256": "fd4f7f61e2bdd9f31f07480bf1db9f46e7a1ff1956fa7258aa2e45e4f96451bd",
+  "settings": {
+    "mode": "on",
+    "system_prompt": "detailed thinking on",
+    "max_input": 2048,
+    "max_new_tokens": 512,
+    "threads": 4,
+    "seed": 42,
+    "do_sample": false,
+    "fresh_chat_per_question": true
+  },
+  "planned_order": [
+    "SMOKE-ONLY"
+  ],
+  "input_tokens_by_id": {
+    "SMOKE-ONLY": 95
+  }
+}

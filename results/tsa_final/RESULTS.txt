@@ -1,0 +1,19 @@
+TSA answer-key results
+Purpose: final_35_item_assessment
+Completed: 35/35
+Points earned so far: 10/35
+Final accuracy: 28.6%
+Invalid extracted answers: 2
+Output-token budget reached: 0
+
+Main Conclusion: 2/5 (5 completed)
+Drawing a Conclusion: 1/5 (5 completed)
+Identifying an Assumption: 0/5 (5 completed)
+Assessing the Impact of Additional Evidence: 3/5 (5 completed)
+Detecting Reasoning Errors: 1/5 (5 completed)
+Matching Arguments: 3/5 (5 completed)
+Applying Principles: 0/5 (5 completed)
+
+Explanation review: pending; no additional TSA points.
+The raw percentage is not an admissions scaled score.
+Use REVIEW_GUIDE.txt when reviewing the explanations.

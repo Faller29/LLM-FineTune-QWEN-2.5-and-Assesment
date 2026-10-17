@@ -1,0 +1,97 @@
+RUN ONE STAGE AT A TIME IN WINDOWS CMD
+
+0. Extract the ZIP, then copy EW_Evaluation into the project root, beside
+   TSA_Evaluation. The command path must be:
+   D:\MSCS213-Simulation - Copy\EW_Evaluation\evaluate_ew.py
+   Keep the existing TSA files. Stop web_app.py with Ctrl+C in its terminal
+   before inference to avoid loading two copies of the model into RAM.
+
+1. Open CMD and activate your existing environment:
+
+cd /d "D:\MSCS213-Simulation - Copy"
+
+call .venv\Scripts\activate.bat
+
+2. Prepare the authors' full EW materials:
+
+python EW_Evaluation\prepare_ew.py
+
+   Expect: 4 complete scenarios, 21 scoring units, maximum 65 points.
+   Review the question-only copy if desired:
+
+notepad EW_Evaluation\PROMPTS_FOR_INSPECTION.txt
+
+3. Check tokenizer, adapter files, complete input lengths, and the TSA link:
+
+python EW_Evaluation\evaluate_ew.py run --adapter "results\qwen_lora\best" --tsa-out "results\tsa_final" --out "results\ew_final" --check-only
+
+   No inference is performed by --check-only.
+   If your TSA output folder differs, replace results\tsa_final with its path.
+   If you only want the EW run, omit --tsa-out and its path in every command.
+
+4. Generate the four essay responses:
+
+python EW_Evaluation\evaluate_ew.py run --adapter "results\qwen_lora\best" --tsa-out "results\tsa_final" --out "results\ew_final"
+
+   Defaults: thinking on, greedy decoding, 4 CPU threads, maximum 2048 new
+   tokens per response, all four complete scenarios in separate fresh chats.
+   Look for 4/4 saved. Long responses can take time; a token-progress message
+   is printed approximately every 30 seconds during generation.
+   Completed scenarios are written immediately; an unfinished scenario cannot
+   be recovered token by token if the process is terminated.
+
+5. Resume after an interruption with identical settings:
+
+python EW_Evaluation\evaluate_ew.py run --adapter "results\qwen_lora\best" --tsa-out "results\tsa_final" --out "results\ew_final" --resume
+
+   Saved responses, including incorrect/incomplete ones, are preserved.
+   Do not change a token budget or adapter while resuming. A separately named
+   run may be made after a documented technical-budget problem; retain the
+   earlier run and describe the change when reporting results.
+
+6. Inspect the generation summary:
+
+notepad results\ew_final\RESULTS.txt
+
+explorer results\ew_final
+
+   Upload this exact file to ChatGPT:
+   results\ew_final\SEND_EW_TO_CHATGPT.zip
+   PENDING rubric scores before review are expected; generation is complete
+   if the response count is 4/4. A token-budget hit must still be reported.
+
+7. After receiving the completed review, save it as:
+   results\ew_final\ratings_completed.json
+   Then apply it without loading the model:
+
+python EW_Evaluation\evaluate_ew.py apply-review --out "results\ew_final" --ratings "results\ew_final\ratings_completed.json"
+
+notepad results\ew_final\RESULTS.txt
+
+   This also rebuilds SEND_EW_TO_CHATGPT.zip and COMBINED_ASSESSMENT.json.
+   A human can independently complete another template and supply both files:
+
+python EW_Evaluation\evaluate_ew.py apply-review --out "results\ew_final" --ratings "results\ew_final\ratings_completed.json" "results\ew_final\human_review.json"
+
+   Supply all reviews you want included; apply-review replaces the accepted
+   review set. Reviewer names must differ. Averaging does not establish ICC.
+
+8. Rebuild exports without model inference:
+
+python EW_Evaluation\evaluate_ew.py summarize --out "results\ew_final"
+
+9. Optional software checks after preparing the materials; no model is loaded:
+
+python -m unittest discover -s EW_Evaluation -p "test_ew.py" -v
+
+10. OPTIONAL: the publication's five-temperature / 30-round schedule.
+    This creates 600 complete essay responses and 3150 scoring-unit ratings
+    per reviewer. It can require substantial CPU time and grading work.
+    It remains an English, single-model adaptation without the student cohort
+    or published rating-group equating. Do not run this merely to obtain a
+    more favorable result. The default four-response run is the starting point.
+
+python EW_Evaluation\evaluate_ew.py run --adapter "results\qwen_lora\best" --tsa-out "results\tsa_final" --out "results\ew_150_rounds" --temperatures "0,0.25,0.5,0.75,1" --rounds 30
+
+    Repeated local greedy outputs at temperature 0 are not independent draws.
+    To resume the optional schedule, use the same command with --resume.

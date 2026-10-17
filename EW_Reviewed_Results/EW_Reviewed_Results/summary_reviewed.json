@@ -1,0 +1,85 @@
+{
+  "protocol": "Jiang EW materials, English, complete scenario per fresh chat",
+  "study_doi": "10.1177/18344909251406111",
+  "scope": "full",
+  "scoring_units_per_round": 21,
+  "analysis_code_sha256": {
+    "ew_core.py": "c643512f780f44588734797e9fa4415c12d991e96129d2eba5f3b07cce4067f7",
+    "evaluate_ew.py": "0841683ef5fbb2fd8f43734867c91b36fd2122cbfd9636ca758b3e2da12ee15e"
+  },
+  "completion": {
+    "saved_scenario_responses": 4,
+    "planned_scenario_responses": 4,
+    "complete": true
+  },
+  "nominal_maximum_per_round": 65,
+  "scoring_status": "reviewed",
+  "primary_scoring_policy": "released_manual: at most one deduction per response paragraph",
+  "sensitivity_policy": "article wording: one deduction per documented error instance",
+  "reviewers": [
+    {
+      "name": "Faller, 2026-10-14",
+      "type": "Manual"
+    }
+  ],
+  "outdated_reviews_excluded": [],
+  "scores": {
+    "individual_reviewer_rounds": {
+      "Faller, 2026-10-14": [
+        {
+          "temperature": 0.0,
+          "round": 1,
+          "complete": true,
+          "base_alignment_points": 15,
+          "manual_score": -3,
+          "manual_capped_deductions": 18,
+          "article_wording_sensitivity_score": -19
+        }
+      ]
+    },
+    "mean_across_reviewers_by_round": [
+      {
+        "temperature": 0.0,
+        "round": 1,
+        "complete": true,
+        "mean_manual_score": -3,
+        "mean_article_wording_sensitivity_score": -19
+      }
+    ],
+    "by_temperature": [
+      {
+        "temperature": 0.0,
+        "complete": true,
+        "rated_rounds": 1,
+        "planned_rounds": 1,
+        "mean_score": -3,
+        "sample_sd": null
+      }
+    ],
+    "all_ratings_complete": true,
+    "inter_rater_reliability": "not_estimated",
+    "note": "Reviewer averaging is descriptive. No human comparison, equating, or pass threshold is computed."
+  },
+  "output_budget_hits": 0,
+  "generation_seconds": 940.7429999999999,
+  "tsa_context": {
+    "same_model_and_adapter_verified": true,
+    "path": "D:\\MSCS213-Simulation - Copy\\results\\tsa_final",
+    "run_config_sha256": "cc974f4074c691ee97dc106283468f9969d5155878b5302a6d867bcd000aa92e",
+    "responses_sha256": "defd4658ca66e800b201374a2ec16f55be7e01f2d3d54c86803d184fa67826bd",
+    "automatic_answer_points": 10,
+    "maximum_points": 35,
+    "accuracy": 0.2857142857142857,
+    "note": "TSA and EW are reported separately; they are not added into a new composite score."
+  },
+  "limitations": [
+    "This completes both assessment components in a reduced project protocol, not the full experiment.",
+    "TSA link covers 35 original items; the publication used 70 TSA items.",
+    "Default EW run uses one completion per scenario; the publication used 150 rounds per model.",
+    "Source workbook is English; public-item pretraining exposure cannot be ruled out.",
+    "Scoring-manual deduction cap differs from the article's per-error wording; both views are labeled.",
+    "A single AI-assisted reviewer does not reproduce three trained human raters or their reliability.",
+    "No rater-group equating or direct comparison to the publication's calibrated totals is performed.",
+    "No global reasoning/critical-thinking pass threshold or internal-process proof is inferred."
+  ]
+}

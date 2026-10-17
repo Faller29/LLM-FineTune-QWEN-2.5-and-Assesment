@@ -1,0 +1,22 @@
+{
+  "records": 8,
+  "categories": {
+    "chat/off": 8
+  },
+  "math_boxed": {
+    "scorable": 0,
+    "base": 0,
+    "tuned": 0,
+    "note": "Exact boxed-string match, not general mathematical correctness"
+  },
+  "reasoning_format": {
+    "base": 8,
+    "tuned": 8,
+    "denominator": 8
+  },
+  "limitations": [
+    "Model is 0.49B parameters, not NVIDIA 8B.",
+    "NVIDIA GPQA/MMLU benchmark values are not replicated.",
+    "Thought tags show output format, not correctness of thought."
+  ]
+}

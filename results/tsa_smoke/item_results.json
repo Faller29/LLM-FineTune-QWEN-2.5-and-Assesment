@@ -1,0 +1,11 @@
+[
+  {
+    "id": "SMOKE-ONLY",
+    "criterion": "Main Conclusion",
+    "reference_choice": "C",
+    "extracted_choice": "C",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  }
+]

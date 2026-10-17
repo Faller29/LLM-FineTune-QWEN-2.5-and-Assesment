@@ -1,0 +1,9 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+Microscopic malaria parasites enter a person’s bloodstream through mosquito bites and infect red blood cells. They replicate in these cells and penetrate other organs. Until recently, microbiologists sought to block the parasites from entering red blood cells. Rhode Island University studied 700 Tanzanian children infected with malaria and found the parasites use a protein, since named PfSEA-1, to escape from the red blood cells they infect. Having investigated a subgroup of children immune to malaria, the researchers realised these children were producing an antibody that locked protein PfSEA-1 into their red blood cells. Trapped in the red cells, the parasites were destroyed by immune system cells. Scientists have reproduced the antibody and successfully tested it on mice. Experts believe that, after trials, the antibody will be certified for use in the treatment of humans.
+Which one of the following can be drawn as a conclusion from the above passage?
+A Rhode Island University is a world leader in medical research.
+B After the discovery of protein PfSEA-1, the traditional approaches to fight malaria will be abandoned as ineffective.
+C The discovery of protein PfSEA-1 is likely to help scientists to develop a new way of combatting malaria.
+D World leaders should support and fund the research being conducted by Rhode Island University.
+E A unique feature of the Tanzanian children helped in the discovery of protein PfSEA-1 and its function in spreading malaria.

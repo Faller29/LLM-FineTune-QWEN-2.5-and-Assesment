@@ -1,0 +1,10 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+Drivers found to be committing offences such as speeding are now offered the choice between paying the police for a re-education course or taking the traditional penalty of paying a fine and receiving penalty points on their licence. It is no surprise that the number of motorists opting for re-education courses has tripled in five years, but the high cost of such courses has led to accusations that police forces might use the new system for their own benefit. They could easily set up speed traps, catch a number of motorists slightly over the limit, and generate easy income for themselves. Re-education courses are a good idea in theory, but open to abuse by cash-starved police forces.
+Which one of the following is an underlying assumption of the above argument?
+A The cost of running re-education courses is less than the combined contributions of participants.
+B Re-education is more effective than punishment in preventing further motoring offences.
+C Police forces are more interested in generating income than in preventing motoring
+offences.
+D The number of driving offences committed in the last five years has tripled.
+E Fear of losing a driving licence is greater than fear of financial hardship.

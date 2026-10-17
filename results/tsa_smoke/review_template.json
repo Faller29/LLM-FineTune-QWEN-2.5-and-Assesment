@@ -1,0 +1,17 @@
+{
+  "reviewer_name": "",
+  "reviewer_type": "Manual",
+  "run_config_sha256": "f8c22a22e0e7eb065b049f1904e63907264352926aa8e9310b2e3f01e30cf7f8",
+  "responses_sha256": "b820d65a9de41b92430a0d5201f7b324d06347cfaa7a84645b74ec6c46085bf6",
+  "ratings": [
+    {
+      "id": "SMOKE-ONLY",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    }
+  ]
+}

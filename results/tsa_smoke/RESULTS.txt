@@ -1,0 +1,13 @@
+TSA answer-key results
+Purpose: pipeline_check_only
+Completed: 1/1
+Points earned so far: 1/1
+Final accuracy: 100.0%
+Invalid extracted answers: 0
+Output-token budget reached: 0
+
+Main Conclusion: 1/1 (1 completed)
+
+Explanation review: pending; no additional TSA points.
+The raw percentage is not an admissions scaled score.
+Use REVIEW_GUIDE.txt when reviewing the explanations.

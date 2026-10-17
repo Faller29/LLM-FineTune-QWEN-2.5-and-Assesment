@@ -1,0 +1,29 @@
+PRIVATE IDENTITY AND SETTINGS - KEEP FROM BLIND GRADER
+Duplicate this file for each tested model. Retain the unedited outputs privately.
+
+Anonymous code: MODEL_A
+Provider/product: [OpenAI]
+Displayed model name: [GPT]
+Exact model version: [5.5]
+Account tier, if relevant: [NOT RECORDED]
+Visible mode or reasoning/effort setting: [Medium Thinking]
+Fixed model selection or automatic routing: [UNKNOWN]
+Dates/timezone: [10-14-2025]
+Language: English
+Memory/personalization state: [UNKNOWN]
+Custom instructions state: [OFF]
+External tools/search/code state: [UNKNOWN]
+Chat type: [NEW NORMAL]
+Temperature: [NOT AVAILABLE IN INTERFACE]
+Output token limit: [NOT AVAILABLE IN INTERFACE]
+Any visible model switches during the run: [NONE]
+Any explicit model identity in responses: [NONE]
+Any identity-only redactions: [NONE]
+Technical failures or retries: [NONE]
+Responses with tool use or continuation: [NONE]
+Optional original chat links: [https://chatgpt.com/c/6acf752c-4584-83ec-9a78-e3efc63e4a00]
+Original unedited outputs saved at: [LOCAL LOCATION]
+Date blinded grades finalized: [FILL AFTER GRADING]
+Date identity revealed: [FILL AFTER GRADING]
+
+Never include passwords, API keys, or other account secrets.

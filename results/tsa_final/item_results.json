@@ -1,0 +1,317 @@
+[
+  {
+    "id": "TSA-10",
+    "criterion": "Drawing a Conclusion",
+    "reference_choice": "C",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-13",
+    "criterion": "Identifying an Assumption",
+    "reference_choice": "A",
+    "extracted_choice": "C",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-06",
+    "criterion": "Drawing a Conclusion",
+    "reference_choice": "B",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-21",
+    "criterion": "Detecting Reasoning Errors",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-32",
+    "criterion": "Applying Principles",
+    "reference_choice": "B",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-23",
+    "criterion": "Detecting Reasoning Errors",
+    "reference_choice": "B",
+    "extracted_choice": null,
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "no_unambiguous_answer"
+  },
+  {
+    "id": "TSA-30",
+    "criterion": "Matching Arguments",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-17",
+    "criterion": "Assessing the Impact of Additional Evidence",
+    "reference_choice": "C",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-27",
+    "criterion": "Matching Arguments",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-25",
+    "criterion": "Detecting Reasoning Errors",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-15",
+    "criterion": "Identifying an Assumption",
+    "reference_choice": "B",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-11",
+    "criterion": "Identifying an Assumption",
+    "reference_choice": "A",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-12",
+    "criterion": "Identifying an Assumption",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-28",
+    "criterion": "Matching Arguments",
+    "reference_choice": "C",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-09",
+    "criterion": "Drawing a Conclusion",
+    "reference_choice": "B",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-20",
+    "criterion": "Assessing the Impact of Additional Evidence",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-31",
+    "criterion": "Applying Principles",
+    "reference_choice": "B",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-07",
+    "criterion": "Drawing a Conclusion",
+    "reference_choice": "C",
+    "extracted_choice": "C",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-26",
+    "criterion": "Matching Arguments",
+    "reference_choice": "B",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-01",
+    "criterion": "Main Conclusion",
+    "reference_choice": "E",
+    "extracted_choice": "C",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-34",
+    "criterion": "Applying Principles",
+    "reference_choice": "B",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-14",
+    "criterion": "Identifying an Assumption",
+    "reference_choice": "A",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-19",
+    "criterion": "Assessing the Impact of Additional Evidence",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-03",
+    "criterion": "Main Conclusion",
+    "reference_choice": "B",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-33",
+    "criterion": "Applying Principles",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-29",
+    "criterion": "Matching Arguments",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-22",
+    "criterion": "Detecting Reasoning Errors",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-04",
+    "criterion": "Main Conclusion",
+    "reference_choice": "D",
+    "extracted_choice": "D",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-24",
+    "criterion": "Detecting Reasoning Errors",
+    "reference_choice": "A",
+    "extracted_choice": null,
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "no_unambiguous_answer"
+  },
+  {
+    "id": "TSA-05",
+    "criterion": "Main Conclusion",
+    "reference_choice": "D",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-35",
+    "criterion": "Applying Principles",
+    "reference_choice": "A",
+    "extracted_choice": "E",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-16",
+    "criterion": "Assessing the Impact of Additional Evidence",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-18",
+    "criterion": "Assessing the Impact of Additional Evidence",
+    "reference_choice": "E",
+    "extracted_choice": "E",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-02",
+    "criterion": "Main Conclusion",
+    "reference_choice": "D",
+    "extracted_choice": "D",
+    "automatic_points": 1,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  },
+  {
+    "id": "TSA-08",
+    "criterion": "Drawing a Conclusion",
+    "reference_choice": "B",
+    "extracted_choice": "D",
+    "automatic_points": 0,
+    "maximum_points": 1,
+    "extraction_status": "explicit_answer_marker"
+  }
+]

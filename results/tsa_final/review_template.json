@@ -1,0 +1,323 @@
+{
+  "reviewer_name": "",
+  "reviewer_type": "Manual",
+  "run_config_sha256": "cc974f4074c691ee97dc106283468f9969d5155878b5302a6d867bcd000aa92e",
+  "responses_sha256": "defd4658ca66e800b201374a2ec16f55be7e01f2d3d54c86803d184fa67826bd",
+  "ratings": [
+    {
+      "id": "TSA-10",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-13",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-06",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-21",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-32",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-23",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-30",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-17",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-27",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-25",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-15",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-11",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-12",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-28",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-09",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-20",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-31",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-07",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-26",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-01",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-34",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-14",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-19",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-03",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-33",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-29",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-22",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-04",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-24",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-05",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-35",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-16",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-18",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-02",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    },
+    {
+      "id": "TSA-08",
+      "answer_status": "pending",
+      "choice_as_written": null,
+      "answer_evidence": "",
+      "explanation_status": "pending",
+      "explanation_evidence": "",
+      "comment": ""
+    }
+  ]
+}

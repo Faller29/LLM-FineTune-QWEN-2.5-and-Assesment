@@ -1,0 +1,10 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+Despite recent improvements to their training, a new study suggests that the police are as susceptible as the general public to holding false beliefs about crime and punishment. Participants in the study were questioned about their views on a number of crime-related myths such as ‘capital punishment is an effective way to deter criminal activity’ – myths, because they are unsupported by research evidence. Police were just as likely to endorse the misconceptions as the lay participants and, moreover, were more confident in their false beliefs. This is a worrying example of a ‘scientist–practitioner gap’, a term which describes a situation where professionals do not accept the evidence of research relevant to their roles. Studies have shown that training can permanently reduce the ‘scientist–practitioner gap’. Police officers need more training.
+Which one of the following, if true, most strengthens the above argument?
+A The recruitment process for new police officers often fails to identify false beliefs held by applicants.
+B The majority of police officers do not support the return of capital punishment.
+C The science–practitioner gap is a common phenomenon in many professions, not just the
+police.
+D Police training has often been criticised in the media for being insufficiently practical.
+E Police officers whose views are not evidence-based are more likely to have complaints made against them by members of the public.

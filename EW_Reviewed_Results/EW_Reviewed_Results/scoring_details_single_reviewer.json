@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "Faller, 2026-10-14",
+  "reviewer_type": "Manual",
+  "cases": [
+    {
+      "response_id": "EW-ORIGINAL-T0-R001",
+      "scenario_id": "EW-ORIGINAL",
+      "temperature": 0.0,
+      "round": 1,
+      "review_complete": true,
+      "rated_units": 9,
+      "expected_units": 9,
+      "maximum_points": 29,
+      "base_alignment_points": 0,
+      "manual_capped_deductions": 9,
+      "manual_score": -9,
+      "article_per_error_deductions": 20,
+      "article_wording_sensitivity_score": -20
+    },
+    {
+      "response_id": "EW-NEW-1-T0-R001",
+      "scenario_id": "EW-NEW-1",
+      "temperature": 0.0,
+      "round": 1,
+      "review_complete": true,
+      "rated_units": 5,
+      "expected_units": 5,
+      "maximum_points": 15,
+      "base_alignment_points": 6,
+      "manual_capped_deductions": 3,
+      "manual_score": 3,
+      "article_per_error_deductions": 5,
+      "article_wording_sensitivity_score": 1
+    },
+    {
+      "response_id": "EW-NEW-2-T0-R001",
+      "scenario_id": "EW-NEW-2",
+      "temperature": 0.0,
+      "round": 1,
+      "review_complete": true,
+      "rated_units": 4,
+      "expected_units": 4,
+      "maximum_points": 12,
+      "base_alignment_points": 6,
+      "manual_capped_deductions": 3,
+      "manual_score": 3,
+      "article_per_error_deductions": 5,
+      "article_wording_sensitivity_score": 1
+    },
+    {
+      "response_id": "EW-NEW-3-T0-R001",
+      "scenario_id": "EW-NEW-3",
+      "temperature": 0.0,
+      "round": 1,
+      "review_complete": true,
+      "rated_units": 3,
+      "expected_units": 3,
+      "maximum_points": 9,
+      "base_alignment_points": 3,
+      "manual_capped_deductions": 3,
+      "manual_score": 0,
+      "article_per_error_deductions": 4,
+      "article_wording_sensitivity_score": -1
+    }
+  ]
+}

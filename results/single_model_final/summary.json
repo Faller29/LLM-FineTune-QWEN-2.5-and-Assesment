@@ -1,0 +1,418 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "adapter": "D:\\MSCS213-Simulation - Copy\\results\\qwen_lora\\best",
+  "mode": "on",
+  "completion": {
+    "expected": 108,
+    "observed": 108,
+    "complete": true,
+    "missing": []
+  },
+  "logic": {
+    "original": {
+      "n": 27,
+      "correct": 9,
+      "accuracy": 0.3333333333333333,
+      "wilson95": [
+        0.18643261498715957,
+        0.5217523949267941
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 9,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 9,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 9,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        }
+      },
+      "macro_f1": 0.16666666666666666,
+      "invalid": 0,
+      "majority_baseline": 0.3333333333333333
+    },
+    "paraphrase": {
+      "n": 27,
+      "correct": 9,
+      "accuracy": 0.3333333333333333,
+      "wilson95": [
+        0.18643261498715957,
+        0.5217523949267941
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 9,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 9,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 9,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5
+        }
+      },
+      "macro_f1": 0.16666666666666666,
+      "invalid": 0,
+      "majority_baseline": 0.3333333333333333
+    },
+    "changed": {
+      "n": 27,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson95": [
+        0,
+        0.12455502974186107
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 18,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 18,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 9,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0,
+      "invalid": 0,
+      "majority_baseline": 0.6666666666666666
+    }
+  },
+  "logic_depth_originals": {
+    "1": {
+      "n": 6,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson95": [
+        0,
+        0.39033428790215224
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0,
+      "invalid": 0,
+      "majority_baseline": 0.5
+    },
+    "2": {
+      "n": 6,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson95": [
+        0,
+        0.39033428790215224
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0,
+      "invalid": 0,
+      "majority_baseline": 0.5
+    },
+    "3": {
+      "n": 6,
+      "correct": 0,
+      "accuracy": 0.0,
+      "wilson95": [
+        0,
+        0.39033428790215224
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 3,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "FALSE": {
+          "support": 3,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "UNKNOWN": {
+          "support": 0,
+          "precision": 0.0,
+          "recall": 0,
+          "f1": 0.0
+        }
+      },
+      "macro_f1": 0.0,
+      "invalid": 0,
+      "majority_baseline": 0.5
+    },
+    "None": {
+      "n": 9,
+      "correct": 9,
+      "accuracy": 1.0,
+      "wilson95": [
+        0.7008549515804674,
+        1
+      ],
+      "confusion_matrix": {
+        "TRUE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "FALSE": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 0,
+          "INVALID": 0
+        },
+        "UNKNOWN": {
+          "TRUE": 0,
+          "FALSE": 0,
+          "UNKNOWN": 9,
+          "INVALID": 0
+        }
+      },
+      "per_class": {
+        "TRUE": {
+          "support": 0,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        "FALSE": {
+          "support": 0,
+          "precision": 0,
+          "recall": 0,
+          "f1": 0
+        },
+        "UNKNOWN": {
+          "support": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "macro_f1": 0.3333333333333333,
+      "invalid": 0,
+      "majority_baseline": 1.0
+    }
+  },
+  "robustness": {
+    "complete_families": 27,
+    "all_three_correct": 0,
+    "all_three_correct_rate": 0.0
+  },
+  "critique": {
+    "n": 18,
+    "positive_class": "INCORRECT",
+    "tp": 0,
+    "fp": 0,
+    "fn": 9,
+    "tn": 0,
+    "invalid_verdicts": 18,
+    "verdict_accuracy": 0.0,
+    "error_precision": 0,
+    "error_recall": 0.0,
+    "error_f1": 0.0,
+    "false_alarm_rate": 0.0,
+    "incorrect_proposals": 9,
+    "corrected_classifications": 0,
+    "correction_accuracy": 0.0,
+    "detection_and_correction_success": 0,
+    "note": "Correction scores judge the repaired truth label. Written explanation/repair validity is NOT automatically graded. Invalid judgments on correct cases are failures, not false alarms."
+  },
+  "critical_questions": {
+    "responses": 9,
+    "human_review_required": true
+  },
+  "possible_budget_limit": 0,
+  "seconds": 1382.3600000000001,
+  "limitations": [
+    "Custom diagnostic, not official benchmark scores or a validated global critical-thinking scale.",
+    "Default final set: 27 logic originals and 18 critique cases; limited exploratory evidence. Related variants are correlated.",
+    "Wilson intervals describe uncertainty under independent-case sampling assumptions; this authored suite is not a random population sample.",
+    "Format failures count as wrong; audit raw text for conclusions expressed outside the requested markers.",
+    "F1 is classification F1, not token-overlap F1. Unsupported classes use zero_division=0.",
+    "Written explanations are logged but not automatically judged. Correct labels do not prove internal reasoning faithfulness.",
+    "Possible budget flag uses re-tokenized text, since the server supplies no definitive finish reason."
+  ]
+}

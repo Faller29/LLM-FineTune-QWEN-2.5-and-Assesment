@@ -1,0 +1,28 @@
+{
+  "config": {
+    "cases_sha256": "00b440db9db63a5a44731bade0adf1aad72af22aa576e51e9a570decb35e0ef2",
+    "client_sha256": "e109e66e30ed597a53adaf6ac74dd60e28e4e373251f18f5244d2aff043a7778",
+    "ids": [
+      "L28_original",
+      "L29_original",
+      "L30_original",
+      "C19",
+      "C20",
+      "Q10"
+    ],
+    "mode": "on",
+    "max_new_tokens": 384,
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "adapter_path": "D:\\MSCS213-Simulation - Copy\\results\\qwen_lora\\best",
+    "adapter_sha256": {
+      "adapter_config.json": "205e79006dcead87640e4bc791c08cd7eae520abc155556bd4869a87c00d58db",
+      "adapter_model.safetensors": "9245bfb2edd2f5ee9fb0325911c5b7bacb0a440ed101449430ae5bc880ef3af0",
+      "README.md": "6b95375f507809c480d15e683ecaf6c69fe91a26adef775e1ce4032df12c7d56"
+    },
+    "max_input": 512,
+    "protocol": "single-model-custom-v1"
+  },
+  "created_utc": "2026-10-13T08:12:52.705057+00:00",
+  "python": "3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)]",
+  "note": "Record the base-model/tokenizer revision, installed packages and hardware separately."
+}

@@ -1,0 +1,1856 @@
+# Written explanations: manual audit
+These automatic scores do not grade explanation validity.
+
+C13
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique13 is blue.
+F2: Other24 is calm.
+Rules:
+R1: If Critique13 is young, then Critique13 is soft.
+R2: If Critique13 is blue, then Critique13 is young.
+R3: If Critique13 is soft, then Critique13 is green.
+Query: Critique13 is green.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique13 is green." This is because:
+
+- **Rule 1**: If Critique13 is young, then Critique13 is soft.
+- **Rule 2**: If Critique13 is blue, then Critique13 is young.
+
+Given that Critique13 is green (Rule 2), it follows from Rule 2 that Critique13 is blue (Rule 1). Therefore, Critique13 must be both young and blue, which implies Critique13 is soft (Rule 3).
+
+Since Critique13 is soft (Rule 3) and Critique13 is green (Rule 2), we can conclude that Critique13 is indeed young (Rule 1). Thus, the proposed answer classifies the query as TRUE.
+REFERENCE:
+The forward chain supports the query.
+
+L03_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi3 is young.
+F2: Other2 is tall.
+Rules:
+R1: If Tavi3 is cold, then Tavi3 is young.
+Query: Tavi3 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L17_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other16 is calm.
+F2: Daro17 is soft.
+Rules:
+R1: If Daro17 is soft, then Daro17 is rough.
+R2: If Daro17 is rough, then Daro17 is round.
+R3: If Daro17 is round, then Daro17 is not green.
+Query: Daro17 is not green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L06_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other5 has the property blue.
+F2: Sena6 has the property quiet.
+Rules:
+R1: If Sena6 has the property kind, then Sena6 has the property quiet.
+R2: If Sena6 has the property rough, then Sena6 has the property kind.
+Query: Sena6 has the property rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C05
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other28 is round.
+F2: Critique5 is green.
+Rules:
+R1: If Critique5 is green, then Critique5 is not calm.
+Query: Critique5 is calm.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**ERROR DETECTED:** The rule "If Critique5 is green, then Critique5 is not calm" does not directly support the given query "Critique5 is calm." This rule implies that if Critique5 is green (which it is), then Critique5 must be calm. However, the query asks about Critique5 being calm, which contradicts the implication from the rule.
+
+**JUSTIFIED CLASSIFICATION:** Since the rule does not provide a direct connection between Critique5 being green and Critique5 being calm, we cannot definitively classify the query as either TRUE, FALSE, or UNKNOWN based solely on the provided information. Therefore, the proposed answer classifying the query as FALSE is incorrect.
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L24_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other23 is round.
+F2: Luma24 is calm.
+F3: Luma24 is cold.
+Rules:
+R1: If Luma24 is kind, then Luma24 is calm.
+R2: If Luma24 is cold, then Luma24 is kind.
+Query: Luma24 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L25_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo25 is blue.
+F2: Other24 is calm.
+Rules:
+R1: If Rivo25 is young, then Rivo25 is soft.
+R2: If Rivo25 is blue, then Rivo25 is young.
+R3: If Rivo25 is soft, then Rivo25 is green.
+Query: Rivo25 is green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L23_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other22 is bright.
+F2: Tavi23 is young.
+Rules:
+R1: If Tavi23 is tall, then Tavi23 is not calm.
+R2: If Tavi23 is young, then Tavi23 is tall.
+Query: Tavi23 is not calm.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+C03
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique3 is bright.
+F2: Other14 is green.
+Rules:
+R1: If Critique3 is cold, then Critique3 is bright.
+R2: If Critique3 is quiet, then Critique3 is cold.
+Query: Critique3 is quiet.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer classifies the query "Critique3 is quiet." However, it does not provide a clear statement about whether Critique3 is bright or cold based on the given facts and rules.
+
+### Analysis:
+
+- **Fact 1:** Critique3 is bright.
+- **Rule 1:** If Critique3 is cold, then Critique3 is bright.
+- **Fact 2:** Other14 is green.
+- **Rule 2:** If Critique3 is quiet, then Critique3 is cold.
+
+Given that Critique3 is bright (Fact 1), we cannot definitively determine if it is cold (Fact 2) or if it is either cold or quiet (Rule 1). Therefore, the proposed answer classifying the query as "UNKNOWN" is incorrect because there is insufficient information to make a definitive judgment.
+
+### Justification for Incorrect Classification:
+
+The proposed answer classifies the query as "UNKNOWN" because it does not provide enough context or information to confidently state whether Critique3 is bright or cold. Without additional details about other aspects of Critique3's appearance or behavior, such as its color, temperature, or overall demeanor, we cannot accurately infer the nature of Critique3's condition from the provided facts and rules alone. Thus, the proposed answer is incorrect.
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L27_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other26 is green.
+F2: Daro27 is young.
+Rules:
+R1: If Daro27 is cold, then Daro27 is rough.
+R2: If Daro27 is tall, then Daro27 is young.
+R3: If Daro27 is rough, then Daro27 is tall.
+Query: Daro27 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C07
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique7 is quiet.
+F2: Other12 is kind.
+Rules:
+R1: If Critique7 is calm, then Critique7 is soft.
+R2: If Critique7 is quiet, then Critique7 is calm.
+Query: Critique7 is soft.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique7 is soft." According to the given rules:
+
+- **Rule R1**: If Critique7 is calm, then Critique7 is soft.
+- **Rule R2**: If Critique7 is quiet, then Critique7 is calm.
+
+Given that Critique7 is quiet (as per F2), we can apply Rule R2 directly:
+
+- Since Critique7 is quiet, according to Rule R2, Critique7 must be calm.
+
+Therefore, the proposed answer classifies the query as TRUE.
+REFERENCE:
+The forward chain supports the query.
+
+L12_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora12 is round.
+F2: Other11 is calm.
+F3: Mora12 is tall.
+Rules:
+R1: If Mora12 is tall, then Mora12 is round.
+Query: Mora12 is tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L03_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi3 is young.
+F2: Other2 is tall.
+F3: Tavi3 is cold.
+Rules:
+R1: If Tavi3 is cold, then Tavi3 is young.
+Query: Tavi3 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L07_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Daro7 is soft.
+F2: Other6 is tall.
+Rules:
+R1: If Daro7 is soft, then Daro7 is bright.
+R2: If Daro7 is young, then Daro7 is cold.
+R3: If Daro7 is bright, then Daro7 is young.
+Query: Daro7 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L08_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela8 has the property calm.
+F2: Other7 has the property kind.
+Rules:
+R1: If Vela8 has the property calm, then Vela8 has the property round.
+R2: If Vela8 has the property round, then Vela8 has the property soft.
+R3: If Vela8 has the property soft, then Vela8 does not have the property tall.
+Query: Vela8 has the property tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L02_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora2 is quiet.
+F2: Other1 is round.
+Rules:
+R1: If Mora2 is quiet, then Mora2 is not tall.
+Query: Mora2 is not tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L08_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela8 is calm.
+F2: Other7 is kind.
+Rules:
+R1: If Vela8 is calm, then Vela8 is round.
+R2: If Vela8 is round, then Vela8 is soft.
+R3: If Vela8 is soft, then Vela8 is not tall.
+Query: Vela8 is not tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L17_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other16 has the property calm.
+F2: Daro17 has the property soft.
+Rules:
+R1: If Daro17 has the property soft, then Daro17 has the property rough.
+R2: If Daro17 has the property rough, then Daro17 has the property round.
+R3: If Daro17 has the property round, then Daro17 does not have the property green.
+Query: Daro17 has the property green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L21_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri21 is bright.
+F2: Other20 is blue.
+F3: Neri21 is green.
+Rules:
+R1: If Neri21 is green, then Neri21 is bright.
+Query: Neri21 is green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+C15
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique15 is tall.
+F2: Other8 is round.
+Rules:
+R1: If Critique15 is blue, then Critique15 is tall.
+R2: If Critique15 is kind, then Critique15 is blue.
+R3: If Critique15 is rough, then Critique15 is kind.
+Query: Critique15 is rough.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer classifies the query "Critique15 is rough" as UNKNOWN.
+
+### Explanation:
+
+- **Rule Analysis**: 
+  - **R1**: If Critique15 is blue, then Critique15 is tall.
+  - **R2**: If Critique15 is kind, then Critique15 is blue.
+  - **R3**: If Critique15 is rough, then Critique15 is kind.
+
+The query "Critique15 is rough" does not provide enough information to determine whether Critique15 is blue (which would be required by Rule R1) or if it is kind (which would be required by Rule R2). Therefore, we cannot definitively classify the query based solely on the given rules without additional context about Critique15's color.
+
+Since there is no clear information provided in the query that allows us to make a definitive determination, the proposed answer classifies the query as UNKNOWN. This aligns with the rule that states "If Critique15 is blue, then Critique15 is tall." Without more specific details about Critique15's color, the classification remains UNKNOWN.
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L20_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other19 has the property blue.
+F2: Panu20 has the property quiet.
+Rules:
+R1: If Panu20 has the property quiet, then Panu20 does not have the property rough.
+Query: Panu20 has the property rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L10_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Panu10 is blue.
+F2: Other9 is rough.
+Rules:
+R1: If Panu10 is blue, then Panu10 is bright.
+Query: Panu10 is not bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L04_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other3 has the property green.
+F2: Luma4 has the property young.
+Rules:
+R1: If Luma4 has the property young, then Luma4 has the property tall.
+R2: If Luma4 has the property tall, then Luma4 has the property cold.
+Query: Luma4 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L16_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Sena16 is soft.
+F2: Other15 is tall.
+Rules:
+R1: If Sena16 is young, then Sena16 is calm.
+R2: If Sena16 is calm, then Sena16 is rough.
+R3: If Sena16 is soft, then Sena16 is young.
+Query: Sena16 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L14_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other13 is soft.
+F2: Luma14 is rough.
+Rules:
+R1: If Luma14 is round, then Luma14 is not bright.
+R2: If Luma14 is rough, then Luma14 is round.
+Query: Luma14 is not bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L08_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela8 is calm.
+F2: Other7 is kind.
+Rules:
+R1: If Vela8 is calm, then Vela8 is round.
+R2: If Vela8 is round, then Vela8 is soft.
+R3: If Vela8 is soft, then Vela8 is not tall.
+Query: Vela8 is tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L11_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri11 is blue.
+F2: Other10 is calm.
+Rules:
+R1: If Neri11 is blue, then Neri11 is not green.
+Query: Neri11 is green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L21_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri21 is bright.
+F2: Other20 is blue.
+Rules:
+R1: If Neri21 is green, then Neri21 is bright.
+Query: Neri21 is green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L16_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Sena16 is soft.
+F2: Other15 is tall.
+Rules:
+R1: If Sena16 is young, then Sena16 is calm.
+R2: If Sena16 is calm, then Sena16 is rough.
+R3: If Sena16 is soft, then Sena16 is young.
+Query: Sena16 is not rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+C17
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other22 is bright.
+F2: Critique17 is young.
+Rules:
+R1: If Critique17 is tall, then Critique17 is not calm.
+R2: If Critique17 is young, then Critique17 is tall.
+Query: Critique17 is calm.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**JUDGMENT:** The proposed answer does not correctly classify the query based on the given facts and rules.
+
+### Analysis:
+
+- **Fact 1:** "Other22 is bright."
+- **Fact 2:** "Critique17 is young."
+
+**Rule 1:** "If Critique17 is tall, then Critique17 is not calm."
+- **Rule 2:** "If Critique17 is young, then Critique17 is tall."
+
+Given that Critique17 is young (from Fact 2), we can use Rule 2 to determine if Critique17 is tall (from Fact 1). Since Critique17 is young, according to Rule 2, it must be tall.
+
+Therefore, the query "Critique17 is calm" cannot be true because it contradicts the fact that Critique17 is young. Hence, the proposed answer should be classified as **UNKNOWN**, indicating that there is insufficient information to definitively state whether Critique17 is calm or not.
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L27_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other26 is green.
+F2: Daro27 is young.
+F3: Daro27 is cold.
+Rules:
+R1: If Daro27 is cold, then Daro27 is rough.
+R2: If Daro27 is tall, then Daro27 is young.
+R3: If Daro27 is rough, then Daro27 is tall.
+Query: Daro27 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L11_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri11 has the property blue.
+F2: Other10 has the property calm.
+Rules:
+R1: If Neri11 has the property blue, then Neri11 does not have the property green.
+Query: Neri11 has the property green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L23_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other22 has the property bright.
+F2: Tavi23 has the property young.
+Rules:
+R1: If Tavi23 has the property tall, then Tavi23 does not have the property calm.
+R2: If Tavi23 has the property young, then Tavi23 has the property tall.
+Query: Tavi23 has the property calm.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+C04
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other21 is rough.
+F2: Critique4 is calm.
+Rules:
+R1: If Critique4 is calm, then Critique4 is young.
+R2: If Critique4 is young, then Critique4 is soft.
+Query: Critique4 is soft.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**JUDGMENT:** The proposed answer does not correctly classify the query "Critique4 is soft." Let's break down the reasoning:
+
+- **Fact 1:** "Other21 is rough."
+- **Rule 1:** "If Critique4 is calm, then Critique4 is young."
+- **Fact 2:** "Critique4 is calm."
+- **Rule 2:** "If Critique4 is young, then Critique4 is soft."
+
+Given that "Critique4 is calm" (Fact 2), we can use Rule 1 to conclude that "Critique4 is young" (because if a calm person is young, they must be soft). However, since "Critique4 is calm" is already given in Fact 2, it cannot be used directly here.
+
+The correct approach would involve using the information from both Facts 1 and 2 together. Since "Critique4 is calm" is true based on Fact 2, we need to check if this implies "Critique4 is soft," which requires additional information about Critique4 being young or soft.
+
+Since we don't have enough information to definitively say whether Critique4 is soft or young, the proposed answer classifying the query as FALSE is incorrect because it incorrectly assumes that the query is about Critique4 being soft without sufficient context.
+
+**PROPOSED ANSWER CLASSIFICATION:** FALSE
+REFERENCE:
+The forward chain supports the query.
+
+L01_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other0 has the property quiet.
+F2: Neri1 has the property kind.
+Rules:
+R1: If Neri1 has the property kind, then Neri1 has the property cold.
+Query: Neri1 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+C01
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other0 is quiet.
+F2: Critique1 is kind.
+Rules:
+R1: If Critique1 is kind, then Critique1 is cold.
+Query: Critique1 is cold.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique1 is cold." According to the given facts and rules:
+
+- **Fact 1:** Other0 is quiet.
+- **Rule 1:** If Critique1 is kind, then Critique1 is cold.
+
+Since Critique1 is described as "kind" (from Fact 1), it follows that Critique1 must be "cold" according to Rule 1.
+
+Therefore, the proposed answer classifies the query as TRUE.
+REFERENCE:
+The forward chain supports the query.
+
+L27_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other26 has the property green.
+F2: Daro27 has the property young.
+Rules:
+R1: If Daro27 has the property cold, then Daro27 has the property rough.
+R2: If Daro27 has the property tall, then Daro27 has the property young.
+R3: If Daro27 has the property rough, then Daro27 has the property tall.
+Query: Daro27 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C08
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other19 is blue.
+F2: Critique8 is quiet.
+Rules:
+R1: If Critique8 is quiet, then Critique8 is not rough.
+Query: Critique8 is rough.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer classifies the query "Critique8 is rough" as UNKNOWN.
+
+### Explanation:
+
+- **Fact Analysis**: 
+  - F1: Other19 is blue.
+  - F2: Critique8 is quiet.
+
+- **Rule Application**:
+  - Rule R1 states: "If Critique8 is quiet, then Critique8 is not rough."
+  
+- **Analysis of Query**:
+  - The query "Critique8 is rough" can be broken down into two parts:
+    1. "Critique8 is quiet"
+    2. "Critique8 is rough"
+
+  - Since we know that Critique8 is quiet (from Fact F2), we cannot conclude anything about Critique8 being rough based solely on this information.
+
+- **Conclusion**:
+  - Given that Critique8 is quiet, it does not necessarily mean Critique8 is rough. Therefore, the query "Critique8 is rough" cannot be definitively classified as either true or false using the provided facts and rules.
+
+- **Final Answer Classification**:
+  - Since the query "Critique8 is rough" cannot be conclusively determined from the given facts and rules, the proposed answer classifies it as UNKNOWN. This aligns with the rule stating that if a statement is known to be true, it should be classified as TRUE. However, since the query itself cannot be definitively categorized as true or false, the classification remains UNKNOWN.
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L19_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori19 is green.
+F2: Other18 is tall.
+Rules:
+R1: If Kori19 is green, then Kori19 is young.
+Query: Kori19 is not young.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L22_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other21 is rough.
+F2: Mora22 is calm.
+Rules:
+R1: If Mora22 is calm, then Mora22 is young.
+R2: If Mora22 is young, then Mora22 is soft.
+Query: Mora22 is soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L05_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other4 is soft.
+F2: Rivo5 is tall.
+Rules:
+R1: If Rivo5 is blue, then Rivo5 is not quiet.
+R2: If Rivo5 is tall, then Rivo5 is blue.
+Query: Rivo5 is not quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L15_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo15 is bright.
+F2: Other14 is green.
+Rules:
+R1: If Rivo15 is cold, then Rivo15 is bright.
+R2: If Rivo15 is quiet, then Rivo15 is cold.
+Query: Rivo15 is quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L01_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other0 is quiet.
+F2: Neri1 is kind.
+Rules:
+R1: If Neri1 is kind, then Neri1 is cold.
+Query: Neri1 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L13_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi13 is quiet.
+F2: Other12 is kind.
+Rules:
+R1: If Tavi13 is calm, then Tavi13 is soft.
+R2: If Tavi13 is quiet, then Tavi13 is calm.
+Query: Tavi13 is not soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+C02
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique2 is calm.
+F2: Other7 is kind.
+Rules:
+R1: If Critique2 is calm, then Critique2 is round.
+R2: If Critique2 is round, then Critique2 is soft.
+R3: If Critique2 is soft, then Critique2 is not tall.
+Query: Critique2 is tall.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer classifies the query "Critique2 is tall" as UNKNOWN.
+
+### Explanation:
+
+- **Rule Analysis**: 
+  - **R1**: If Critique2 is calm, then Critique2 is round.
+  - **R2**: If Critique2 is round, then Critique2 is soft.
+  - **R3**: If Critique2 is soft, then Critique2 is not tall.
+
+Given that Critique2 is calm (from F1), we can use Rule R1 to determine if Critique2 is round (from F2). Since Critique2 is calm, it cannot be round (from R2).
+
+Therefore, based on Rule R3, Critique2 must be soft (from R3) because Critique2 is soft (from R2) and Critique2 is not tall (from R3).
+
+Since Critique2 is soft, it does not meet the criteria for being tall (from R3). Thus, Critique2 cannot be tall according to all three rules simultaneously.
+
+**Conclusion:** Critique2 is unknown given the provided information. Therefore, the proposed answer classifying the query as UNKNOWN is incorrect.
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L26_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other25 is calm.
+F2: Sena26 is green.
+Rules:
+R1: If Sena26 is cold, then Sena26 is not kind.
+R2: If Sena26 is green, then Sena26 is soft.
+R3: If Sena26 is soft, then Sena26 is cold.
+Query: Sena26 is not kind.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L22_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other21 has the property rough.
+F2: Mora22 has the property calm.
+Rules:
+R1: If Mora22 has the property calm, then Mora22 has the property young.
+R2: If Mora22 has the property young, then Mora22 has the property soft.
+Query: Mora22 has the property soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L04_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other3 is green.
+F2: Luma4 is young.
+Rules:
+R1: If Luma4 is young, then Luma4 is tall.
+R2: If Luma4 is tall, then Luma4 is cold.
+Query: Luma4 is not cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L18_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela18 is bright.
+F2: Other17 is young.
+Rules:
+R1: If Vela18 is quiet, then Vela18 is soft.
+R2: If Vela18 is cold, then Vela18 is quiet.
+R3: If Vela18 is soft, then Vela18 is bright.
+Query: Vela18 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L21_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri21 has the property bright.
+F2: Other20 has the property blue.
+Rules:
+R1: If Neri21 has the property green, then Neri21 has the property bright.
+Query: Neri21 has the property green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L03_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi3 has the property young.
+F2: Other2 has the property tall.
+Rules:
+R1: If Tavi3 has the property cold, then Tavi3 has the property young.
+Query: Tavi3 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L04_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other3 is green.
+F2: Luma4 is young.
+Rules:
+R1: If Luma4 is young, then Luma4 is tall.
+R2: If Luma4 is tall, then Luma4 is cold.
+Query: Luma4 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L19_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori19 is green.
+F2: Other18 is tall.
+Rules:
+R1: If Kori19 is green, then Kori19 is young.
+Query: Kori19 is young.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L02_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora2 has the property quiet.
+F2: Other1 has the property round.
+Rules:
+R1: If Mora2 has the property quiet, then Mora2 does not have the property tall.
+Query: Mora2 has the property tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+C18
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique18 is green.
+F2: Other29 is kind.
+Rules:
+R1: If Critique18 is round, then Critique18 is green.
+Query: Critique18 is round.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique18 is round." According to the given facts and rules:
+
+- **Fact 1:** Critique18 is green.
+- **Rule 1:** If Critique18 is round, then Critique18 is green.
+
+Since Critique18 is green (from Fact 1), it follows that Critique18 must also be round (from Rule 1). Therefore, the proposed answer classifies the query as TRUE.
+
+**CLASSIFIED ANSWER:** TRUE
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L06_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other5 is blue.
+F2: Sena6 is quiet.
+F3: Sena6 is rough.
+Rules:
+R1: If Sena6 is kind, then Sena6 is quiet.
+R2: If Sena6 is rough, then Sena6 is kind.
+Query: Sena6 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+C14
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique14 is quiet.
+F2: Other1 is round.
+Rules:
+R1: If Critique14 is quiet, then Critique14 is not tall.
+Query: Critique14 is tall.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** UNKNOWN
+
+**JUDGMENT:** The proposed answer does not classify the query correctly based on the given facts and rules.
+
+### Analysis:
+
+- **Fact 1:** "Critique14 is quiet."
+- **Rule 1:** "If Critique14 is quiet, then Critique14 is not tall."
+
+Given that Critique14 is quiet (F1), we can apply Rule 1 to conclude that Critique14 cannot be tall (F2). However, there are no other facts provided about Critique14's height. Therefore, we cannot definitively determine whether Critique14 is tall or not based solely on the information given.
+
+Since the query asks for a classification of Critique14's height but does not provide enough information to make a determination, the proposed answer classifies the query as UNKNOWN. This is because the query lacks sufficient information to support either the truth or falsity of the statement made in the query.
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L05_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other4 is soft.
+F2: Rivo5 is tall.
+Rules:
+R1: If Rivo5 is blue, then Rivo5 is not quiet.
+R2: If Rivo5 is tall, then Rivo5 is blue.
+Query: Rivo5 is quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L11_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Neri11 is blue.
+F2: Other10 is calm.
+Rules:
+R1: If Neri11 is blue, then Neri11 is not green.
+Query: Neri11 is not green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+C12
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique12 is bright.
+F2: Other17 is young.
+Rules:
+R1: If Critique12 is quiet, then Critique12 is soft.
+R2: If Critique12 is cold, then Critique12 is quiet.
+R3: If Critique12 is soft, then Critique12 is bright.
+Query: Critique12 is cold.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique12 is cold." According to the given rules:
+
+- **Rule R1**: If Critique12 is quiet, then Critique12 is soft.
+- **Rule R2**: If Critique12 is cold, then Critique12 is quiet.
+
+Since Critique12 is cold (Rule R2), it must be quiet (Rule R1). Therefore, the query "Critique12 is cold" is classified as TRUE according to Rule R1.
+
+**PROPOSED ANSWER CLASSIFICATION:** TRUE
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L02_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora2 is quiet.
+F2: Other1 is round.
+Rules:
+R1: If Mora2 is quiet, then Mora2 is not tall.
+Query: Mora2 is tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L17_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other16 is calm.
+F2: Daro17 is soft.
+Rules:
+R1: If Daro17 is soft, then Daro17 is rough.
+R2: If Daro17 is rough, then Daro17 is round.
+R3: If Daro17 is round, then Daro17 is not green.
+Query: Daro17 is green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L16_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Sena16 has the property soft.
+F2: Other15 has the property tall.
+Rules:
+R1: If Sena16 has the property young, then Sena16 has the property calm.
+R2: If Sena16 has the property calm, then Sena16 has the property rough.
+R3: If Sena16 has the property soft, then Sena16 has the property young.
+Query: Sena16 has the property rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L12_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora12 is round.
+F2: Other11 is calm.
+Rules:
+R1: If Mora12 is tall, then Mora12 is round.
+Query: Mora12 is tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C16
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique16 is soft.
+F2: Other15 is tall.
+Rules:
+R1: If Critique16 is young, then Critique16 is calm.
+R2: If Critique16 is calm, then Critique16 is rough.
+R3: If Critique16 is soft, then Critique16 is young.
+Query: Critique16 is rough.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**JUDGMENT:** The proposed answer does not correctly classify the query "Critique16 is rough." Let's break down the reasoning:
+
+- **Rule Analysis**: 
+  - R1 states that if Critique16 is young, then Critique16 is calm.
+  - R2 states that if Critique16 is calm, then Critique16 is rough.
+  - R3 states that if Critique16 is soft, then Critique16 is young.
+
+From Rule 3, we know that if Critique16 is soft (which implies it is young), then Critique16 is young. However, since Critique16 is rough by definition, this rule cannot be applied directly to Critique16 being rough.
+
+Given this contradiction in Rule 3, the proposed answer should logically state that Critique16 is either young or calm, but not both. Therefore, the correct classification based on the given rules would be:
+
+**CORRECTED: TRUE**
+
+This is because the proposed answer incorrectly assumes that Critique16 must be both young and rough simultaneously, which is not supported by the provided rules.
+REFERENCE:
+The forward chain supports the query.
+
+L06_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other5 is blue.
+F2: Sena6 is quiet.
+Rules:
+R1: If Sena6 is kind, then Sena6 is quiet.
+R2: If Sena6 is rough, then Sena6 is kind.
+Query: Sena6 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C11
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique11 is blue.
+F2: Other10 is calm.
+Rules:
+R1: If Critique11 is blue, then Critique11 is not green.
+Query: Critique11 is green.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**ERROR DETECTED:** The rule "If Critique11 is blue, then Critique11 is not green" does not directly support the conclusion that Critique11 is green based solely on the given facts.
+
+**JUSTIFICATION FOR ERROR:** 
+The rule states that if something is blue (F1), it cannot be green (F2). However, the query asks about Critique11 being green, which contradicts the rule because Critique11 is already described as blue in F1. Therefore, there is no logical connection between Critique11 being blue and Critique11 being green, making the rule invalid for this specific query.
+
+**PROPOSED ANSWER CLASSIFIED AS FALSE:**  
+**CORRECTED:** FALSE
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+C10
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other3 is green.
+F2: Critique10 is young.
+Rules:
+R1: If Critique10 is young, then Critique10 is tall.
+R2: If Critique10 is tall, then Critique10 is cold.
+Query: Critique10 is cold.
+A proposed answer classifies the query as FALSE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** INCORRECT
+
+**JUDGMENT:** The proposed answer does not correctly classify the query "Critique10 is cold." Let's break down the reasoning:
+
+- **Fact 1:** "Other3 is green."
+- **Fact 2:** "Critique10 is young."
+
+The query "Critique10 is cold" can be broken down into two parts:
+1. **Part 1:** "Critique10 is cold."
+2. **Part 2:** "Critique10 is young."
+
+Given that Fact 2 states "Critique10 is young," we need to determine if this implies that "Critique10 is cold."
+
+- From Fact 1, we know that "Other3 is green."
+- Since "Other3" (which could be either "green" or "yellow") is green, it follows logically that "Other3" must also be young.
+
+Therefore, based on the given facts and rules, the query "Critique10 is cold" cannot be classified as true because it contradicts the information provided in Fact 2 about "Critique10 being young."
+
+**Corrected Answer Classification:** FALSE
+REFERENCE:
+The forward chain supports the query.
+
+L20_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other19 is blue.
+F2: Panu20 is quiet.
+Rules:
+R1: If Panu20 is quiet, then Panu20 is not rough.
+Query: Panu20 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+C06
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other5 is blue.
+F2: Critique6 is quiet.
+Rules:
+R1: If Critique6 is kind, then Critique6 is quiet.
+R2: If Critique6 is rough, then Critique6 is kind.
+Query: Critique6 is rough.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique6 is rough" under Rule R2, which states that if Critique6 is rough, then Critique6 is kind. Since we are given that Critique6 is rough (Rule R2), it follows directly from the definition of roughness that Critique6 must be kind (Rule R1). Therefore, the proposed answer classifies the query as TRUE.
+
+**JUSTIFICATION:** 
+- **Rule R1**: If Critique6 is kind, then Critique6 is quiet.
+- **Rule R2**: If Critique6 is rough, then Critique6 is kind.
+- Given that Critique6 is rough (Rule R2), by Rule R1, Critique6 must be quiet (Rule R2).
+
+Thus, the proposed answer correctly identifies the type of response based on the provided information.
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L09_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori9 is tall.
+F2: Other8 is round.
+F3: Kori9 is rough.
+Rules:
+R1: If Kori9 is blue, then Kori9 is tall.
+R2: If Kori9 is kind, then Kori9 is blue.
+R3: If Kori9 is rough, then Kori9 is kind.
+Query: Kori9 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L14_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other13 has the property soft.
+F2: Luma14 has the property rough.
+Rules:
+R1: If Luma14 has the property round, then Luma14 does not have the property bright.
+R2: If Luma14 has the property rough, then Luma14 has the property round.
+Query: Luma14 has the property bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L12_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Mora12 has the property round.
+F2: Other11 has the property calm.
+Rules:
+R1: If Mora12 has the property tall, then Mora12 has the property round.
+Query: Mora12 has the property tall.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L05_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other4 has the property soft.
+F2: Rivo5 has the property tall.
+Rules:
+R1: If Rivo5 has the property blue, then Rivo5 does not have the property quiet.
+R2: If Rivo5 has the property tall, then Rivo5 has the property blue.
+Query: Rivo5 has the property quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L13_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi13 has the property quiet.
+F2: Other12 has the property kind.
+Rules:
+R1: If Tavi13 has the property calm, then Tavi13 has the property soft.
+R2: If Tavi13 has the property quiet, then Tavi13 has the property calm.
+Query: Tavi13 has the property soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L25_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo25 is blue.
+F2: Other24 is calm.
+Rules:
+R1: If Rivo25 is young, then Rivo25 is soft.
+R2: If Rivo25 is blue, then Rivo25 is young.
+R3: If Rivo25 is soft, then Rivo25 is green.
+Query: Rivo25 is not green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L26_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other25 is calm.
+F2: Sena26 is green.
+Rules:
+R1: If Sena26 is cold, then Sena26 is not kind.
+R2: If Sena26 is green, then Sena26 is soft.
+R3: If Sena26 is soft, then Sena26 is cold.
+Query: Sena26 is kind.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L25_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo25 has the property blue.
+F2: Other24 has the property calm.
+Rules:
+R1: If Rivo25 has the property young, then Rivo25 has the property soft.
+R2: If Rivo25 has the property blue, then Rivo25 has the property young.
+R3: If Rivo25 has the property soft, then Rivo25 has the property green.
+Query: Rivo25 has the property green.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L09_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori9 has the property tall.
+F2: Other8 has the property round.
+Rules:
+R1: If Kori9 has the property blue, then Kori9 has the property tall.
+R2: If Kori9 has the property kind, then Kori9 has the property blue.
+R3: If Kori9 has the property rough, then Kori9 has the property kind.
+Query: Kori9 has the property rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+C09
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other26 is green.
+F2: Critique9 is young.
+Rules:
+R1: If Critique9 is cold, then Critique9 is rough.
+R2: If Critique9 is tall, then Critique9 is young.
+R3: If Critique9 is rough, then Critique9 is tall.
+Query: Critique9 is cold.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer classifies the query "Critique9 is cold" as UNKNOWN.
+
+### Explanation:
+
+- **Rule Analysis**: 
+  - **R1**: If Critique9 is cold, then Critique9 is rough.
+  - **R2**: If Critique9 is tall, then Critique9 is young.
+  - **R3**: If Critique9 is rough, then Critique9 is tall.
+
+Given that Critique9 is cold (from Rule R1), we cannot definitively determine whether it is also rough (from Rule R3). Therefore, the query "Critique9 is cold" remains unknown based on the provided rules.
+
+### Justification for Incorrect Classification:
+
+The proposed answer classifies the query as UNKNOWN because there are no direct logical connections between Critique9's characteristics and the given facts about other subjects. The rules do not provide a clear path from Critique9 being cold to Critique9 being rough or tall. Thus, without additional information linking Critique9 to either of these categories, the query remains unassailable as UNKNOWN.
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L20_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other19 is blue.
+F2: Panu20 is quiet.
+Rules:
+R1: If Panu20 is quiet, then Panu20 is not rough.
+Query: Panu20 is not rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L24_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other23 has the property round.
+F2: Luma24 has the property calm.
+Rules:
+R1: If Luma24 has the property kind, then Luma24 has the property calm.
+R2: If Luma24 has the property cold, then Luma24 has the property kind.
+Query: Luma24 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L15_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo15 has the property bright.
+F2: Other14 has the property green.
+Rules:
+R1: If Rivo15 has the property cold, then Rivo15 has the property bright.
+R2: If Rivo15 has the property quiet, then Rivo15 has the property cold.
+Query: Rivo15 has the property quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L26_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other25 has the property calm.
+F2: Sena26 has the property green.
+Rules:
+R1: If Sena26 has the property cold, then Sena26 does not have the property kind.
+R2: If Sena26 has the property green, then Sena26 has the property soft.
+R3: If Sena26 has the property soft, then Sena26 has the property cold.
+Query: Sena26 has the property kind.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L10_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Panu10 is blue.
+F2: Other9 is rough.
+Rules:
+R1: If Panu10 is blue, then Panu10 is bright.
+Query: Panu10 is bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L23_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other22 is bright.
+F2: Tavi23 is young.
+Rules:
+R1: If Tavi23 is tall, then Tavi23 is not calm.
+R2: If Tavi23 is young, then Tavi23 is tall.
+Query: Tavi23 is calm.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L19_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori19 has the property green.
+F2: Other18 has the property tall.
+Rules:
+R1: If Kori19 has the property green, then Kori19 has the property young.
+Query: Kori19 has the property young.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L15_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Rivo15 is bright.
+F2: Other14 is green.
+F3: Rivo15 is quiet.
+Rules:
+R1: If Rivo15 is cold, then Rivo15 is bright.
+R2: If Rivo15 is quiet, then Rivo15 is cold.
+Query: Rivo15 is quiet.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L07_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Daro7 is soft.
+F2: Other6 is tall.
+Rules:
+R1: If Daro7 is soft, then Daro7 is bright.
+R2: If Daro7 is young, then Daro7 is cold.
+R3: If Daro7 is bright, then Daro7 is young.
+Query: Daro7 is not cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L14_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other13 is soft.
+F2: Luma14 is rough.
+Rules:
+R1: If Luma14 is round, then Luma14 is not bright.
+R2: If Luma14 is rough, then Luma14 is round.
+Query: Luma14 is bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+L22_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other21 is rough.
+F2: Mora22 is calm.
+Rules:
+R1: If Mora22 is calm, then Mora22 is young.
+R2: If Mora22 is young, then Mora22 is soft.
+Query: Mora22 is not soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L24_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other23 is round.
+F2: Luma24 is calm.
+Rules:
+R1: If Luma24 is kind, then Luma24 is calm.
+R2: If Luma24 is cold, then Luma24 is kind.
+Query: Luma24 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L18_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela18 is bright.
+F2: Other17 is young.
+F3: Vela18 is cold.
+Rules:
+R1: If Vela18 is quiet, then Vela18 is soft.
+R2: If Vela18 is cold, then Vela18 is quiet.
+R3: If Vela18 is soft, then Vela18 is bright.
+Query: Vela18 is cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query was added as an explicit fact.
+
+L09_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Kori9 is tall.
+F2: Other8 is round.
+Rules:
+R1: If Kori9 is blue, then Kori9 is tall.
+R2: If Kori9 is kind, then Kori9 is blue.
+R3: If Kori9 is rough, then Kori9 is kind.
+Query: Kori9 is rough.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L01_changed
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other0 is quiet.
+F2: Neri1 is kind.
+Rules:
+R1: If Neri1 is kind, then Neri1 is cold.
+Query: Neri1 is not cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The query polarity changed.
+
+L13_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Tavi13 is quiet.
+F2: Other12 is kind.
+Rules:
+R1: If Tavi13 is calm, then Tavi13 is soft.
+R2: If Tavi13 is quiet, then Tavi13 is calm.
+Query: Tavi13 is soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L10_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Panu10 has the property blue.
+F2: Other9 has the property rough.
+Rules:
+R1: If Panu10 has the property blue, then Panu10 has the property bright.
+Query: Panu10 has the property bright.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+L18_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Vela18 has the property bright.
+F2: Other17 has the property young.
+Rules:
+R1: If Vela18 has the property quiet, then Vela18 has the property soft.
+R2: If Vela18 has the property cold, then Vela18 has the property quiet.
+R3: If Vela18 has the property soft, then Vela18 has the property bright.
+Query: Vela18 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L07_paraphrase
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Daro7 has the property soft.
+F2: Other6 has the property tall.
+Rules:
+R1: If Daro7 has the property soft, then Daro7 has the property bright.
+R2: If Daro7 has the property young, then Daro7 has the property cold.
+R3: If Daro7 has the property bright, then Daro7 has the property young.
+Query: Daro7 has the property cold.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.

@@ -1,0 +1,58 @@
+COLLECTION CHECKLIST - ONE COPY PER MODEL
+Anonymous model code: [FILL]
+Round: R01
+
+[ ] Same visible model and settings throughout.
+[ ] No keys, rubric, previous results, or coaching supplied.
+[ ] Fresh chat for every prompt; complete EW scenarios kept together.
+[ ] First responses preserved, no best-of selection.
+[ ] Tools/memory/custom instruction status recorded privately.
+[ ] Technical failures, cutoffs, retries, and tool use recorded.
+[ ] Provider-identifying material removed only from the blind copy; originals kept.
+[ ] Private identity mapping withheld until grades are finalized.
+
+Mark each item after saving its full output into the anonymous response file:
+[ ] 01 TSA-10
+[ ] 02 TSA-13
+[ ] 03 TSA-06
+[ ] 04 TSA-21
+[ ] 05 TSA-32
+[ ] 06 TSA-23
+[ ] 07 TSA-30
+[ ] 08 TSA-17
+[ ] 09 TSA-27
+[ ] 10 TSA-25
+[ ] 11 TSA-15
+[ ] 12 TSA-11
+[ ] 13 TSA-12
+[ ] 14 TSA-28
+[ ] 15 TSA-09
+[ ] 16 TSA-20
+[ ] 17 TSA-31
+[ ] 18 TSA-07
+[ ] 19 TSA-26
+[ ] 20 TSA-01
+[ ] 21 TSA-34
+[ ] 22 TSA-14
+[ ] 23 TSA-19
+[ ] 24 TSA-03
+[ ] 25 TSA-33
+[ ] 26 TSA-29
+[ ] 27 TSA-22
+[ ] 28 TSA-04
+[ ] 29 TSA-24
+[ ] 30 TSA-05
+[ ] 31 TSA-35
+[ ] 32 TSA-16
+[ ] 33 TSA-18
+[ ] 34 TSA-02
+[ ] 35 TSA-08
+[ ] 36 EW-ORIGINAL
+[ ] 37 EW-NEW-1
+[ ] 38 EW-NEW-2
+[ ] 39 EW-NEW-3
+
+Completed TSA tasks: [ ] / 35
+Completed EW scenarios: [ ] / 4
+Collection deviations: [FILL or NONE]
+Final check: all 39 sections retained; no unanswered section silently omitted.

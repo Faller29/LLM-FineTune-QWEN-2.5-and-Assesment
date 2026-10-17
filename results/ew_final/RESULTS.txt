@@ -1,0 +1,11 @@
+ENNIS-WEIR EVALUATION
+Responses saved: 4/4
+Nominal maximum per complete round: 65
+Essay scoring: reviewed
+Output budget reached: 0
+Scores remain pending until evidence-based rubric reviews are imported.
+No confusion matrix or keyword-based reasoning verdict is generated.
+T=0, round 1: manual score -3/65; article-wording sensitivity -19/65
+Linked TSA: 10/35 (28.57%). Same model and adapter verified.
+
+Read REVIEW_GUIDE.txt and METHOD_NOTES.txt before interpreting the score.

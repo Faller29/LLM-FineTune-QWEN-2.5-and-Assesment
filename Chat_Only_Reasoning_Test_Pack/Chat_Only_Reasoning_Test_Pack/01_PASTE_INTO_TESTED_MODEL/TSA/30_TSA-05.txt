@@ -1,0 +1,10 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+An accident at the Fukushima nuclear power plant in Japan in 2011 caused the release of radioactive material, resulting in around half a million people being evacuated from the area. These people have not been allowed to return to the area because of the health risks of exposure to radiation. But the psychological consequences of long-term evacuation may be more significant than the physical effects of radiation. People who wish to return to live in the area around Fukushima should be allowed to. Studies of a similar situation at Chernobyl showed that average life expectancy for evacuees reduced – not predominantly because of cancer caused by radiation, but because of depression, alcoholism and suicide due to the impact of permanent evacuation. There is, moreover, massive disagreement in the scientific community over how much radiation is ‘safe’.
+Which one of the following best expresses the main conclusion of the above argument?
+A The increased risks of cancer due to exposure to radiation have been exaggerated.
+B There is no consensus among scientists about what constitutes a safe level of radiation.
+C People who are forcibly evacuated from their homes experience reduced life expectancy.
+D People should be allowed to make their own decisions about living in the affected area.
+E The negative effects of radiation may be less significant than the psychological
+consequences of evacuation.

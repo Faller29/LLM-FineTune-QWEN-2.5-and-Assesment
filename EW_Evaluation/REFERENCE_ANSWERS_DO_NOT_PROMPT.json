@@ -1,0 +1,172 @@
+{
+  "units": [
+    {
+      "id": "EW-ORIGINAL-P1",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 1,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. The analogy between \"parking overnight on the street\" and \"having a garage on the street\" is invalid, as there are substantial differences between the two. Alternatively, the definition of \"garage\" in this paragraph is inconsistent - the garage in the first sentence only refers to \"a place where cars can be parked,\" but a garage in legal terms is an actual existing building (or one with property ownership)."
+    },
+    {
+      "id": "EW-ORIGINAL-P2",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 2,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. Prohibiting nighttime parking on streets cannot alleviate afternoon traffic congestion. Alternatively, traffic peaks typically occur in the morning and afternoon, not during the early morning hours when nighttime parking is prohibited. (Time is key and must be clearly stated - full points cannot be awarded if this is not explicitly pointed out.)"
+    },
+    {
+      "id": "EW-ORIGINAL-P3",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 3,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is relatively strong. People who work at 6 AM would commute during the time period when the author believes parking should be prohibited (2 AM-6 AM). If there are no parked vehicles on the streets, traffic conditions would be smoother.\nThis paragraph has a minor weakness: to solve the problem of early morning street congestion, parking should only be prohibited on streets where there are many workers who start work at 6 AM, rather than prohibiting parking on all streets. If participants do not mention this weakness, deduct one point from the original score."
+    },
+    {
+      "id": "EW-ORIGINAL-P4",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 4,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. Using \"nighttime parking is bad\" to support \"we should oppose nighttime parking\" is merely presenting the viewpoint as its own justification, which constitutes circular reasoning. Alternatively, the author has not provided reasons to support the proposition, but is merely emphasizing the viewpoint repeatedly."
+    },
+    {
+      "id": "EW-ORIGINAL-P5",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 5,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. There are three ways for answering, and points will be given for any one of them:\n1) Accidents between parked vehicles at night and moving vehicles at night are a very limited type of accident. There are other more important types of accidents, such as accidents between moving vehicles during other time periods. Therefore, the number of accidents that the ban could eliminate may not be very large.\n2) The author ignores that other things might be more important than eliminating this type of accident, such as the inconvenience and costs that parking prohibition would cause to residents. Residents might consider the negative consequences of parking prohibition on their lives to be more important than reducing this type of accident.\n3) This argument only describes one possible way to eliminate this type of accident. Parking prohibition might be a sufficient condition for eliminating such accidents, but it is not a necessary condition. The fact that parking prohibition can prevent accidents does not mean that parking prohibition is necessary to prevent accidents."
+    },
+    {
+      "id": "EW-ORIGINAL-P6",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 6,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. The results of just one day of experimentation cannot adequately support a causal relationship conclusion. The absence of accidents in such a short time period could have multiple possible causes. Alternatively, we don't know how many of the 400+ accidents involved nighttime parked vehicles. If very few of these accidents involved nighttime parking, then the parking ban might be meaningless to begin with."
+    },
+    {
+      "id": "EW-ORIGINAL-P7",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 7,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is weak. This paragraph's definition of \"safety\" is incorrect, unrealistic, or unachievable. Alternatively, even if the parking prohibition recommendation is adopted, it would still be unsafe. Therefore, this definition is self-contradictory."
+    },
+    {
+      "id": "EW-ORIGINAL-P8",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 8,
+      "flaw": null,
+      "maximum_points": 3,
+      "reference": "This argument is relatively strong. The authorities cited by the author can be considered to have professional knowledge on the topic being discussed, and their recommendations are directly relevant to the proposal in the letter.\nThis paragraph has a minor weakness: these authorities' recommendations only target busy streets, while the author's proposal is to implement parking prohibition on all streets city-wide. If participants do not mention this weakness, deduct one point from this paragraph's score."
+    },
+    {
+      "id": "EW-ORIGINAL-P9",
+      "scenario_id": "EW-ORIGINAL",
+      "paragraph": 9,
+      "flaw": null,
+      "maximum_points": 5,
+      "reference": "The maximum score for the ninth paragraph is 5 points, divided into four parts for scoring:\n① Overall evaluation: This letter is overall weak and contains many errors. Answering this point earns 1 point. If the response does not involve this content, no points are awarded.\n② Summarizing that six out of eight paragraphs contain argumentative errors, specifically pointing out that paragraphs 3 and 8 are relatively strong, while the remaining 6 paragraphs are weak. Answering this point earns 1 point. If the response does not involve this content, no points are awarded.\n③ Pointing out anywhere in the response (paragraphs 1-9) that the author's inference from certain streets' conditions to all streets in the city is incorrect earns 2 points. If the response does not involve this content, no points are awarded.\n④ Using emotional language (\"any sensible citizen\") to manipulate readers' emotions to agree with the author's viewpoint. Pointing this out anywhere in the response earns 1 point. If the response does not involve this content, no points are awarded."
+    },
+    {
+      "id": "EW-NEW-1-P1-F1",
+      "scenario_id": "EW-NEW-1",
+      "paragraph": 1,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "The mayor's investigation is overly simplistic, focusing only on the city's chemical industry while ignoring many other influencing factors, such as: pollution from other industries being more severe, pollution from neighboring cities affecting City A, etc. As long as participants can identify that there may be other influencing factors or pollution sources, they can receive full points.\n"
+    },
+    {
+      "id": "EW-NEW-1-P1-F2",
+      "scenario_id": "EW-NEW-1",
+      "paragraph": 1,
+      "flaw": 2,
+      "maximum_points": 3,
+      "reference": "Although Shengda Chemical Factory has the largest emissions, we do not know its proportion within the entire chemical industry - the proportion may not be high, and other chemical factories may also emit large amounts of gases. Therefore, attributing blame solely to one factory is unreasonable and unfair."
+    },
+    {
+      "id": "EW-NEW-1-P2-F1",
+      "scenario_id": "EW-NEW-1",
+      "paragraph": 2,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] The factory representative conflates the factory's contributions with the problems it causes, but positive impacts cannot negate negative impacts. Another way to express this is that the evidence provided by the employee representative is irrelevant to the conclusion - contributions and importance are unrelated to whether the factory has caused air pollution."
+    },
+    {
+      "id": "EW-NEW-1-P3-F1",
+      "scenario_id": "EW-NEW-1",
+      "paragraph": 3,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "The mayor's plan is overly simplistic and absolute, ignoring potential negative consequences. For example, the plan reduces production, which may generate greater negative impacts on economy.\n"
+    },
+    {
+      "id": "EW-NEW-1-P3-F2",
+      "scenario_id": "EW-NEW-1",
+      "paragraph": 3,
+      "flaw": 2,
+      "maximum_points": 3,
+      "reference": "The mayor's plan does not fundamentally solve the problem and fails to consider better solutions, such as improving technological processes or adopting more environmentally friendly production materials. These approaches could not only address the problem at its source but also reduce pollution without having to decrease production."
+    },
+    {
+      "id": "EW-NEW-2-P1-F1",
+      "scenario_id": "EW-NEW-2",
+      "paragraph": 1,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "The survey sample is too small and lacks representativeness - only 6 customers cannot be used to infer the general situation of the entire customer population.\n"
+    },
+    {
+      "id": "EW-NEW-2-P1-F2",
+      "scenario_id": "EW-NEW-2",
+      "paragraph": 1,
+      "flaw": 2,
+      "maximum_points": 3,
+      "reference": "There is an error in probabilistic reasoning. According to the survey results, both male and female customers each have 50% expressing concern about untimely service, so it is impossible to conclude that \"female customers are more concerned than male customers.\""
+    },
+    {
+      "id": "EW-NEW-2-P2-F1",
+      "scenario_id": "EW-NEW-2",
+      "paragraph": 2,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] The increase in sales is not necessarily caused by the renovation - there are other alternative explanations, with the most obvious being the impact of the National Day holiday. The week after renovation was the National Day holiday, which is a golden period for public shopping."
+    },
+    {
+      "id": "EW-NEW-2-P3-F1",
+      "scenario_id": "EW-NEW-2",
+      "paragraph": 3,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] The argument fails to consider that there may be differences between selling winter clothes in summer and selling summer clothes in winter, which are affected by changes in market environment and consumer demand. For example, winter clothing has higher unit prices while summer clothing has lower unit prices, making it difficult to achieve the same sales revenue."
+    },
+    {
+      "id": "EW-NEW-3-P1-F1",
+      "scenario_id": "EW-NEW-3",
+      "paragraph": 1,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] An important premise of the argument is that a considerable portion of traffic accidents in the city center involve electric bicycles or are caused by electric bicycles. If the number of such accidents is actually very small and their nature is not serious, then banning electric bicycles would be unreasonable, especially considering the inconvenience and social costs caused by the ban."
+    },
+    {
+      "id": "EW-NEW-3-P2-F1",
+      "scenario_id": "EW-NEW-3",
+      "paragraph": 2,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] The positive correlation between the number of traffic accidents and the purchase volume of electric bicycles by city residents may be merely coincidental and does not indicate a causal relationship between the two. Therefore, more people riding electric bicycles is not necessarily the cause of the increase in accident numbers."
+    },
+    {
+      "id": "EW-NEW-3-P3-F1",
+      "scenario_id": "EW-NEW-3",
+      "paragraph": 3,
+      "flaw": 1,
+      "maximum_points": 3,
+      "reference": "[Flaw] Calling electric vehicles \"bombs\" is unreasonable, as there are obvious differences between the two. Electric vehicles only have fire hazards (which most electrical appliances have), and this hazard exists under the specific condition of \"charging in residential buildings.\" We cannot assume that electric vehicles traveling on streets have the same safety hazard, so they cannot be equated with bombs."
+    }
+  ]
+}

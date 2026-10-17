@@ -1,0 +1,59 @@
+{
+  "completion": {
+    "expected": 1,
+    "observed": 1,
+    "complete": true,
+    "missing_ids": []
+  },
+  "answer_key_score": {
+    "earned_points_so_far": 1,
+    "maximum_points": 1,
+    "accuracy": 1.0,
+    "invalid": 0,
+    "prediction_counts": {
+      "A": 0,
+      "B": 0,
+      "C": 1,
+      "D": 0,
+      "E": 0,
+      "INVALID": 0
+    },
+    "wilson95_descriptive": [
+      0.20654931437723745,
+      1
+    ],
+    "uniform_guess_accuracy": 0.2,
+    "best_constant_letter_accuracy": 1.0,
+    "binomial_upper_tail_against_uniform_guessing": 0.2,
+    "note": "The binomial calculation assumes independent uniform guesses. Public, selected items are not a random sample of all reasoning tasks."
+  },
+  "criteria": [
+    {
+      "criterion": "Main Conclusion",
+      "correct": 1,
+      "maximum_points": 1,
+      "completed": 1,
+      "missing": 0,
+      "invalid": 0,
+      "accuracy": 1.0
+    }
+  ],
+  "output_budget_hits": 0,
+  "seconds": 41.874,
+  "explanation_review": {
+    "status": "not_scored",
+    "additional_TSA_points": 0
+  },
+  "limitations": [
+    "35 original items from the study, in English; not the full study protocol.",
+    "Seven measured argument-analysis skills; no global critical-thinking certification.",
+    "One completion per item under one decoding configuration.",
+    "Public question exposure during pretraining cannot be ruled out.",
+    "Answer-key correctness and explanation quality are separate.",
+    "Neither a correct answer nor a thinking tag proves internal process faithfulness.",
+    "Five items per criterion give coarse, uncertain category estimates.",
+    "Raw-score percentages are not Oxford admissions scaled scores or human percentiles."
+  ],
+  "purpose": "pipeline_check_only",
+  "protocol": "TSA original-item subset, English, one completion per item"
+}

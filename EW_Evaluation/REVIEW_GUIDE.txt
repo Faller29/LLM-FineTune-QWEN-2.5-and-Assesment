@@ -1,0 +1,76 @@
+EVIDENCE-BASED EW REVIEW
+
+Use review_packet.txt, the exact raw responses, and the source manual.
+The template binds the review to run_config.json and responses.jsonl hashes.
+Do not change those hashes to apply an older review to newer responses.
+If generation is resumed, use its freshly rebuilt template.
+
+1. Identify reviewer_name and reviewer_type (human or Manual).
+2. Retain every case and every unit. A weak/missing answer still needs a rating.
+3. Change each completed rating's status from pending to reviewed.
+4. Assign integer base_points: 0..3, except original P9 which is 0..5.
+   Base credit measures alignment with the released reference criterion.
+   Give partial credit according to completeness and adequacy of the support.
+   Equivalent wording can receive credit; an unrelated but nonerroneous
+   response receives no reference-alignment credit under the released manual.
+5. Cite exact evidence from the raw model response and explain the rating.
+   Positive credit requires a nonempty exact excerpt. Zero credit can use an
+   empty excerpt when the model omitted the required content, but still needs
+   a written reason. The script checks provenance, not the correctness of
+   the grader's semantic judgment.
+6. Complete original P9's four closing_components with credited true/false,
+   evidence, and a reason. Its base points must equal the weighted sum:
+     overall_judgment: 1
+     paragraph_summary: 1
+     scope_overgeneralization: 2
+     emotive_language: 1
+   The source permits the last two insights anywhere in the original response.
+   The first two concern the overall closing evaluation. Specify location in
+   your reason; the validator permits excerpts anywhere in the original raw
+   response because paragraph numbering can be imperfect.
+7. Review paragraph_errors once per response paragraph, including the closing
+   paragraph. Do not duplicate a single error across both flaws in one paragraph.
+   Set status reviewed and enter a comment even when there are no errors.
+   Each error has:
+     kind: invented_flaw / endorsed_flawed_argument / faulty_reasoning /
+           unsupported_claim / scope_omission / other_manual_error
+     evidence: exact excerpt from the model response
+     explanation: why the error warrants a deduction
+     is_omission: false (true permits empty evidence for genuinely absent content)
+   Count separate errors only when they are genuinely separate instances.
+8. For original P3 and P8, scope_qualification_present must be true or false.
+   The released manual explicitly requires a one-point deduction when their
+   scope qualification is missing. The scorer adds this deduction unless a
+   scope_omission error has already been recorded for that paragraph. Explain
+   this judgment in the paragraph's comment. Do not double-count the omission.
+9. Review the complete argument, not just its first numbered paragraph.
+   Missing sections are evaluated as omissions, not silently dropped from the
+   denominator. Do not penalize spelling, style, absent thinking tags, or lack
+   of specialist vocabulary unless these obscure the substantive judgment.
+10. Import the completed JSON with apply-review. Never invent a critical-thinking
+    pass cutoff or label a score as proof of a faithful internal thought process.
+
+SCORING FORMULAS
+Let b_i be reference-alignment credit for each of 21 units.
+Let e_p be the documented error count for each of 18 response paragraphs,
+including the released manual's explicit scope-omission deductions.
+
+Base alignment B = sum_i b_i. Maximum = 65.
+Released-manual deductions D_manual = sum_p min(1, e_p).
+Primary project score S_manual = B - D_manual.
+Article-wording sensitivity score S_article = B - sum_p e_p.
+
+The two scores are separate views of the same documented review, not two tests.
+They address a discrepancy between the released manual and article wording.
+No undocumented zero-floor is applied to deductions; negative paragraph/total
+scores remain visible. Error count and alignment credit are also reported
+separately. Missing qualifications can incur deductions even with zero credit;
+this explicit operationalization follows the manual's omission instruction.
+
+MULTIPLE RATERS / ROUNDS
+Each completed reviewer has a total for each full round. The script reports
+their individual totals and a descriptive mean across supplied reviewers.
+Across actually completed sampled rounds, it can report mean and sample SD.
+A single reviewer supplies no inter-rater reliability; no ICC is invented.
+An AI-assisted review should be checked by a knowledgeable human. A second
+reviewer should score independently before seeing the first review.

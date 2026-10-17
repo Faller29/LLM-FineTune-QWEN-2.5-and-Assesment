@@ -1,0 +1,9 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+Much concern is paid to the hazards posed by people using mobile phones while operating motor vehicles. Although using a smartphone or other mobile phone behind the wheel of a car is most certainly dangerous, research is showing that very frequent usage of the phones is harmful more generally. A study has found that individuals with relatively high levels of mobile phone usage are more likely to demonstrate cognitive failures, which can range from forgetting appointments to accidentally bumping into things in the environment. Cognitive failures are associated with the short attention spans also observed in high-frequency mobile phone users. Clearly, if people want to reduce their risk of cognitive failures, they should limit the amount of time they spend on their mobile phones.
+Which one of the following is the best statement of the flaw in the above argument?
+A High-frequency mobile phone users may have had short attention spans prior to the formation of their phone usage habits.
+B Limiting one’s smartphone or mobile phone usage may not be a sufficient strategy for significantly reducing cognitive failures.
+C Mobile phones may play an important role in the completion of everyday tasks in the lives of many people.
+D Smartphones and other mobile phones may have different applications or features that are not all used in the exact same fashion.
+E The risks posed by using a mobile phone while driving may be much greater than those posed by too-frequent usage of the phones overall.

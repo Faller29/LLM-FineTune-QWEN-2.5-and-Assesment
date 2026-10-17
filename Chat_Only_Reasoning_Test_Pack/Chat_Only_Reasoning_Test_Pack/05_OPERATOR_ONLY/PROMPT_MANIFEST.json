@@ -1,0 +1,287 @@
+{
+  "protocol": "CHAT-TSA-EW-1.0",
+  "created": "2026-10-14",
+  "prompt_count": 39,
+  "all_prompts_exact_copies": true,
+  "order_matches_original_collection": true,
+  "source_response_hashes": {
+    "TSA": "defd4658ca66e800b201374a2ec16f55be7e01f2d3d54c86803d184fa67826bd",
+    "EW": "114727dfd7757c9c64b4916004bc2337092c0d479550a3094a427f42d4fd752b"
+  },
+  "prompts": [
+    {
+      "order": 1,
+      "test": "TSA",
+      "item_id": "TSA-10",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/01_TSA-10.txt",
+      "prompt_sha256": "0456790b0a8df175a9bb0b30b2ad359660d7b641616e69fab08a47363bed2f40"
+    },
+    {
+      "order": 2,
+      "test": "TSA",
+      "item_id": "TSA-13",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/02_TSA-13.txt",
+      "prompt_sha256": "ed7baed7e63625876ecbda6b7681d2f6fe3f878b1becf9dbec2dd538bca953f5"
+    },
+    {
+      "order": 3,
+      "test": "TSA",
+      "item_id": "TSA-06",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/03_TSA-06.txt",
+      "prompt_sha256": "2c95df291d2d67c341b4c45185c0bcd39d716add1f98adfa9de38c94cd1c677f"
+    },
+    {
+      "order": 4,
+      "test": "TSA",
+      "item_id": "TSA-21",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/04_TSA-21.txt",
+      "prompt_sha256": "ad765d6046d817c107bf6610caccac3ebc8f88fea1cc392f34792fb8d3ee1d0c"
+    },
+    {
+      "order": 5,
+      "test": "TSA",
+      "item_id": "TSA-32",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/05_TSA-32.txt",
+      "prompt_sha256": "755096eacae8a2af233cfdfa87766dbf157aa29511c50878583cc8cf0a472097"
+    },
+    {
+      "order": 6,
+      "test": "TSA",
+      "item_id": "TSA-23",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/06_TSA-23.txt",
+      "prompt_sha256": "e35e640af9333317a495172fb871fe6bc0425a4efa67e1e31ca5b8070618983b"
+    },
+    {
+      "order": 7,
+      "test": "TSA",
+      "item_id": "TSA-30",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/07_TSA-30.txt",
+      "prompt_sha256": "9c504f56de51132dc878def198b82791a9b77099ab3d9c82ada743cb9b409a6b"
+    },
+    {
+      "order": 8,
+      "test": "TSA",
+      "item_id": "TSA-17",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/08_TSA-17.txt",
+      "prompt_sha256": "cc8efead38c3b641ef8637fa942c0a6eeecdefa39a3a0bc71929c615a733efbe"
+    },
+    {
+      "order": 9,
+      "test": "TSA",
+      "item_id": "TSA-27",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/09_TSA-27.txt",
+      "prompt_sha256": "4ab8399a54bc987cf4e4fc92d0ee39448145650c1cde4ec72a094ea5e80d0edb"
+    },
+    {
+      "order": 10,
+      "test": "TSA",
+      "item_id": "TSA-25",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/10_TSA-25.txt",
+      "prompt_sha256": "2fd404bad4fafea1f7e024d8fdaf06bc4fffca0835109e84bdab97a0b4353c8f"
+    },
+    {
+      "order": 11,
+      "test": "TSA",
+      "item_id": "TSA-15",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/11_TSA-15.txt",
+      "prompt_sha256": "e679b9dc9926d8da1af44ddebedeefb33139fcc28447e948c5f5a3cd423ea38f"
+    },
+    {
+      "order": 12,
+      "test": "TSA",
+      "item_id": "TSA-11",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/12_TSA-11.txt",
+      "prompt_sha256": "a4bcf98f25de9fbf515d1e16058f083d2712684a4a8e281a0b6b4a3e014f4c0d"
+    },
+    {
+      "order": 13,
+      "test": "TSA",
+      "item_id": "TSA-12",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/13_TSA-12.txt",
+      "prompt_sha256": "ce004072622e2efe4adc5055fb4296eee8ed4e0c795015cdbe8a01734c75ca7a"
+    },
+    {
+      "order": 14,
+      "test": "TSA",
+      "item_id": "TSA-28",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/14_TSA-28.txt",
+      "prompt_sha256": "01ce9c7fbd8ed8c864b6d9edc7f6195567db54fac867121cbec6ce35d4ca3714"
+    },
+    {
+      "order": 15,
+      "test": "TSA",
+      "item_id": "TSA-09",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/15_TSA-09.txt",
+      "prompt_sha256": "ad26b96691b279a7637026faaad57a89421cca84c24a80fa91158d74b2677880"
+    },
+    {
+      "order": 16,
+      "test": "TSA",
+      "item_id": "TSA-20",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/16_TSA-20.txt",
+      "prompt_sha256": "4176e36752b7c855c00a4506321ea2882b48103ed6996510f4600193264a31b9"
+    },
+    {
+      "order": 17,
+      "test": "TSA",
+      "item_id": "TSA-31",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/17_TSA-31.txt",
+      "prompt_sha256": "16189b9fc2744d11b088b989d60d8e6d17a286f4b443995642eaa35922b44daf"
+    },
+    {
+      "order": 18,
+      "test": "TSA",
+      "item_id": "TSA-07",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/18_TSA-07.txt",
+      "prompt_sha256": "28aecfb2338418c3d692bb1a752f29ef994728388867f69dff159d78b42da1ed"
+    },
+    {
+      "order": 19,
+      "test": "TSA",
+      "item_id": "TSA-26",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/19_TSA-26.txt",
+      "prompt_sha256": "5bb068271b373c4a2ffedb39c86cea706960e02e1b20d2eabbcdd13ce140a987"
+    },
+    {
+      "order": 20,
+      "test": "TSA",
+      "item_id": "TSA-01",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/20_TSA-01.txt",
+      "prompt_sha256": "2496d5fec3a58c6b18015470f7f30e370284f25689241ddb223741a703a79806"
+    },
+    {
+      "order": 21,
+      "test": "TSA",
+      "item_id": "TSA-34",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/21_TSA-34.txt",
+      "prompt_sha256": "4ee356c7e9ea864d0fa0d71bc7cf6a17a5e01821a6d03f2e7028acf01cb1d827"
+    },
+    {
+      "order": 22,
+      "test": "TSA",
+      "item_id": "TSA-14",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/22_TSA-14.txt",
+      "prompt_sha256": "e92e9b1aac87e7a9a086168a4b3c8874323173fad99c4699a36709e3b86bf080"
+    },
+    {
+      "order": 23,
+      "test": "TSA",
+      "item_id": "TSA-19",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/23_TSA-19.txt",
+      "prompt_sha256": "e6169b9c8ea18b2c44e672d17fff389e15149d2a91053dc99fae6ac7fbefb4d3"
+    },
+    {
+      "order": 24,
+      "test": "TSA",
+      "item_id": "TSA-03",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/24_TSA-03.txt",
+      "prompt_sha256": "094aa4e0178a0dad496f0166d9afab5f5c892ac96c472d9735b33f3df642e4d3"
+    },
+    {
+      "order": 25,
+      "test": "TSA",
+      "item_id": "TSA-33",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/25_TSA-33.txt",
+      "prompt_sha256": "144f827cd2fe7dfd8fcbb81b877b58c5895de0619ec5990a14831c2b062f30aa"
+    },
+    {
+      "order": 26,
+      "test": "TSA",
+      "item_id": "TSA-29",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/26_TSA-29.txt",
+      "prompt_sha256": "3948aa1f7a58f45d5ea76beb6ad289159f28c08b4d34e3707abad5be297c657b"
+    },
+    {
+      "order": 27,
+      "test": "TSA",
+      "item_id": "TSA-22",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/27_TSA-22.txt",
+      "prompt_sha256": "6a31da3f328d4e653a2efc8d984134fb4555cbba583edfdd377f32526454019d"
+    },
+    {
+      "order": 28,
+      "test": "TSA",
+      "item_id": "TSA-04",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/28_TSA-04.txt",
+      "prompt_sha256": "12885e5472fa73205ebbc6df1d9bd40a67e373960daa667867089420be8f3800"
+    },
+    {
+      "order": 29,
+      "test": "TSA",
+      "item_id": "TSA-24",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/29_TSA-24.txt",
+      "prompt_sha256": "b93967f25de6cc342cb98dc810b574c2bb6ac7b6d2c1c01769c9e33bf4840f13"
+    },
+    {
+      "order": 30,
+      "test": "TSA",
+      "item_id": "TSA-05",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/30_TSA-05.txt",
+      "prompt_sha256": "63c24e016b1edcbd807089c8439fdb9371e8d04db23bdf57b470f466acdbfe65"
+    },
+    {
+      "order": 31,
+      "test": "TSA",
+      "item_id": "TSA-35",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/31_TSA-35.txt",
+      "prompt_sha256": "ce63371cb219e5ae42912aac062c2018fb24f3c003d6e74fb9d334ebc043d5ed"
+    },
+    {
+      "order": 32,
+      "test": "TSA",
+      "item_id": "TSA-16",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/32_TSA-16.txt",
+      "prompt_sha256": "4571819eb1633328e004177c80c84f86064ae03dc75dc88f08fcbb5a667354bf"
+    },
+    {
+      "order": 33,
+      "test": "TSA",
+      "item_id": "TSA-18",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/33_TSA-18.txt",
+      "prompt_sha256": "77f20e8bc344dd99be9b43ccb963160f3a822e5257e88b648a80f91cfff68b1b"
+    },
+    {
+      "order": 34,
+      "test": "TSA",
+      "item_id": "TSA-02",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/34_TSA-02.txt",
+      "prompt_sha256": "ae56ff0cb4a552b55ee60af335a00b0bb5dd1858eafc7ab17baf8eda6982a5ca"
+    },
+    {
+      "order": 35,
+      "test": "TSA",
+      "item_id": "TSA-08",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/TSA/35_TSA-08.txt",
+      "prompt_sha256": "03f6822655435c5a2afb07060836e6f6654cab08ff0e85c7fe7512e2f1949042"
+    },
+    {
+      "order": 36,
+      "test": "EW",
+      "item_id": "EW-ORIGINAL",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/EW/36_EW-ORIGINAL.txt",
+      "prompt_sha256": "c19246ebcee865585b2180123ca0422bf62ea9a6077f32883c6de6c98110f3ac"
+    },
+    {
+      "order": 37,
+      "test": "EW",
+      "item_id": "EW-NEW-1",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/EW/37_EW-NEW-1.txt",
+      "prompt_sha256": "4cfbf65f674d7f9b68af862edde6277cf1a1330a31497bd32474d88d3570e0c7"
+    },
+    {
+      "order": 38,
+      "test": "EW",
+      "item_id": "EW-NEW-2",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/EW/38_EW-NEW-2.txt",
+      "prompt_sha256": "b6953f13922f9edc7413bc61fa03514575ca3ed0585af9b223a170dfea5e60fa"
+    },
+    {
+      "order": 39,
+      "test": "EW",
+      "item_id": "EW-NEW-3",
+      "prompt_file": "01_PASTE_INTO_TESTED_MODEL/EW/39_EW-NEW-3.txt",
+      "prompt_sha256": "1fe62fe02b50e6780fce8c80712607d617208ec089bb48527430c6488a4c412e"
+    }
+  ],
+  "warning": "Operator metadata is not part of a test prompt. No model answers or grades are bundled."
+}

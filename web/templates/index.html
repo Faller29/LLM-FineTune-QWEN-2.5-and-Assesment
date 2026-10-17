@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Qwen Chat | CPU Fine-Tuning Lab</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- MathJax is bundled locally; chat formatting requires no internet connection. -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']],
+        processEscapes: true
+      },
+      options: {
+        enableMenu: false,
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      svg: { fontCache: 'local' },
+      startup: { typeset: false }
+    };
+  </script>
+  <script src="/static/vendor/tex-svg.js" defer></script>
+  <script src="/static/format.js" defer></script>
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <main class="chat-app" aria-label="Local language model chat">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">Q</div>
+        <div>
+          <h1>Qwen Chat</h1>
+          <p>Local fine-tuning lab <span aria-hidden="true">&middot;</span> CPU only</p>
+        </div>
+      </div>
+      <button type="button" id="newChat" class="subtle-button" title="Clear messages and start over">
+        <span class="plus" aria-hidden="true">+</span> New chat
+      </button>
+    </header>
+
+    <section class="toolbar" aria-label="Chat settings">
+      <div class="setting">
+        <label for="modelSelect">Model</label>
+        <select id="modelSelect">
+          <option value="base">Original Qwen</option>
+          <option value="tuned">Fine-tuned Qwen (LoRA)</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="reasoningSelect">Reasoning</label>
+        <select id="reasoningSelect">
+          <option value="on">Thinking on</option>
+          <option value="off">Thinking off</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="taskSelect">Question type</label>
+        <select id="taskSelect">
+          <option value="chat">General</option>
+          <option value="math">Mathematics</option>
+        </select>
+      </div>
+    </section>
+
+    <div class="status-row" role="status" aria-live="polite">
+      <span class="status-indicator" id="statusDot" aria-hidden="true"></span>
+      <span id="statusText">Checking local model...</span>
+    </div>
+
+    <section class="conversation" id="conversation" aria-label="Conversation">
+      <div class="welcome" id="welcome">
+        <div class="welcome-icon" aria-hidden="true">✦</div>
+        <h2>Ask your model anything</h2>
+        <p>Compare how Qwen answers before and after fine-tuning. Choose a model, type a question, then press Send.</p>
+        <div class="suggestions" aria-label="Example questions">
+          <button type="button" class="suggestion" data-question="Find the units digit of 13 times 41." data-task="math">Find the units digit of 13 × 41 <span aria-hidden="true">↗</span></button>
+          <button type="button" class="suggestion" data-question="What is 20 percent of 250?" data-task="math">What is 20% of 250? <span aria-hidden="true">↗</span></button>
+          <button type="button" class="suggestion" data-question="Explain the difference between a CPU and a GPU in simple terms." data-task="chat">Explain CPU vs GPU <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions text"></div>
+    </section>
+
+    <footer class="chat-footer">
+      <div id="errorMessage" class="error-message" role="alert" hidden></div>
+      <form id="chatForm" class="composer">
+        <label class="sr-only" for="messageInput">Your message</label>
+        <textarea id="messageInput" rows="2" maxlength="3000" placeholder="Ask a question..." aria-label="Your message"></textarea>
+        <button type="submit" id="sendButton" class="send-button" title="Send message" aria-label="Send message">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+        </button>
+      </form>
+      <p class="footnote">Enter to send · Shift + Enter for a new line · First reply may take longer on CPU</p>
+    </footer>
+  </main>
+</body>
+</html>

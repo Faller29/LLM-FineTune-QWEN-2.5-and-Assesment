@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "study_doi": "10.1177/18344909251406111",
+  "study_url": "https://journals.sagepub.com/doi/full/10.1177/18344909251406111",
+  "repository": "https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM",
+  "sources": {
+    "workbook": {
+      "commit": "595874976e96861c2541d841d1375a23237e92e7",
+      "filename": "all_items.xlsx",
+      "url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/595874976e96861c2541d841d1375a23237e92e7/all_items.xlsx",
+      "sha256": "18b994a0fb12864d97783c28f3389d99165ade59620a6e4e769851926eba77eb"
+    },
+    "manual": {
+      "commit": "595874976e96861c2541d841d1375a23237e92e7",
+      "filename": "Scoring_Manual.docx",
+      "url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/595874976e96861c2541d841d1375a23237e92e7/Scoring%20Manual.docx",
+      "sha256": "6f923550d21cb0525ee13b105f7b694d4b3c03f759cff13ce9ee79cfd2f03258"
+    }
+  },
+  "scenarios": [
+    {
+      "id": "EW-ORIGINAL",
+      "prompt_sha256": "c19246ebcee865585b2180123ca0422bf62ea9a6077f32883c6de6c98110f3ac"
+    },
+    {
+      "id": "EW-NEW-1",
+      "prompt_sha256": "4cfbf65f674d7f9b68af862edde6277cf1a1330a31497bd32474d88d3570e0c7"
+    },
+    {
+      "id": "EW-NEW-2",
+      "prompt_sha256": "b6953f13922f9edc7413bc61fa03514575ca3ed0585af9b223a170dfea5e60fa"
+    },
+    {
+      "id": "EW-NEW-3",
+      "prompt_sha256": "1fe62fe02b50e6780fce8c80712607d617208ec089bb48527430c6488a4c412e"
+    }
+  ],
+  "score_structure": {
+    "original_units": 9,
+    "new_units": 12,
+    "original_maximum": 29,
+    "new_maximum": 36,
+    "nominal_maximum": 65
+  },
+  "default_scope": "full",
+  "default_scoring_policy": "released_manual_cap_one_per_response_paragraph",
+  "article_sensitivity_policy": "one_per_documented_error_instance"
+}

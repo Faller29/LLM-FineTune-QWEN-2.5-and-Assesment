@@ -1,0 +1,89 @@
+RUN THESE COMMANDS ONE STAGE AT A TIME IN WINDOWS CMD
+
+0. Extract the downloaded ZIP inside your existing project folder.
+   Expected layout:
+   D:\MSCS213-Simulation - Copy\TSA_Evaluation\evaluate_tsa.py
+   D:\MSCS213-Simulation - Copy\results\qwen_lora\best\adapter_config.json
+
+   Change the root below if your project is in a different folder.
+   Stop your existing web_app.py server with Ctrl+C in its terminal first.
+   This runner loads the model directly; it does not use the web server.
+
+1. Open CMD, select the project root, and activate the EXISTING environment:
+
+cd /d "D:\MSCS213-Simulation - Copy"
+
+call .venv\Scripts\activate.bat
+
+2. Import the 35 published questions (first run needs a small workbook download):
+
+python TSA_Evaluation\prepare_tsa.py
+
+   Expect: "Prepared 35 verified questions, five per criterion."
+   Inspect the generated question-only copy if desired:
+
+notepad TSA_Evaluation\QUESTIONS_FOR_INSPECTION.txt
+
+   Optional manual fallback if the download is blocked:
+   Download all_items.xlsx from the authors' repository linked in README.txt.
+   Then use the exact path where you saved it:
+
+python TSA_Evaluation\prepare_tsa.py --workbook "C:\Users\YOUR_USERNAME\Downloads\all_items.xlsx"
+
+3. Check the installed environment and adapter path with ONE technical item:
+
+python TSA_Evaluation\evaluate_tsa.py run --smoke --adapter "results\qwen_lora\best" --out "results\tsa_smoke"
+
+notepad results\tsa_smoke\RESULTS.txt
+
+   The smoke item is excluded from the 35-item assessment.
+   Its expected answer is C. This tests the pipeline, not critical thinking.
+   An invalid smoke answer should be inspected in responses.jsonl.
+   A substantive model failure may still be evaluated, provided the intended
+   adapter is loaded and the question reaches the model completely.
+
+4. Run the actual 35-item assessment:
+
+python TSA_Evaluation\evaluate_tsa.py run --adapter "results\qwen_lora\best" --out "results\tsa_final"
+
+   Each response is saved immediately. Wait until it reports 35/35.
+   CPU runtime depends on the length of the generated responses.
+   No base-vs-tuned comparison or new training is performed.
+
+5. If interrupted, resume with identical settings:
+
+python TSA_Evaluation\evaluate_tsa.py run --adapter "results\qwen_lora\best" --out "results\tsa_final" --resume
+
+   Saved answers, including incorrect or invalid answers, are not regenerated.
+   If model files or settings changed, use a new output folder.
+
+6. Inspect the results:
+
+notepad results\tsa_final\RESULTS.txt
+
+notepad results\tsa_final\summary.json
+
+7. Open the output folder and upload Compile_Answer.zip to this conversation:
+
+explorer results\tsa_final
+
+   Upload: results\tsa_final\Compile_Answer.zip
+   The ZIP includes the questions, reference keys and all raw model responses.
+   ChatGPT can then review the explanations and document extraction corrections.
+
+8. Optional after receiving a completed review JSON:
+   Save it as results\tsa_final\ratings_completed.json, then run:
+
+python TSA_Evaluation\evaluate_tsa.py apply-review --out "results\tsa_final" --ratings "results\tsa_final\ratings_completed.json"
+
+   This writes summary_reviewed.json. The original automatic score is preserved.
+
+9. Optional rebuild of the reports from saved responses; no model inference:
+
+python TSA_Evaluation\evaluate_tsa.py summarize --out "results\tsa_final"
+
+10. Optional software checks; no model is loaded:
+
+python -m unittest discover -s TSA_Evaluation -p "test_tsa.py" -v
+
+   Do not use software-test/mock outputs as model performance evidence.

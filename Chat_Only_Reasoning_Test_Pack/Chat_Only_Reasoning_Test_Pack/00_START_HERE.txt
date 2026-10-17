@@ -1,0 +1,161 @@
+CHAT-ONLY TSA AND ENNIS-WEIR TEST PACK
+Version: 1.0 | Prepared 14 October 2026
+No API, coding, terminal commands, or automatic model execution is required.
+
+PURPOSE
+Collect responses from ChatGPT, Gemini, Claude, or another chat-based model using
+the same 35 TSA questions and four EW scenarios already used in your project.
+The comparison provides a reference point for observed test performance. It does
+not validate earlier grading on its own, certify internal thinking, or explain
+why models differ. An independent reviewer is the check on grading validity.
+
+START HERE
+1. Extract this ZIP into a normal folder on your computer.
+2. Pick one chat model you can access. Use the same visible model/mode throughout
+   that run. Record its displayed name, date, and available settings in the private
+   identity template. If its exact version is not shown, write "not shown".
+3. Assign an anonymous code such as MODEL_A. Do not give the grading assistant
+   the provider/model identity until its scores have been finalized.
+4. Save a copy of the anonymous response template as MODEL_A_RESPONSES.txt.
+5. Follow PROMPT_INDEX.txt in 05_OPERATOR_ONLY. Open each individual prompt file,
+   copy ALL its contents, and paste into a NEW, empty chat. Send it as one message.
+6. Save the first completed response under the matching item ID in your template.
+   Copy the complete visible response verbatim, including its answer and reasons.
+7. Repeat for all 39 prompts. Then send the completed anonymous response file
+   and the two files in 04_GRADER_ONLY to the assistant performing the grading.
+8. Repeat with MODEL_B, MODEL_C, etc., using the SAME prompts and procedure.
+   Reveal your private model-code mapping only after the blind grades are final.
+
+WHAT TO SEND TO THE TESTED MODEL
+Only the full contents of ONE file in 01_PASTE_INTO_TESTED_MODEL at a time.
+Do not upload this whole ZIP, the grading references, answer keys, earlier model
+results, this operator guide, or the response template to the model taking the
+test. Do not prepend coaching, model-comparison information, or a special role.
+
+WHY 39 NEW CHATS?
+There are 35 TSA questions and four EW scenarios. Each TSA question is separate.
+Each EW scenario must stay together: the original letter requests nine reply
+paragraphs; each added scenario requests three. Splitting EW into its component
+paragraphs would change the task. Putting all TSA questions into one chat allows
+earlier questions/answers to influence later ones and changes the collection
+procedure. This protocol follows the study's question/scenario session structure.
+
+CONSISTENCY RULES
+- Use a normal blank chat, or a temporary/no-memory chat where available. Turn
+  off custom instructions, personalization, and access to previous conversations
+  where the interface allows; record anything that cannot be controlled.
+- Use ordinary text chat with external search, browsing, code execution, and
+  other external tools disabled where possible. If the model calls a tool anyway,
+  record it. Do not mix tool-assisted answers with the closed-book comparison.
+- Keep the same visible model and effort/thinking setting for all 39 tasks. Avoid
+  automatic routing where a fixed choice is available. If routing/version is
+  undisclosed, report the visible chat product/setting rather than inventing a
+  model identity. Never infer temperature from a label such as "Thinking".
+- Do not tell the model the answer, expected flaw, rubric, or earlier results.
+- Use the first completion. Do not click regenerate, ask for a better answer,
+  add hints, say "check again", or select the strongest response from retries.
+- Do not edit or summarize its substantive response. Keep refusals, contradictory
+  answers, and unhelpful replies: they are part of the evidence.
+- Do not ask for hidden chain-of-thought. The TSA prompts already request a short
+  reason; the EW prompts request defended judgments. Evaluate the visible output.
+- The original EW prompt contains human reading/writing time instructions. Keep
+  its wording unchanged; do not impose an extra wait or a new timer on the model.
+- If a rate limit or technical error prevents a response, mark that task
+  TECHNICAL_FAILURE and preserve what happened. Complete responses can be graded,
+  but an incomplete run must not be represented as the full 39-task assessment.
+- If a response is visibly cut off or a "continue" button is required, record
+  POSSIBLY_TRUNCATED. Preserve the initial output. Any continued output must be
+  stored separately as a supplemental assisted response; do not quietly merge it
+  into the primary first-completion result. Internal generation stop reasons are
+  usually unavailable in manual collection, so do not mark them as verified EOS.
+- If a retry is unavoidable after a technical failure, retain the original
+  attempt and label the replacement attempt. Do not silently substitute it or
+  pool it with the primary full run. Ask the grader to report the deviation.
+
+BLINDING AND NO-BIAS CLAIMS
+Use anonymous codes, not model names, in the files you send for scoring. Keep
+03_KEEP_PRIVATE out of that submission. If a response explicitly names its
+model/provider, replace ONLY identifying text in the grading copy with
+[IDENTITY REDACTED], and keep the unedited original privately. Record the exact
+redaction privately. Do not alter argument content. Omit chat URLs, avatars, and
+provider screenshots from the blind grading submission.
+
+For stronger blinding, use a new grading conversation and send only anonymous
+responses, BLIND_GRADING_REQUEST.txt, and REFERENCE_AND_SCORING_RULES.json. Ask the
+grader to finalize scores before seeing identities or previous scores. A grader
+that has already seen a model's identity/results is not fully blinded. Style may
+still reveal identity, and an AI judge may have systematic biases. Anonymous
+grading reduces identity cues; it cannot guarantee zero bias. Independent human
+review, particularly of partial-credit EW judgments, strengthens the assessment.
+If possible, have a second rater grade independently before seeing the first
+rater's decisions. Do not label two ratings as independent if one copied the other.
+
+SCORING PLAN (LOCK BEFORE COLLECTION)
+TSA: one point per correct choice; maximum 35. Also report seven category scores,
+each out of five. The written reason is reviewed separately and changes no
+answer-key points. Missing/refused/unresolved conflicting answers earn zero for
+a completed task. Technical missing tasks are reported as incomplete coverage.
+
+EW: reference-alignment credit across 21 units, maximum 65. Each unit has 0-3
+base points except the original closing evaluation (0-5). Equivalent reasoning
+can earn credit without matching keywords. Correct partial insights earn credit
+before separate error deductions. A good/bad label alone does not earn substantive
+alignment credit when the explanation misses the target criterion.
+
+Primary EW score = base credit - one deduction per paragraph containing a
+documented material error (at most one deduction for each of 18 paragraph groups).
+Original P3 and P8 explicitly require the missing scope-qualification deductions.
+No zero-floor is applied, consistently with the predeclared project evaluator.
+Also show base credit and deductions separately. Negative points are not negative
+ability or an accuracy percentage.
+
+Secondary sensitivity = base credit - all documented material error instances.
+This addresses the article's per-error wording versus the released manual's
+paragraph cap. Error segmentation is judgment-dependent. The two views are not
+independent tests. No global reasoning/critical-thinking pass threshold is defined.
+The full criterion map and deduction rules are in the grader-only reference file.
+
+WHAT THE COMPARISON CAN SHOW
+Which recorded chat configuration answers more of the shared TSA items correctly
+and better evaluates the EW arguments under the same declared rubric; which
+errors and valid insights recur; and whether gaps are broad or task-specific.
+Better results from a reference model do not automatically make its claims true
+or validate the grader. It must be checked against the fixed key and criteria.
+
+IMPORTANT LIMITS FOR YOUR PRESENTATION
+These user prompts exactly match the earlier local run. Chat products have
+provider-controlled system instructions, sampling, effort, and output limits.
+The original local configuration used a "detailed thinking on" system instruction;
+this is NOT inserted into the user prompts here, because that would change their
+wording and would not reproduce a true system instruction in the chat products.
+The provider contexts and earlier system setting are therefore not equivalent.
+Report a comparison of the recorded configurations/products, not a controlled
+measurement of base-model architecture, parameter count, or fine-tuning effect.
+
+One first completion per task is a descriptive reference run, not an estimate of
+stochastic reliability. This pack retains the project's 35 original TSA items
+and complete 21-unit EW set; it does not add the study's 35 newly developed TSA
+items or reproduce its 150 rounds per model. Public items may have appeared in
+training data. No causal explanation, human percentile, equated publication
+comparison, or proof of faithful internal reasoning follows from these scores.
+
+FILES
+01_PASTE_INTO_TESTED_MODEL: 39 exact, individually usable text prompts.
+02_RESPONSE_TEMPLATES: one anonymous 39-task response template; duplicate per model.
+03_KEEP_PRIVATE: provider/model identity and settings template. Keep this yourself.
+04_GRADER_ONLY: blind grading request and fixed key/reference/rubric. Never show
+these to a model taking the test.
+05_OPERATOR_ONLY: prompt index, collection checklist, and integrity manifest.
+
+SOURCES
+Jiang, L., Cui, Y., Liu, R., & Luo, F. (2025). Evaluating the Critical Thinking of
+Large Language Models: Insights and Limitations. Journal of Pacific Rim Psychology.
+DOI: https://doi.org/10.1177/18344909251406111
+Released materials: https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM
+Materials snapshot commit: 595874976e96861c2541d841d1375a23237e92e7
+Workbook SHA-256: 18b994a0fb12864d97783c28f3389d99165ade59620a6e4e769851926eba77eb
+The TSA manifest cites earlier commit 1f5c966e24eb6e434c9271ffde6db3ddcf66ab01;
+its workbook hash is identical. Prompts in this pack are copied directly from the
+two source response logs, retaining the project's original order and wording.
+The TSA answer-plus-short-reason prefix is the project's adaptation of the paper's
+multiple-choice instruction. The EW source prompts are preserved in full.

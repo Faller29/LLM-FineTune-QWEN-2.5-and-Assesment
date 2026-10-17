@@ -1,0 +1,64 @@
+BLIND GRADING REQUEST - SEND WITH THE ANONYMOUS RESPONSES AND REFERENCE FILE
+
+Please evaluate the attached anonymous TSA and Ennis-Weir responses using
+REFERENCE_AND_SCORING_RULES.json. Do not infer or request the provider/model
+identity, use previous model scores as anchors, or give reputation-based credit.
+This is a chat-collected adapted benchmark with one first completion per task.
+Scores must be finalized before the operator reveals identities.
+
+First check all 35 TSA sections and four EW scenarios are present. Identify missing
+tasks, technical failures, tool use, possible cutoffs, coaching, or retries. Do
+not pretend that manually collected stop reasons/token counts were verified.
+An incomplete run should have explicit coverage and no falsely complete total.
+Treat a complete refusal/irrelevant answer as a task result, not a technical failure.
+
+For TSA, extract the response's committed choice and compare it with the fixed
+key. Accept unambiguous equivalent naming of an option if the Answer: marker is
+missing; do not let formatting alone erase a clear choice. If its selected answer
+and explicit final selection conflict without a clear correction, record
+UNRESOLVED_CONFLICT and zero. Show all 35 IDs, extracted choices, keys, points,
+and extraction notes. Award one point per correct choice, maximum 35, and show
+seven category totals out of five. Briefly assess whether each visible reason
+supports its answer; this supplemental assessment must change no TSA points.
+
+For EW, read each complete scenario response. Award base reference-alignment
+points for all 21 units, with exact evidence excerpts and specific reasons,
+including zero-credit judgments. Accept equivalent phrasing and valid alternative
+critiques listed in the references. Do not give points merely for saying good/bad
+or using fallacy names. Preserve correct partial insights even when other claims
+are erroneous; document errors separately. Explain uncertain partial-credit
+boundaries. Do not penalize verbosity, spelling, style, headings, repetition
+alone, or absent thinking tags.
+
+Evaluate the original closing using all four weighted components (1+1+2+1).
+The scope and emotional-language insights may appear anywhere in the original
+essay. Do not automatically score a sound expert appeal as a fallacy: the source
+manual considers original paragraphs 3 and 8 relatively strong with scope limits.
+
+Document material errors once per each of 18 source-aligned paragraph groups,
+not once per flaw. The original essay's final overall reply is group 9. The added
+scenarios have three groups each; use their headings/order to map content rather
+than mechanically counting blank-line paragraphs. Read relevant material in extra
+conclusions, but do not create additional deduction groups or double-count a
+repeated error. Record each error's type, exact excerpt (or explicit omission),
+and why it warrants a deduction.
+
+Primary score: B - sum(min(1,e_p)). Sensitivity: B - sum(e_p). No zero-floor.
+For original P3/P8, a missing scope qualification incurs the explicit required
+deduction once; do not count it twice. Ordinary omitted criteria generally lose
+base credit rather than receiving additional omission deductions.
+
+Report base credit, capped deductions, primary net, and the separately labeled
+article-wording sensitivity per scenario and overall. Explain negative totals as
+rubric points, not percentages or negative ability. Do not add TSA and EW into a
+new composite score or invent a reasoning/critical-thinking pass threshold.
+
+Return an evidence-backed review, completed item ratings, a paragraph error log,
+and a concise interpretation separating valid behaviors from missed flaws and
+unsupported claims. Label the grading AI-assisted unless a human truly graded it.
+Do not invent inter-rater reliability, SD, confidence intervals, significance,
+human percentiles, or causal explanations for performance differences.
+
+This assessment concerns visible test performance; it cannot verify the model's
+internal reasoning process. Identity masking reduces cues but cannot guarantee
+no bias. Identify disputed ratings for independent human checking.

@@ -1,0 +1,8 @@
+{
+  "steps": 80,
+  "examples_seen": 320,
+  "best_validation_loss": 1.5763845906731833,
+  "best_step": 80,
+  "elapsed_seconds": 5320.94,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct"
+}

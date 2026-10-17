@@ -1,0 +1,115 @@
+# Written explanations: manual audit
+These automatic scores do not grade explanation validity.
+
+L30_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Panu30 is green.
+F2: Other29 is kind.
+Rules:
+R1: If Panu30 is round, then Panu30 is green.
+Query: Panu30 is round.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+Only the end of the one-way chain is known. Its reverse cannot establish the query or its negation.
+
+L28_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other27 is cold.
+F2: Vela28 is kind.
+Rules:
+R1: If Vela28 is kind, then Vela28 is soft.
+Query: Vela28 is soft.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the query.
+
+C20
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other13 is soft.
+F2: Critique20 is rough.
+Rules:
+R1: If Critique20 is round, then Critique20 is not bright.
+R2: If Critique20 is rough, then Critique20 is round.
+Query: Critique20 is bright.
+A proposed answer classifies the query as UNKNOWN. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** UNKNOWN
+
+**JUDGMENT:** The proposed answer does not classify the query correctly based on the given facts and rules.
+
+### Analysis:
+
+- **Fact 1:** "Other13 is soft."
+- **Fact 2:** "Critique20 is rough."
+
+The rule states that if Critique20 is rough, then Critique20 is round. However, there is no information provided about Critique20 being rough or round in relation to other facts (other13).
+
+Given this lack of direct information, we cannot definitively determine whether Critique20 is bright or not based solely on the provided facts and rules. Therefore, the proposed answer classifying the query as UNKNOWN is incorrect.
+
+### Justification:
+
+- **Rule Analysis:** 
+  - Rule R1 states: "If Critique20 is round, then Critique20 is not bright." This rule directly contradicts the fact that Critique20 is rough.
+  
+- **Conclusion:** Since the rule stating Critique20 is round leads to a contradiction with the given facts, it is impossible for Critique20 to be both round and bright simultaneously. Thus, the proposed answer of UNKNOWN is correct because the query cannot be classified as either true or false based on the available information alone.
+
+---
+
+**Corrected Answer Classified as UNKNOWN**
+REFERENCE:
+The forward chain supports the explicit negation of the query.
+
+C19
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Critique19 is soft.
+F2: Other6 is tall.
+Rules:
+R1: If Critique19 is soft, then Critique19 is bright.
+R2: If Critique19 is young, then Critique19 is cold.
+R3: If Critique19 is bright, then Critique19 is young.
+Query: Critique19 is cold.
+A proposed answer classifies the query as TRUE. Judge this proposed conclusion. Explain any error briefly, then give the justified classification. End with these two lines:
+VERDICT: CORRECT or INCORRECT
+CORRECTED: TRUE, FALSE, or UNKNOWN
+RESPONSE:
+**VERDICT:** CORRECT
+
+**JUDGMENT:** The proposed answer correctly categorizes the query "Critique19 is cold." According to the given rules:
+
+- **Rule 1:** If Critique19 is soft, then Critique19 is bright.
+- **Rule 2:** If Critique19 is young, then Critique19 is cold.
+
+Since Critique19 is cold (Rule 2), it must be young (Rule 1). Therefore, Critique19 is soft (Rule 1) because if Critique19 were young, it would also be soft according to Rule 1.
+
+Thus, the proposed answer classifies the query as TRUE.
+REFERENCE:
+The forward chain supports the query.
+
+L29_original
+PROMPT:
+Use only the stated facts and forward, one-way rules. Treat absence of evidence as UNKNOWN, not FALSE. TRUE means the query is supported; FALSE means its explicit negation is supported.
+Facts:
+F1: Other28 is round.
+F2: Kori29 is green.
+Rules:
+R1: If Kori29 is green, then Kori29 is not calm.
+Query: Kori29 is calm.
+Explain briefly. End with FINAL: TRUE, FINAL: FALSE, or FINAL: UNKNOWN.
+RESPONSE:
+FINAL: UNKNOWN
+REFERENCE:
+The forward chain supports the explicit negation of the query.

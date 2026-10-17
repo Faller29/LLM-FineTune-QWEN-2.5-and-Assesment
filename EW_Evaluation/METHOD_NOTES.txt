@@ -1,0 +1,53 @@
+PROTOCOL AND REPRODUCTION LIMITS
+
+Jiang et al. (2025), DOI 10.1177/18344909251406111.
+This add-on imports the authors' English release, pinned at commit
+595874976e96861c2541d841d1375a23237e92e7, without rewriting the instructions.
+
+Content: full released EW content, four complete scenarios / 21 scored units.
+The original test contributes 9 units; the three added cases contribute 12.
+Each complete scenario is presented in a fresh chat. The original test requests
+eight paragraph evaluations plus an overall ninth evaluation; added cases
+request three paragraph evaluations each. Several added paragraphs contain
+two separately scored flaws. The 21 scoring units are therefore not 21 prompts.
+
+Default adaptation: one local tuned Qwen2.5-0.5B model, English source material,
+one greedy response per scenario, CPU float32, same adapter/mode as linked TSA,
+output allowance increased to 2048 tokens so a complete essay can be attempted.
+No scenario is silently shortened; missing/truncated output is recorded.
+
+This completes the TSA + EW components in this project. It is not a full
+replication. The earlier TSA run used 35 original items, rather than all 70.
+The article also used 150 rounds/model at five temperatures, multiple models,
+194 human students, three trained raters per rating group, and score equating.
+Optional generation of the five-temperature schedule does not reproduce those
+other parts. No direct claim about outperforming humans is supported here.
+
+RELEASED-MATERIAL DISCREPANCIES
+1. The article describes one deduction for each error instance. The released
+   DOCX manual specifies at most one deduction per response paragraph. This
+   implementation uses the manual cap as its primary score and additionally
+   reports a clearly labeled article-wording sensitivity score. Both depend
+   on explicit reviewer judgments; the script does not detect semantic errors.
+2. The new-manual introduction speaks of points per paragraph, but its keys
+   list 12 separate flaws and the article explicitly treats them as 12 items.
+   The released analysis also enumerates point1..point12. This implementation
+   therefore uses 12 base-credit units and groups deductions by the 9 added
+   response paragraphs. One error is not charged to both flaws in a paragraph.
+3. The manual gives original P9 a 1+1+2+1 maximum of 5. We retain this nominal
+   raw rubric maximum. Released data/code contain normalized and equated
+   columns, including a different P9 scale. Those processed totals are not
+   used as direct baselines for this raw, single-model score.
+4. Jiang's released manual requires scope-omission deductions in original P3
+   and P8. This differs from the original 1985 manual's handling of these
+   qualifications. This project uses the Jiang release, not the older scale.
+
+Interpretation: a rubric score measures performance on these particular
+argument-evaluation tasks. It does not certify an internal process, establish
+a universal critical-thinking ability, or isolate causes such as parameter
+count and fine-tuning-data quantity. Report successes and failures together.
+
+Sources:
+https://journals.sagepub.com/doi/full/10.1177/18344909251406111
+https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM
+https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/blob/595874976e96861c2541d841d1375a23237e92e7/Scoring%20Manual.docx

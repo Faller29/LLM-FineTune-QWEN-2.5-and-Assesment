@@ -1,0 +1,9 @@
+Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.
+
+While it is a woman, Ada Lovelace, who is often credited with originating the concept of software, today’s computer tech-related jobs are held mostly by men. The tech sector must continue to work against factors that inhibit gender equality within it. One such factor appears to be prejudice about women’s abilities to write computer programming code. A recent study of a program-sharing and development website analysed the rates by which suggested code changes were accepted by website users according to the gender of the user contributing the changes. In cases where the contributor’s gender was not made clear on the website, 72 per cent of the suggestions made by women were accepted. In cases where the contributor’s gender was revealed to be female, the acceptance rate fell to 63 per cent.
+Which one of the following, if true, most weakens the above argument?
+A Over the time period the website was studied, more female users than male users rejected suggested code changes overall.
+B Leading firms in the tech sector have undertaken a variety of high-profile initiatives to encourage more women to pursue computer programming careers.
+C No meaningful differences existed between the code changes suggested by female users who revealed their gender on the website and those who did not.
+D Even by modern standards, Ada Lovelace received an extensive education in mathematics and the sciences.
+E Male contributors to the website experienced a similar drop in their code change acceptance rates when their gender was revealed.

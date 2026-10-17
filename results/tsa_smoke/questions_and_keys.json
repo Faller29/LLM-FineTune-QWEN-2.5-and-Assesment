@@ -1,0 +1,11 @@
+[
+  {
+    "id": "SMOKE-ONLY",
+    "criterion": "Main Conclusion",
+    "gold": "C",
+    "text": "This is only a pipeline check. Select the option whose text is CHECK.\nA. FIRST\nB. SECOND\nC. CHECK\nD. FOURTH\nE. FIFTH",
+    "question_sha256": "10ae831d63b9f202096214cc2fdc1a67551c068cd3832193b254fd650fc9c23c",
+    "year": null,
+    "question_number": null
+  }
+]

@@ -1,0 +1,569 @@
+{
+  "reviewer_name": "Faller, 2026-10-14",
+  "reviewer_type": "Manual",
+  "run_config_sha256": "65db3c2e8048f18e162d2e6e3f02b9755345e83b8ffa2c8f29a5d7c4290ba495",
+  "responses_sha256": "114727dfd7757c9c64b4916004bc2337092c0d479550a3094a427f42d4fd752b",
+  "cases": [
+    {
+      "response_id": "EW-ORIGINAL-T0-R001",
+      "ratings": [
+        {
+          "unit_id": "EW-ORIGINAL-P1",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Legal Compliance**: The letter argues that nighttime parking is illegal under current laws. This aligns with the reasoning that nighttime parking is inherently illegal due to its impact on public safety.",
+          "reason": "The expected critique is the invalid parking/garage analogy or change in the meaning of garage. The response instead endorses an unsupported legal inference and never identifies that flaw."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P2",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Safety Risks**: The letter criticizes nighttime parking as potentially dangerous, citing instances where accidents occur despite the presence of night-time parking signs. This indicates a lack of trust in the effectiveness of nighttime parking regulations.",
+          "reason": "A weak-argument heading is present, but the explanation does not identify the key time mismatch: a 2-6 a.m. ban cannot solve afternoon congestion. Its invented accidents/signs narrative is unrelated to that criterion."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P3",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "**Closing Argument**\n\nThe letter concludes by emphasizing the need for comprehensive solutions to address the issue of nighttime parking. It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+          "reason": "The response does not explain why commuting to a 6 a.m. shift overlaps the proposed ban. It gives a generic conclusion instead of evaluating this argument and does not restrict the inference to affected streets."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P4",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Legality**: The letter acknowledges that nighttime parking is legal under current laws, but this reinforces the argument that nighttime parking is inherently illegal due to its adverse effects on public safety.",
+          "reason": "The response calls the thinking good but does not identify circular reasoning or the absence of independent support. Its legal and traffic-flow claims are unrelated to the paragraph being evaluated."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P5",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Safety Concerns**: The letter criticizes nighttime parking as potentially dangerous, pointing out incidents where accidents occurred despite the presence of night-time parking signs. This indicates a lack of trust in the effectiveness of nighttime parking regulations.",
+          "reason": "The response does not identify the limited accident type, the burden/costs of the ban, or less restrictive accident-prevention alternatives. It attaches cost and space concerns to existing parking rather than explaining the consequences of prohibition. Generic weak labeling earns no substantive alignment credit."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P6",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "**Closing Argument**\n\nThe letter concludes by emphasizing the need for comprehensive solutions to address the issue of nighttime parking. It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+          "reason": "No critique of the one-day experiment, alternative causes, or unknown proportion of nighttime parked-car accidents is provided. A repeated generic policy conclusion does not answer the criterion."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P7",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Legality**: The letter acknowledges that nighttime parking is legal under current laws, but this reinforces the argument that nighttime parking is inherently illegal due to its adverse effects on public safety.",
+          "reason": "No critique of the unrealistic zero-risk definition of safety, or its self-defeating implications for the ban, is provided. The response instead repeats an unrelated good-argument template."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P8",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "1. **Safety Concerns**: The letter criticizes nighttime parking as potentially dangerous, pointing out incidents where accidents occurred despite the presence of night-time parking signs. This indicates a lack of trust in the effectiveness of nighttime parking regulations.",
+          "reason": "The response does not recognize relevant expert authority or its limitation to busy streets. It labels the thinking bad using invented accident/sign claims rather than evaluating the cited recommendations."
+        },
+        {
+          "unit_id": "EW-ORIGINAL-P9",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "The letter concludes by emphasizing the need for comprehensive solutions to address the issue of nighttime parking. It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+          "reason": "The closing does not judge the total argument weak, summarize the six weak versus two relatively strong paragraphs, identify all-streets overgeneralization, or identify manipulative emotional wording. Its general call for coordination is not the required evaluation.",
+          "closing_components": {
+            "overall_judgment": {
+              "credited": false,
+              "evidence": "",
+              "reason": "The closing advocates coordinated solutions, but does not evaluate the overall letter as weak and flawed."
+            },
+            "paragraph_summary": {
+              "credited": false,
+              "evidence": "",
+              "reason": "The closing does not identify paragraphs 3 and 8 as relatively strong and the remaining six as weak."
+            },
+            "scope_overgeneralization": {
+              "credited": false,
+              "evidence": "",
+              "reason": "No part of the original response identifies the unjustified move from some/busy streets to all city streets."
+            },
+            "emotive_language": {
+              "credited": false,
+              "evidence": "",
+              "reason": "No part of the original response identifies the pressure imposed by intelligent/sensible-citizen wording."
+            }
+          }
+        }
+      ],
+      "paragraph_errors": [
+        {
+          "paragraph": 1,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "This aligns with the reasoning that nighttime parking is inherently illegal due to its impact on public safety.",
+              "explanation": "Endorses the invalid legal analogy without showing that overnight parking is equivalent to constructing a garage.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter mentions that nighttime parking poses risks to drivers, pedestrians, and cyclists, leading to increased accidents and fatalities.",
+              "explanation": "The letter supplies no fatalities or pedestrian/cyclist accident evidence.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter cites data suggesting that nighttime parking is disliked by many residents, indicating widespread dissatisfaction with the status quo.",
+              "explanation": "No resident poll or dissatisfaction data is supplied.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Three documented material errors; primary deduction capped at one."
+        },
+        {
+          "paragraph": 2,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter criticizes nighttime parking as potentially dangerous, citing instances where accidents occur despite the presence of night-time parking signs.",
+              "explanation": "The source reports zero accidents during the one-day sign experiment, not accidents despite signs. No such instances are supplied elsewhere in the letter.",
+              "is_omission": false
+            },
+            {
+              "kind": "faulty_reasoning",
+              "evidence": "The letter concludes by stating that opposition to nighttime parking is based on fear of potential accidents, which is inconsistent with the letter’s primary argument that nighttime parking is inherently unsafe.",
+              "explanation": "Fear of accidents is not logically inconsistent with regarding parking as unsafe. The response also misreports the source, which calls for a ban rather than opposing parking out of fear.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Two documented material errors; correct weak heading does not repair unrelated explanations."
+        },
+        {
+          "paragraph": 3,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "scope_omission",
+              "evidence": "",
+              "explanation": "The required qualification is missing: the early-shift congestion argument supports restrictions on affected streets, not all city streets.",
+              "is_omission": true
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+              "explanation": "The letter proposes eliminating overnight parking on all streets. The response invents a conclusion preserving nighttime parking as a viable option.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": false,
+          "comment": "Scope qualification absent; record its required deduction once. The policy conclusion is also misreported."
+        },
+        {
+          "paragraph": 4,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "**Reasons for Believing the Thinking Good**",
+              "explanation": "In paragraph four, the response endorses a circular, unsupported argument as good and supplies no independent justification for it.",
+              "is_omission": false
+            },
+            {
+              "kind": "faulty_reasoning",
+              "evidence": "The letter acknowledges that nighttime parking is legal under current laws, but this reinforces the argument that nighttime parking is inherently illegal due to its adverse effects on public safety.",
+              "explanation": "Acknowledging that conduct is legal does not establish that it is inherently illegal; public-safety concerns do not supply that inference.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter highlights that nighttime parking helps manage traffic flow, particularly during peak hours, thereby improving overall traffic efficiency and reducing congestion.",
+              "explanation": "The letter argues that parked cars obstruct traffic, not that nighttime parking improves traffic flow. The response reverses the supplied claim.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Three distinct errors: endorsement, contradictory legal inference, and reversed traffic claim."
+        },
+        {
+          "paragraph": 5,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter criticizes nighttime parking as potentially dangerous, pointing out incidents where accidents occurred despite the presence of night-time parking signs.",
+              "explanation": "The source reports zero accidents during the one-day sign experiment, not accidents despite signs. No such instances are supplied elsewhere in the letter.",
+              "is_omission": false
+            },
+            {
+              "kind": "faulty_reasoning",
+              "evidence": "The letter concludes by stating that opposition to nighttime parking is based on fear of potential accidents, which is inconsistent with the letter’s primary argument that nighttime parking is inherently unsafe.",
+              "explanation": "Fear of accidents is not logically inconsistent with regarding parking as unsafe. The response also misreports the source, which calls for a ban rather than opposing parking out of fear.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Two material errors. Missing the target tradeoff critique is handled through zero credit, not an extra omission deduction."
+        },
+        {
+          "paragraph": 6,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+              "explanation": "The letter proposes eliminating overnight parking on all streets. The response invents a conclusion preserving nighttime parking as a viable option.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One material misrepresentation. Failure to analyze the experiment earns zero credit without another omission penalty."
+        },
+        {
+          "paragraph": 7,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "**Reasons for Believing the Thinking Good**",
+              "explanation": "In paragraph seven, the response calls the zero-risk safety argument good without addressing its unrealistic definition.",
+              "is_omission": false
+            },
+            {
+              "kind": "faulty_reasoning",
+              "evidence": "The letter acknowledges that nighttime parking is legal under current laws, but this reinforces the argument that nighttime parking is inherently illegal due to its adverse effects on public safety.",
+              "explanation": "Acknowledging that conduct is legal does not establish that it is inherently illegal; public-safety concerns do not supply that inference.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter highlights that nighttime parking helps manage traffic flow, particularly during peak hours, thereby improving overall traffic efficiency and reducing congestion.",
+              "explanation": "The letter argues that parked cars obstruct traffic, not that nighttime parking improves traffic flow. The response reverses the supplied claim.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Three material errors in this separately requested evaluation."
+        },
+        {
+          "paragraph": 8,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The letter criticizes nighttime parking as potentially dangerous, pointing out incidents where accidents occurred despite the presence of night-time parking signs.",
+              "explanation": "The source reports zero accidents during the one-day sign experiment, not accidents despite signs. No such instances are supplied elsewhere in the letter.",
+              "is_omission": false
+            },
+            {
+              "kind": "faulty_reasoning",
+              "evidence": "The letter concludes by stating that opposition to nighttime parking is based on fear of potential accidents, which is inconsistent with the letter’s primary argument that nighttime parking is inherently unsafe.",
+              "explanation": "Fear of accidents is not logically inconsistent with regarding parking as unsafe. The response also misreports the source, which calls for a ban rather than opposing parking out of fear.",
+              "is_omission": false
+            },
+            {
+              "kind": "scope_omission",
+              "evidence": "",
+              "explanation": "The required qualification is missing: the cited authorities recommend restrictions on busy streets, not every street.",
+              "is_omission": true
+            }
+          ],
+          "scope_qualification_present": false,
+          "comment": "Two explicit errors and the required missing busy-streets qualification. No separate penalty for the bad heading."
+        },
+        {
+          "paragraph": 9,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "It calls for a coordinated effort to implement stricter nighttime parking regulations, ensuring that nighttime parking remains a viable option while minimizing negative impacts on public safety and quality of life.",
+              "explanation": "The letter proposes eliminating overnight parking on all streets. The response invents a conclusion preserving nighttime parking as a viable option.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One material misrepresentation in the total-argument evaluation. Missing closing components are scored through zero credit."
+        }
+      ]
+    },
+    {
+      "response_id": "EW-NEW-1-T0-R001",
+      "ratings": [
+        {
+          "unit_id": "EW-NEW-1-P1-F1",
+          "status": "reviewed",
+          "base_points": 3,
+          "evidence": "The mayor’s assertion that Shengda Chemical Plant is the main source of pollution could be seen as a simplification without considering other contributing factors such as industrial processes, transportation, and urban planning.",
+          "reason": "Explicitly identifies plausible other pollution contributors. The released criterion accepts identifying other influencing factors; this satisfies it. Separate unsupported assertions are deducted below."
+        },
+        {
+          "unit_id": "EW-NEW-1-P1-F2",
+          "status": "reviewed",
+          "base_points": 1,
+          "evidence": "The mayor’s focus on Shengda Chemical Plant suggests that the issue is more complex than a single plant’s emissions alone.",
+          "reason": "Partially questions attribution to one plant. It does not identify the central missing quantity: its share of total emissions relative to other plants. Broad complexity language earns limited credit; human review is a priority."
+        },
+        {
+          "unit_id": "EW-NEW-1-P2-F1",
+          "status": "reviewed",
+          "base_points": 2,
+          "evidence": "The employee representative’s argument assumes that Shengda Chemical Plant’s legacy and values are sufficient to mitigate the city’s air pollution.",
+          "reason": "Recognizes an invalid bridge from historical values to an environmental conclusion. Credit is partial because the source claims exemption from responsibility, not that heritage physically mitigates pollution; the response does not clearly state that contributions cannot cancel pollution responsibility."
+        },
+        {
+          "unit_id": "EW-NEW-1-P3-F1",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "The mayor’s goal of improving air quality through stringent regulations is well-intentioned and aligns with the principles of sustainable development.",
+          "reason": "Does not identify negative consequences of compulsory production reduction, such as economic harm. Generic implementation/coordination concerns do not satisfy this criterion."
+        },
+        {
+          "unit_id": "EW-NEW-1-P3-F2",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "The mayor’s proposal to establish strict emission standards for chemical plants is a practical and feasible solution.",
+          "reason": "Does not propose cleaner processes, materials, or comparable source-level alternatives that reduce pollution without requiring production cuts."
+        }
+      ],
+      "paragraph_errors": [
+        {
+          "paragraph": 1,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "Shengda Chemical Plant, which is an outlier in terms of emissions compared to other chemical plants.",
+              "explanation": "Having the highest emissions does not establish that a plant is an outlier; no distribution or magnitude gap is supplied.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The mayor’s view that Shengda Chemical Plant is the primary culprit is likely influenced by his personal connections and the prominence of the plant in the city’s history.",
+              "explanation": "Personal connections between the mayor and the plant are invented, with no source evidence.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The mayor’s proposed solution focuses solely on reducing emissions from Shengda Chemical Plant.",
+              "explanation": "The first paragraph establishes an investigation and attribution of blame, not this policy. The later actual policy applies to all chemical plants. The same error repeated in the extra conclusion is not charged again.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Three material errors, one primary deduction. Valid alternative-source critique still earns full base credit."
+        },
+        {
+          "paragraph": 2,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The representative’s proposal to establish stricter emission standards for chemical plants",
+              "explanation": "The mayor, not the factory employee representative, proposes emissions standards. This mixes up the speakers and their positions.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One misattribution; partial irrelevant-evidence recognition is preserved."
+        },
+        {
+          "paragraph": 3,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "It addresses the root causes of the problem by addressing the underlying issues related to industrial emissions and transportation.",
+              "explanation": "Standards and production reductions for chemical plants do not, as specified, address transportation emissions.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One policy-scope misrepresentation. Missing costs and alternatives earn zero credit without extra omission penalties."
+        }
+      ]
+    },
+    {
+      "response_id": "EW-NEW-2-T0-R001",
+      "ratings": [
+        {
+          "unit_id": "EW-NEW-2-P1-F1",
+          "status": "reviewed",
+          "base_points": 3,
+          "evidence": "There could be a risk of overgeneralizing from the sample results to the entire population due to the small sample size and potential selection bias.",
+          "reason": "Correctly identifies small-sample generalization and representativeness concerns. Explicitly identifies the required weakness; failure to repeat the number six does not remove substantive credit."
+        },
+        {
+          "unit_id": "EW-NEW-2-P1-F2",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "While the solution involves prioritizing female customers, it lacks a clear rationale for why these customers should receive special attention.",
+          "reason": "This questions the policy but does not recognize the equal proportions: 2/4 women and 1/2 men are both 50%. No explanation of the numerical comparison is provided."
+        },
+        {
+          "unit_id": "EW-NEW-2-P2-F1",
+          "status": "reviewed",
+          "base_points": 2,
+          "evidence": "The absence of a control group and the use of only one week of data do not provide a robust basis for concluding that the decision was correct.",
+          "reason": "A valid partial challenge to causal attribution: the comparison cannot isolate renovation. It misses the known National Day holiday confound, so it does not fully identify the concrete alternative cause."
+        },
+        {
+          "unit_id": "EW-NEW-2-P3-F1",
+          "status": "reviewed",
+          "base_points": 1,
+          "evidence": "The reliance on past performance alone does not guarantee future success.",
+          "reason": "A minimally relevant critique of transferring prior results. It does not identify the different clothing types, seasons, market demand, or unit prices that make these cases non-equivalent; therefore limited partial credit."
+        }
+      ],
+      "paragraph_errors": [
+        {
+          "paragraph": 1,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "Xiao Wu conducted a controlled experiment using random sampling to test his hypothesis. This method ensures that any observed differences can be attributed to the treatment rather than other factors such as gender or time of day.",
+              "explanation": "The source describes a six-person interview, not a controlled treatment experiment. Randomly selecting interviewees cannot ensure causal attribution or control other factors. These are one linked erroneous experiment claim.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One linked design/causal-attribution error; the valid small-sample critique receives separate credit."
+        },
+        {
+          "paragraph": 2,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "By tracking sales data over several weeks, he was able to identify patterns and make informed decisions based on statistical analysis.",
+              "explanation": "The source supplies only one week after renovation and a comparison with the previous week, not several weeks of pattern tracking/statistical analysis.",
+              "is_omission": false
+            },
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "While the decision itself was successful, it lacked a comprehensive plan to ensure repeatable success.",
+              "explanation": "The observed sales rise does not establish that renovation was successful as its cause. The response also calls the causal argument strong despite separately recognizing missing controls. Count these as one unsupported causal-success endorsement.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Two errors: invented duration/analysis and unsupported causal-success endorsement."
+        },
+        {
+          "paragraph": 3,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "unsupported_claim",
+              "evidence": "The conclusion that the prediction was accurate despite the lack of historical data is based on a flawed logic.",
+              "explanation": "The source explicitly supplies historical summer-sales data. Claiming no historical data fabricates a missing premise.",
+              "is_omission": false
+            },
+            {
+              "kind": "unsupported_claim",
+              "evidence": "While the prediction itself was successful, it lacked a detailed plan to ensure repeatable success.",
+              "explanation": "The winter prediction has not yet been tested in the source. Calling it accurate/successful invents a future outcome; those phrasings are counted as one instance.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Two material errors. Generic skepticism about extrapolation receives limited credit."
+        }
+      ]
+    },
+    {
+      "response_id": "EW-NEW-3-T0-R001",
+      "ratings": [
+        {
+          "unit_id": "EW-NEW-3-P1-F1",
+          "status": "reviewed",
+          "base_points": 1,
+          "evidence": "The argument assumes that electric bicycles cause accidents without considering other factors such as rider behavior, road conditions, and overall traffic flow.",
+          "reason": "Partially challenges an unestablished accident attribution by identifying other causes. It does not ask how many of the 100-plus accidents involved electric bicycles, or whether that share supports a large reduction, so only limited credit."
+        },
+        {
+          "unit_id": "EW-NEW-3-P2-F1",
+          "status": "reviewed",
+          "base_points": 2,
+          "evidence": "The argument assumes that electric bicycles are responsible for traffic accidents without considering alternative explanations such as driver fatigue, poor road conditions, or lack of proper maintenance.",
+          "reason": "Identifies alternative explanations for the alleged causal connection. It does not explicitly explain why parallel increases in purchases and accidents are correlation rather than proof of causation; partial credit remains despite the separate contradictory strong verdict."
+        },
+        {
+          "unit_id": "EW-NEW-3-P3-F1",
+          "status": "reviewed",
+          "base_points": 0,
+          "evidence": "The argument emphasizes the safety risks associated with electric bicycles, particularly regarding fire hazards.",
+          "reason": "Does not criticize the battery/bomb analogy or distinguish charging in residential buildings from riding on city-center streets. Generic traffic-safety concerns do not identify the required transfer error."
+        }
+      ],
+      "paragraph_errors": [
+        {
+          "paragraph": 1,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "The argumentation is strong because it presents a clear causal relationship between electric bicycles and traffic accidents.",
+              "explanation": "The scenario supplies possible mechanisms and an overall accident total, but not the bicycle-related share needed to establish a large ban effect. Calling the inference a clear causal relationship overstates the evidence.",
+              "is_omission": false
+            },
+            {
+              "kind": "invented_flaw",
+              "evidence": "nor does it account for the possibility of increased traffic congestion caused by electric bicycles.",
+              "explanation": "The source already discusses crowded non-motorized lanes and crossings into motorized lanes. Claiming congestion is not considered invents a missing consideration; repeated broader omission wording counts once.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "Two material errors; partial alternative-cause recognition is credited separately."
+        },
+        {
+          "paragraph": 2,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "endorsed_flawed_argument",
+              "evidence": "The argumentation is strong because it presents a clear causal relationship between electric bicycles and traffic accidents.",
+              "explanation": "Two rising trends do not establish causation. The response explicitly calls this a clear causal relationship while also listing alternative explanations.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One unsupported causal-certainty endorsement. The first-paragraph congestion deduction is not copied here because this source paragraph concerns trends."
+        },
+        {
+          "paragraph": 3,
+          "status": "reviewed",
+          "errors": [
+            {
+              "kind": "invented_flaw",
+              "evidence": "The argument assumes that electric bicycles are inherently unsafe without considering the inherent dangers of electric bicycles, such as the risk of electrical shocks or explosions.",
+              "explanation": "The source already emphasizes battery fire/explosion risk. Alleging that it fails to consider danger is unsupported, and ignoring dangers would not explain why the unsafe conclusion is invalid. Count this linked fabricated/illogical flaw once.",
+              "is_omission": false
+            }
+          ],
+          "scope_qualification_present": null,
+          "comment": "One linked fabricated flaw. The missed charging-versus-riding distinction earns zero credit without another omission penalty."
+        }
+      ]
+    }
+  ],
+  "review_notes": {
+    "status": "Completed AI-assisted assessment; independent human review recommended.",
+    "credit_policy": "Reference-alignment credit: substantive criterion recognition earns points; generic good/bad headings alone do not. Correct partial insights receive credit before separately documenting errors.",
+    "deduction_policy": "Primary: at most one deduction per response paragraph. Sensitivity: one per documented material error instance. Repeated versions of the same claim within a paragraph count once; repeated claims in different paragraph evaluations count separately. No deductions for style, formatting, repetition alone, or absent thinking tags.",
+    "scope_policy": "Original paragraphs 3 and 8: explicitly record the required missing scope qualification once each. Other missing criteria earn zero/partial credit without an extra omission deduction.",
+    "negative_score_policy": "No zero-floor, as predeclared in the supplied evaluator before generation. Negative points are rubric penalties, not negative ability or a probability.",
+    "partial_credit_review_priority": [
+      "EW-NEW-1-P1-F2",
+      "EW-NEW-1-P2-F1",
+      "EW-NEW-2-P2-F1",
+      "EW-NEW-2-P3-F1",
+      "EW-NEW-3-P1-F1",
+      "EW-NEW-3-P2-F1"
+    ],
+    "capability_claim": "Some successful critical-thinking behaviors, but unreliable overall argument evaluation in this run. No binary capability certificate or claim about faithful internal thinking."
+  }
+}

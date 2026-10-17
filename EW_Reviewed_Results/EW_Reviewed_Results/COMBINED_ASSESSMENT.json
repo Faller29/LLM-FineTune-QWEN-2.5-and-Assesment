@@ -1,0 +1,55 @@
+{
+  "tsa": {
+    "same_model_and_adapter_verified": true,
+    "path": "D:\\MSCS213-Simulation - Copy\\results\\tsa_final",
+    "run_config_sha256": "cc974f4074c691ee97dc106283468f9969d5155878b5302a6d867bcd000aa92e",
+    "responses_sha256": "defd4658ca66e800b201374a2ec16f55be7e01f2d3d54c86803d184fa67826bd",
+    "automatic_answer_points": 10,
+    "maximum_points": 35,
+    "accuracy": 0.2857142857142857,
+    "note": "TSA and EW are reported separately; they are not added into a new composite score."
+  },
+  "ew": {
+    "scoring_status": "reviewed",
+    "maximum_per_round": 65,
+    "scores": {
+      "individual_reviewer_rounds": {
+        "ChatGPT AI-assisted review, 2026-10-14": [
+          {
+            "temperature": 0.0,
+            "round": 1,
+            "complete": true,
+            "base_alignment_points": 15,
+            "manual_score": -3,
+            "manual_capped_deductions": 18,
+            "article_wording_sensitivity_score": -19
+          }
+        ]
+      },
+      "mean_across_reviewers_by_round": [
+        {
+          "temperature": 0.0,
+          "round": 1,
+          "complete": true,
+          "mean_manual_score": -3,
+          "mean_article_wording_sensitivity_score": -19
+        }
+      ],
+      "by_temperature": [
+        {
+          "temperature": 0.0,
+          "complete": true,
+          "rated_rounds": 1,
+          "planned_rounds": 1,
+          "mean_score": -3,
+          "sample_sd": null
+        }
+      ],
+      "all_ratings_complete": true,
+      "inter_rater_reliability": "not_estimated",
+      "note": "Reviewer averaging is descriptive. No human comparison, equating, or pass threshold is computed."
+    }
+  },
+  "combined_total": null,
+  "interpretation": "Describe measured performance and specific strengths/errors; no binary capability certificate."
+}

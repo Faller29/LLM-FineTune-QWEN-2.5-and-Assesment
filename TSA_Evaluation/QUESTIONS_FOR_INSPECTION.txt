@@ -1,0 +1,329 @@
+TSA ORIGINAL-ITEM SUBSET
+35 questions; five per criterion.
+This copy contains questions only. The runner sends no answer key to Qwen.
+
+TSA-01 | Main Conclusion | TSA 2019 question 1
+Like other booming cities, including New York, London has thrived amid globalisation. It is growing by 100 000 new residents a year. However, if London has given striving people plenty of reasons to come, it has done a poor job of housing them. The median price of a London home has tripled over the past two decades. Since 2001 the disposable income of people renting property has fallen by 30 per cent as a result. Businesses are worried too. Commercial property in central London is twice as expensive as in New York. Productivity has begun to slow as promising firms are forced out. Overpriced property is costing London the economic and human diversity on which its prosperity depends.
+Which one of the following best expresses the main conclusion of the above argument?
+A London needs striving people in order to prosper.
+B Londoners in rented homes have 30 per cent less to spend.
+C London has done a poor job of housing its new residents.
+D Businesses are worried by the recent slowdown in productivity.
+E Expensive property is costing London the diversity it needs to prosper.
+
+TSA-02 | Main Conclusion | TSA 2019 question 11
+Schools have a duty to support the well-being of their students, and sport is one way to enhance this. Although many young people don’t enjoy the competitive side of sport, there are many physical activities that don’t require a competitive element, such as hillwalking and caving. Schools should offer these, or other non-competitive physical activities, as an alternative to traditional games lessons. Many people don’t continue to play sport after they leave school, yet physical fitness is important in maintaining general health and the ability to work. Introducing alternative physical activities that are attractive for less competitive adults is therefore an important part of preparing students for life after school.
+Which one of the following best expresses the main conclusion of the above argument?
+A Schools have a duty to prepare students for life after school.
+B Many young people don’t enjoy the competitive side of sport.
+C Many people don’t continue to play sport after they leave school.
+D Schools should offer non-competitive alternatives to traditional games lessons.
+E Young people should be encouraged to find a sport they enjoy.
+
+TSA-03 | Main Conclusion | TSA 2019 question 27
+People are quick to connect attempts to reduce the effects of climate change with the protection of the environment. However, responding to climate change is much more important for humanity than for nature. In the history of the planet, the relative stability of temperatures in the last ten thousand years is the exception rather than the norm. Nature has always found a way to adapt to large temperature variations but human civilisations, all of which have evolved in the last ten thousand years, have developed in a period with unusually reliable and predictable weather. Nature will find a way to move on, but climate change is potentially devastating for humans.
+Which one of the following best expresses the main conclusion of the above argument?
+A People are quick to connect climate change policies with environmental protection.
+B Acting against climate change is more important for humans than for the environment.
+C Nature has always found a way to adapt to large temperature variations.
+D Human civilisations have not yet been exposed to really large variations in temperature.
+E Nature will find a way to adapt, but climate change is potentially devastating for humans.
+
+TSA-04 | Main Conclusion | TSA 2019 question 35
+Nearly everyone thinks it is a bad thing to be a hypocrite, because it is profoundly dishonest to pretend to have moral standards that you do not actually have. But pretending you are better than you are is evidence that you still accept the moral principles you have failed to follow. So it is better than being shameless about your moral failings. Perceived in this way, hypocrisy can be considered to be a virtue. Being a hypocrite shows you feel a need to hide some aspect of your life because it would be too embarrassing to allow it into the open. Many hypocrites wish they were the people they pretend to be: so perhaps one day they will succeed.
+Which one of the following best expresses the main conclusion of the above argument?
+A Hypocrisy is evidence of an inner need to conceal a shameful aspect of one’s life.
+B It is bad not to show any shame for the mistakes one makes in life.
+C In some cases, hypocrisy may lead to moral improvement.
+D It is possible to think of hypocrisy as a good thing.
+E Hypocrisy is a serious moral weakness.
+
+TSA-05 | Main Conclusion | TSA 2019 question 45
+An accident at the Fukushima nuclear power plant in Japan in 2011 caused the release of radioactive material, resulting in around half a million people being evacuated from the area. These people have not been allowed to return to the area because of the health risks of exposure to radiation. But the psychological consequences of long-term evacuation may be more significant than the physical effects of radiation. People who wish to return to live in the area around Fukushima should be allowed to. Studies of a similar situation at Chernobyl showed that average life expectancy for evacuees reduced – not predominantly because of cancer caused by radiation, but because of depression, alcoholism and suicide due to the impact of permanent evacuation. There is, moreover, massive disagreement in the scientific community over how much radiation is ‘safe’.
+Which one of the following best expresses the main conclusion of the above argument?
+A The increased risks of cancer due to exposure to radiation have been exaggerated.
+B There is no consensus among scientists about what constitutes a safe level of radiation.
+C People who are forcibly evacuated from their homes experience reduced life expectancy.
+D People should be allowed to make their own decisions about living in the affected area.
+E The negative effects of radiation may be less significant than the psychological
+consequences of evacuation.
+
+TSA-06 | Drawing a Conclusion | TSA 2019 question 4
+Young people are becoming ever more responsible. They are less likely to take drugs or drink than past generations. Very few have serious problems with alcohol or drugs. It is people in their forties who are most likely to be admitted to hospital for drinking-related problems. The latest figures on drug addiction show that 39% of heroin addicts are now over the age of forty, up from 19% in 2006. Fewer than ever are under the age of twenty-four. The number of young adults in prison is falling, but our overcrowded prisons are increasingly home to the older generation: between 2002 and 2013, the number of middle-aged men locked up increased by 130%. The same is true of suicide rates: on both sides of the Atlantic fewer young people but more middle-aged men are killing themselves.
+Which one of the following can be drawn as a conclusion from the above passage?
+A Young people have far fewer health problems than older generations.
+B Some social problems are increasingly problems of middle-aged people.
+C People who drink are more likely to engage in criminal activity.
+D Drink, drugs and suicide are the biggest killers of middle-aged people.
+E Young people are likely to develop harmful behaviours later in life.
+
+TSA-07 | Drawing a Conclusion | TSA 2020 question 9
+Microscopic malaria parasites enter a person’s bloodstream through mosquito bites and infect red blood cells. They replicate in these cells and penetrate other organs. Until recently, microbiologists sought to block the parasites from entering red blood cells. Rhode Island University studied 700 Tanzanian children infected with malaria and found the parasites use a protein, since named PfSEA-1, to escape from the red blood cells they infect. Having investigated a subgroup of children immune to malaria, the researchers realised these children were producing an antibody that locked protein PfSEA-1 into their red blood cells. Trapped in the red cells, the parasites were destroyed by immune system cells. Scientists have reproduced the antibody and successfully tested it on mice. Experts believe that, after trials, the antibody will be certified for use in the treatment of humans.
+Which one of the following can be drawn as a conclusion from the above passage?
+A Rhode Island University is a world leader in medical research.
+B After the discovery of protein PfSEA-1, the traditional approaches to fight malaria will be abandoned as ineffective.
+C The discovery of protein PfSEA-1 is likely to help scientists to develop a new way of combatting malaria.
+D World leaders should support and fund the research being conducted by Rhode Island University.
+E A unique feature of the Tanzanian children helped in the discovery of protein PfSEA-1 and its function in spreading malaria.
+
+TSA-08 | Drawing a Conclusion | TSA 2019 question 15
+Recently a pioneering natural flood management scheme slowed river peak flow by 15 to
+20 per cent, saving a small town’s museum and several homes. As part of this scheme, special dams, designed to leak water gradually, were installed in nearby hills to slow the flow of water off the slopes. An upstream flood storage reservoir was installed, along with the planting of thousands of trees and the restoration of heather moorland, which acted as a sponge. Around half of the reduction in flood water in the town was due to the upstream land management measures, and half due to the effect of the flood storage area. Natural flood management measures improve water quality, prevent erosion and, in some cases, store carbon.
+Which one of the following can be drawn as a conclusion from the above passage?
+A The reduction in peak flow of a river would be insufficient to prevent flooding if there was very heavy rainfall.
+B The benefits of natural flood management schemes go beyond reducing flood risk.
+C All natural flood management methods are equally effective in reducing river flow.
+D Natural flood management should be introduced in all areas at risk of flooding.
+E Natural flood management methods are most effective in hilly upland areas.
+
+TSA-09 | Drawing a Conclusion | TSA 2019 question 28
+Chiropractors rely heavily on manipulating their patients’ spines. This has benefits for some patients, but more than half of all patients suffer mild to moderate adverse effects after seeing a chiropractor. These are mostly local and referred pains that usually last for two to three days. Chiropractors often claim that these are necessary steps on the road to getting better. However, several hundred cases have been documented in which patients were seriously and often permanently damaged after chiropractic manipulations. What usually happens in these tragic instances is that, upon manipulation of the upper spine, an artery supplying the brain is overstretched and simply breaks up, leading to a stroke that can prove fatal.
+Which one of the following is a conclusion that can be drawn from the above passage?
+A Chiropractic therapy should be banned.
+B Chiropractic therapy may do more harm than good.
+C The spine is the most delicate part of the human body.
+D People should see a doctor before going to a chiropractor.
+E Pain is a necessary part of the healing process.
+
+TSA-10 | Drawing a Conclusion | TSA 2019 question 39
+One of the greatest achievements of English grammar schools was the development and dissemination of a sophisticated system of standard punctuation for the English language. The complex rules for the use of commas conveyed a range of precise meanings, while the choice between semi-colon, colon and full stop expressed the exact, and often subtle, relationship between statements. Without this kind of attention to punctuation, there is bound to be a loss of precision in communication and in thinking. The current use of commas to join statements together, without any regard for grammar or the nature of the link between them, lacks rigour and covers up lazy thinking.
+Which one of the following can be drawn as a conclusion from the above?
+A Most writers do not want to waste time thinking through the exact connections between their ideas.
+B Only a minority of people ever grasped the finer aspects of the traditional system of punctuation.
+C Schools should go back to teaching the traditional system of punctuation.
+D The government should reintroduce grammar schools into the UK.
+E The vocabulary and grammar of a language naturally evolve over time, and the same is true of punctuation.
+
+TSA-11 | Identifying an Assumption | TSA 2020 question 3
+In the UK we are increasingly engrossed by entertainment: we devote more time to it than sleep and spend more money on it than food and drink. The aim of entertainment is to create a make-believe situation in which emotions can be excited and discharged without affecting real life. While entertainment has its proper place, it can become a preoccupation, dominating our thoughts and sapping our emotional energy. When this happens, the ‘real’ world of action starts to appear comparatively dull and tedious and this, in turn, undermines social cohesion. Our increasing use of entertainment is, then, threatening our wellbeing.
+Which one of the following is an underlying assumption of the above argument?
+A Our wellbeing depends on social cohesion.
+B People prefer entertainment to food and drink.
+C Viewers copy the behaviour they see in entertainment media.
+D Emotions pose a threat to society.
+E The general public are addicted to entertainment.
+
+TSA-12 | Identifying an Assumption | TSA 2019 question 5
+Adults thinking back on their experience of school almost always remember with most gratitude the teachers who taught them more than just a subject, and prepared them for life, not just for an exam. But the current generation of students may not have the same experiences to look back on in future years because the role of teachers has changed. The focus for both students and teachers is now mainly on exam results, and that is how their success or failure is measured. For teachers to share their lives with their students, offering them a model of adulthood to which to aspire, is therefore no longer considered desirable. So children today receive a less valuable education than their parents and grandparents did.
+Which one of the following is an underlying assumption of the above argument?
+A Education for life is of greater value than merely passing exams.
+B Adults looking back on their childhood often remember only the good parts.
+C Many young people have higher ambitions than becoming like their teachers.
+D Exam results are the vital keys which open the door to education and a livelihood.
+E Offering students a model of adulthood is a more satisfying role than helping them to pass exams.
+
+TSA-13 | Identifying an Assumption | TSA 2019 question 16
+The government is planning an increase in fuel tax later this year as part of its strategy to meet carbon emissions targets. Yet motorists and road transport companies have suffered crippling price rises of up to 30% in petrol and diesel bills in the past year because of fuel taxes. The government has enjoyed a £505 million windfall from high oil prices in the last six months alone, with extra revenue coming from North Sea oil reserves. A further increase in fuel tax will impact on all UK households because it will eventually push up the price of shop goods and inflation. So the government must abandon its planned tax increase.
+Which one of the following is an underlying assumption of the above passage?
+A The impact on people’s pockets is more important than the need to control carbon emissions.
+B The cost of fuel is too high and must be reduced.
+C The only justification for higher fuel taxes is to reduce carbon emissions.
+D Road transport companies could go out of business if fuel tax is increased.
+E The government could use its increased levels of North Sea oil revenue to reduce fuel
+taxes.
+
+TSA-14 | Identifying an Assumption | TSA 2019 question 29
+Drivers found to be committing offences such as speeding are now offered the choice between paying the police for a re-education course or taking the traditional penalty of paying a fine and receiving penalty points on their licence. It is no surprise that the number of motorists opting for re-education courses has tripled in five years, but the high cost of such courses has led to accusations that police forces might use the new system for their own benefit. They could easily set up speed traps, catch a number of motorists slightly over the limit, and generate easy income for themselves. Re-education courses are a good idea in theory, but open to abuse by cash-starved police forces.
+Which one of the following is an underlying assumption of the above argument?
+A The cost of running re-education courses is less than the combined contributions of participants.
+B Re-education is more effective than punishment in preventing further motoring offences.
+C Police forces are more interested in generating income than in preventing motoring
+offences.
+D The number of driving offences committed in the last five years has tripled.
+E Fear of losing a driving licence is greater than fear of financial hardship.
+
+TSA-15 | Identifying an Assumption | TSA 2019 question 40
+Long hours and poor pay have become commonly accepted, but they are taking a heavy toll on life at home. It is not a pretty picture: an economy where high levels of stress and anxiety are normal, where people get ill because they have lost control of their time, and where marriages are damaged and children suffer. Yet it is a situation that politicians invite us to applaud. They praise ‘strivers’ and ‘hard-working people’, not chilled-out, caring mums and dads. The longer and harder we work, the more admirable we are supposed to be. So the political slogans have clearly been effective, but the resulting glorification of work has made us miserable.
+Which one of the following is an underlying assumption of the above argument?
+A Most employees are not satisfied with their salary.
+B Political slogans significantly affect people’s everyday behaviour.
+C Restructuring the working week would be beneficial for the economy.
+D Companies could afford shorter hours or better pay for their employees.
+E People who experience less stress at work are better parents.
+
+TSA-16 | Assessing the Impact of Additional Evidence | TSA 2019 question 10
+While it is a woman, Ada Lovelace, who is often credited with originating the concept of software, today’s computer tech-related jobs are held mostly by men. The tech sector must continue to work against factors that inhibit gender equality within it. One such factor appears to be prejudice about women’s abilities to write computer programming code. A recent study of a program-sharing and development website analysed the rates by which suggested code changes were accepted by website users according to the gender of the user contributing the changes. In cases where the contributor’s gender was not made clear on the website, 72 per cent of the suggestions made by women were accepted. In cases where the contributor’s gender was revealed to be female, the acceptance rate fell to 63 per cent.
+Which one of the following, if true, most weakens the above argument?
+A Over the time period the website was studied, more female users than male users rejected suggested code changes overall.
+B Leading firms in the tech sector have undertaken a variety of high-profile initiatives to encourage more women to pursue computer programming careers.
+C No meaningful differences existed between the code changes suggested by female users who revealed their gender on the website and those who did not.
+D Even by modern standards, Ada Lovelace received an extensive education in mathematics and the sciences.
+E Male contributors to the website experienced a similar drop in their code change acceptance rates when their gender was revealed.
+
+TSA-17 | Assessing the Impact of Additional Evidence | TSA 2020 question 10
+Despite the government’s promise to be more business friendly, plans have been announced to change the law regarding the paid leave that couples are entitled to take following the birth of a child. This will allow new parents to take more time off work than under the current regulations. It is claimed that the current legislation makes it difficult for those with family commitments to manage all of their responsibilities, but it needs to be recognised that businesses (and in particular small businesses) need to operate in a way that guarantees that staff are available to do the jobs that need doing. The new proposals are undoubtedly going to make the system more complicated and could dissuade businesses from employing certain groups of people. They should be opposed.
+Which one of the following, if true, most weakens the above argument?
+A The example given is only one of a range of measures being proposed.
+B Many businesses now allow their employees to choose to work from home.
+C The proposals from the government provide support for businesses to help with the cost of
+covering the work of staff taking leave.
+D The problems associated with covering the work of absent members of staff become increasingly difficult the longer the absence goes on.
+E The proposals will increase the amount of leave that employees are allowed to take in other circumstances as well as following the birth of a child.
+
+TSA-18 | Assessing the Impact of Additional Evidence | TSA 2019 question 17
+Despite the recent decline in numbers of people getting married, it appears that there is still much to recommend it. Married people are happier, wealthier and live longer. Husbands and wives have a lower risk of disease and a higher life expectancy. They smoke less, drink less and eat more healthily. Those who get married and stay married have on average double the amount of wealth of those who never marry. Surveys show that they are happier than single people and less likely to experience mid-life depression. Married couples benefit from stronger networks of support, with relatives providing more care and assistance in old age and in times of need. Finding and committing to a marriage partner is a goal well worth pursuing.
+Which one of the following, if true, most weakens the above reasoning?
+A Research suggests that being married boosts the chances of surviving cancer.
+B Statistics on marriage do not differentiate between those who have children and those who do not.
+C In many countries, being married gives advantages in terms of tax payments.
+D Individuals in conflict-ridden relationships are more prone to illness than happy couples.
+E Wealthier couples are four times more likely to marry than poorer couples.
+
+TSA-19 | Assessing the Impact of Additional Evidence | TSA 2019 question 33
+A band of rebellious traders in Wales has decided to take their whole town ‘offshore’ in protest at the insignificant amounts of UK tax paid by big businesses. An alliance of shopkeepers from the town want to use the same controversial loopholes favoured by huge multinationals such as Google so that they too can legally avoid UK tax. The coffee giant Starbucks, for
+example, has been branded immoral for transferring revenues out of the UK and into the Netherlands and Switzerland, where they receive sweetened tax deals. But the shopkeepers of the town cannot have it both ways. If they believe it is immoral for Starbucks to avoid UK tax, it is immoral for them, too. They should continue to pay UK tax in full.
+Which one of the following, if true, most weakens the above argument?
+A The sole purpose of the protest is to pressure the government into tackling tax avoidance by big business.
+B If the shopkeepers are successful, every town could follow their lead, harming the UK economy even further.
+C Small businesses acting alone cannot obtain the same tax breaks as the giant corporations.
+D Every time the government comes up with a way of tackling tax avoidance, lawyers simply find a new loophole.
+E One of the town traders found that last year he paid seven times more corporation tax than Facebook.
+
+TSA-20 | Assessing the Impact of Additional Evidence | TSA 2019 question 41
+Despite recent improvements to their training, a new study suggests that the police are as susceptible as the general public to holding false beliefs about crime and punishment. Participants in the study were questioned about their views on a number of crime-related myths such as ‘capital punishment is an effective way to deter criminal activity’ – myths, because they are unsupported by research evidence. Police were just as likely to endorse the misconceptions as the lay participants and, moreover, were more confident in their false beliefs. This is a worrying example of a ‘scientist–practitioner gap’, a term which describes a situation where professionals do not accept the evidence of research relevant to their roles. Studies have shown that training can permanently reduce the ‘scientist–practitioner gap’. Police officers need more training.
+Which one of the following, if true, most strengthens the above argument?
+A The recruitment process for new police officers often fails to identify false beliefs held by applicants.
+B The majority of police officers do not support the return of capital punishment.
+C The science–practitioner gap is a common phenomenon in many professions, not just the
+police.
+D Police training has often been criticised in the media for being insufficiently practical.
+E Police officers whose views are not evidence-based are more likely to have complaints made against them by members of the public.
+
+TSA-21 | Detecting Reasoning Errors | TSA 2020 question 1
+The 21st century is witnessing a significant rise in the proportion of people being diagnosed by medical professionals as having a mental illness. For example, at the turn of the century, the number of Canadians being treated for depression increased by over 30% in just one year. A recent study in the US found that nearly twice the number of young people there were diagnosed with a mental disorder in 2018 as compared to 2003. The World Health Organization estimates that by 2028, depression will be the second leading type of disability worldwide. It is clear that aspects of the modern world make it more difficult for people to maintain good mental health.
+Which one of the following best expresses the flaw in the above argument?
+A Changes in health care and a decrease in stigma attached to mental illness may be responsible for higher diagnosis rates.
+B Many people with a mental health diagnosis may be able to function well in society.
+C Significant numbers of people may be hesitant to seek help for mental health concerns
+from doctors or other medical professionals.
+D Some physical and behavioural factors may make mental health diagnoses more difficult.
+E In some cultures people may prefer to seek help for mental health concerns from religious leaders as opposed to doctors.
+
+TSA-22 | Detecting Reasoning Errors | TSA 2019 question 3
+A high degree of self-discipline is one quality exhibited by all athletes who have reached the uppermost levels of competition, whatever the sport. This amount of self-discipline is in evidence long after the initial excitement of a sport has worn off, and an athlete has had to keep going through years of painful and repetitive training sessions. The example of top athletes suggests one approach to improving student behaviour and educational achievement. If more young people could begin training programmes akin to those of elite athletes, they too would develop exceptional levels of personal discipline to apply within their studies.
+Which one of the following best expresses the flaw in the above argument?
+A High levels of self-discipline may not be all that it takes to become an elite athlete.
+B Young people may be able to develop self-discipline through other kinds of activities.
+C The kind of coaching support available to elite athletes may not be accessible to the
+general population.
+D Good behaviour and educational achievement during one’s school years may not be essential for going on to lead a successful life.
+E Strong self-discipline may not be an effect of the training but rather a capacity already possessed by athletes as they start their training.
+
+TSA-23 | Detecting Reasoning Errors | TSA 2019 question 9
+Texting is the preferred method of communication among young people, with 72% of teenagers saying they text regularly and one in three sending more than a hundred texts per day. Unfortunately, however, very few youngsters seem able to communicate using grammatically correct sentences. They seem to think it ‘gr8’ that correct spelling is no longer considered necessary. Many local employers have complained that school-leavers have no idea how to communicate appropriately, whether face-to-face or in business letters. Many written job applications are phrased so poorly that they go straight in the bin. Mobile phones were banned in my daughter’s school last year, a move which has proved fully justified. Since then test scores in English have improved. All schools need to introduce a similar ban.
+Which one of the following best expresses the flaw in the above argument?
+A It makes a false statistical comparison between the 72% of teenagers who merely text regularly and those who send more than a hundred texts in a day.
+B It assumes that, because test scores improved after the ban on mobile phones, the improvement was due to the ban.
+C The argument rests on the assumption that communicating by text is inappropriate.
+D Its conclusion, that communicating by text is inappropriate, merely restates one of the
+reasons given in support of the argument.
+E It assumes that correct spelling is a necessary requirement for gaining employment.
+
+TSA-24 | Detecting Reasoning Errors | TSA 2019 question 21
+It is universally recognised that Africa’s conservation tourism provides employment, generates wealth and educates future generations while saving endangered species. So we should champion tourism for the sake of conservation. Tourism in the Arctic is thus to be welcomed. As the Arctic ice melts, new shipping routes are opening up. It is unfair to characterise the presence of a large cruise ship in the Northwest Passage as ‘extinction tourism’ that merely indulges people who want to view endangered animals before it is too late. The tourists will return home better informed about the Arctic’s fragile ecosystem.
+Which one of the following best expresses the flaw in the above argument?
+A It argues a general rule on the basis of one successful example of wildlife tourism.
+B It assumes that wildlife tourists only want to see endangered animals.
+C It assumes that wildlife tourism is more important than successful conservation.
+D It assumes that the cruise-ship tourists will see enough to return home committed to the
+conservation of the Arctic ecosystem.
+E The argument implies that conservation tourism will inevitably lead to the extinction of some species of animal.
+
+TSA-25 | Detecting Reasoning Errors | TSA 2019 question 34
+Much concern is paid to the hazards posed by people using mobile phones while operating motor vehicles. Although using a smartphone or other mobile phone behind the wheel of a car is most certainly dangerous, research is showing that very frequent usage of the phones is harmful more generally. A study has found that individuals with relatively high levels of mobile phone usage are more likely to demonstrate cognitive failures, which can range from forgetting appointments to accidentally bumping into things in the environment. Cognitive failures are associated with the short attention spans also observed in high-frequency mobile phone users. Clearly, if people want to reduce their risk of cognitive failures, they should limit the amount of time they spend on their mobile phones.
+Which one of the following is the best statement of the flaw in the above argument?
+A High-frequency mobile phone users may have had short attention spans prior to the formation of their phone usage habits.
+B Limiting one’s smartphone or mobile phone usage may not be a sufficient strategy for significantly reducing cognitive failures.
+C Mobile phones may play an important role in the completion of everyday tasks in the lives of many people.
+D Smartphones and other mobile phones may have different applications or features that are not all used in the exact same fashion.
+E The risks posed by using a mobile phone while driving may be much greater than those posed by too-frequent usage of the phones overall.
+
+TSA-26 | Matching Arguments | TSA 2020 question 5
+You are allowed to vote in the general election only if you are at least 18 years old. You have reached 18 so you will be able to vote in the forthcoming election.
+Which one of the following most closely parallels the reasoning used in the above argument?
+A You cannot obtain foreign currency from this bank if you cannot produce acceptable identification. You cannot produce the required identification, therefore we cannot let you have the foreign currency.
+B You can visit your grandmother in hospital providing you have no illness yourself. As you have no illness, you will be able to visit your grandmother.
+C We can afford to go to America this year only if you save up sufficient money. You haven’t saved enough so we will not be able to go.
+D To win the jackpot prize in the national lottery you need a ticket with all six prize-winning numbers. When I heard you had won the jackpot, I knew you had the lucky ticket that matched all the numbers from the draw.
+E Passport applications can only be accepted if photographs are witnessed as a likeness by someone in a professional job. Your application was refused so your witness cannot have been a professional person.
+
+TSA-27 | Matching Arguments | TSA 2020 question 11
+As long as there is the right combination of guests, any party will be a success. The last party was great, so there must have been a perfect selection of guests.
+Which one of the following most closely parallels the reasoning used in the above argument?
+A As long as there is a high level of unemployment, all economies will perform below their maximum potential. Unemployment levels here have risen sharply, so our economy will perform less well than it could do.
+B As long as there are good hotels, any seaside town can get on the tourist trail. Our town is a tourist hotspot, yet none of the hotels are any good.
+C As long as there is somebody in charge, any project will go smoothly. James has taken firm control, so this week’s project will be fine.
+D As long as there are lots of security personnel around, public order is sure to be maintained. We have been having huge problems with public disorder here, so there cannot be many security people.
+E As long as there is lots of water, any habitat will support life. Life is abundant in that habitat, so there must be lots of water.
+
+TSA-28 | Matching Arguments | TSA 2020 question 21
+In real terms, spending on education in the UK is going down. But reductions in funding always mean a reduction in the quality of education provided. In the current climate, we should expect to see the quality of education in the UK diminishing.
+Which one of the following most closely parallels the reasoning used in the above passage?
+A No one ever succeeds at anything unless they make an effort. But you’ve just won an award for your work in physics, so you must have made an effort.
+B When the water is at this level, it’s either high tide or a flood. High tide is not for another eight hours. So there must be a flood upstream.
+C If you take regular exercise, you’ll be fit in heart and mind. You’ve been working out twice a week for three months now, so you must be happy and healthy.
+D If you eat sweets every day you’re more likely to need dental treatment. Sam has had a lot of dental treatment so he must eat sweets every day.
+E The car won’t run without a working battery. I can’t get the car to start so the battery must be dead.
+
+TSA-29 | Matching Arguments | TSA 2019 question 22
+If the vice president did act unlawfully in this matter, he would definitely have had to resign. Since we have confirmation that he has resigned, he must have broken the law.
+Which one of the following most closely parallels the reasoning used in the above argument?
+A If the snake that bit this woman was a king cobra, then she would be dead by now. As she is alive and well, the snake can’t have been a king cobra.
+B If the snake had yellow markings, then it was a pit viper. You say it did have yellow markings, so it must have been a pit viper.
+C If what Mahmood saw was a diamondback rattlesnake, he would have been in real danger. Since there are no rattlesnakes where Mahmood was, he was actually quite safe.
+D If a snake bite goes untreated for too long, there can be serious complications. Since I got prompt treatment, I didn’t have any complications.
+E If the snake that bit this victim was venomous, then the wound would be very inflamed. We can see that there is severe inflammation, so the snake must have been venomous.
+
+TSA-30 | Matching Arguments | TSA 2019 question 46
+Your cake will be tasty only if you use fresh ingredients which you can only buy at the market. You did not go to the market, so your cake will not be tasty.
+Which one of the following most closely parallels the reasoning used in the above argument?
+A You can only be happy if you are healthy. To be healthy, you have to eat a lot of vegetables. You eat a lot of vegetables so you must be happy.
+B She either went to school or to the playground. She is not in the playground, so she must have gone to school.
+C If you light a candle, there is light and, if there is light, I am able to read to you. You must have lit a candle because I can read.
+D Listening to loud music through earphones damages hearing. His hearing is fine which means that he must not have listened to loud music through earphones.
+E Good knowledge of the car is necessary for fixing it. Without fixing the car, we will not arrive at the wedding in time. We will surely be late as we do not have good knowledge of the car.
+
+TSA-31 | Applying Principles | TSA 2020 question 39
+If the captain of a national team commits any kind of crime, he or she is likely to be dropped, heavily fined by the sport’s governing body, or barred from future competition. This is on top of any punishment handed down by the courts. Senior politicians, doctors, judges or head teachers who offend also find themselves barred from their professions, with little or no chance of regaining their hard-earned status after serving their sentence. There is nothing unjust in this, although it is effectively a double punishment for a single offence. Privileged people must understand that with rewards come responsibilities, including the responsibility to behave in a more exemplary way than those in ordinary walks of life.
+Which one of the following illustrates the principle underlying the above argument?
+A A crime is a crime whoever commits it, and no exceptions should be made for highly placed people.
+B A police chief who accepts a bribe deserves more blame than the criminal who offers the bribe.
+C Leading sports personalities should understand that they are role models for young people.
+D It is wrong to use the law to make an example of some people but not others.
+E People on low incomes who commit offences should have reduced sentences.
+
+TSA-32 | Applying Principles | TSA 2021 question 4
+There is often talk of this or that job being ‘exploitative’ or of people on low wages being ‘exploited’ by their employers, as if there were something deeply unjust about paying someone poorly. But this misses a fundamental point about injustice. You cannot be unjustly treated voluntarily: if you agree to the action, you are not being unjustly treated. Anyone who accepts a job, regardless of the pay, is not being unjustly treated by their employer. Obviously this does not apply to someone forced into a job against their will. But if they have accepted their job, even if the reasons pushing them to accept it might be deemed unfair in a wider sense, the act of employing them cannot itself be deemed unjust.
+Which one of the following illustrates the principle used in the above argument?
+A An aid worker who freely goes to work in a war zone and then gets kidnapped and held for ransom cannot complain about the actions of their captors.
+B A patient who gives fully informed consent to take part in a clinical trial for a new drug has no right to complain about experiencing the drug’s stated side effects.
+C A person who deviates from the terms of their contract cannot complain if they are dismissed for misconduct.
+D If someone gives out their credit card details to a cold-caller over the phone, they cannot complain about becoming a victim of fraud.
+E Someone who suffers as a result of the policies of a party they did not vote for has a right to claim they have been unfairly treated.
+
+TSA-33 | Applying Principles | TSA 2021 question 16
+Many drivers think that the laws that make it compulsory to use a seat belt are an intrusion into their private lives – a denial of an autonomous lifestyle choice. But state intervention in our freedom is justified when, because of our short-sightedness, impulsiveness or carelessness, we act in a way that actually or potentially restricts our freedom – especially when dangerous and irreversible consequences are involved. In those cases, the law should protect our future selves from the short-sighted and foolish choices of our earlier selves. It should require us to act in the way that we would act if we carefully took into account our long-term welfare. The legal requirement to wear a seat belt is thus a protection of drivers’ freedom and future selves.
+Which one of the following best illustrates the principle used in the above argument?
+A Pedestrians are legally prohibited from crossing railway tracks except at designated points.
+B Passengers must be in possession of a valid ticket when boarding a train.
+C The state funds a campaign to raise awareness of the health hazards of drug use.
+D Cigarettes are legally required to be in plain, unbranded packs.
+E Cyclists are advised to wear a helmet to protect their head.
+
+TSA-34 | Applying Principles | TSA 2021 question 27
+Rhona is a self-employed IT technician. Some of her clients are also friends. When she checks a computer for problems, she sees what is stored on the hard disk. She has sometimes teased friends in front of others about the websites they have been visiting and the pictures she has seen stored on their computers. She should not have done this, because it is wrong for people to reveal sensitive information which they know only because of their work.
+Which one of the following illustrates the principle used in the above argument?
+A Anyone who, in the course of their work, discovers evidence of terrorism should report it to the police.
+B Police officers should be dismissed if they pass confidential information to journalists about cases they have investigated.
+C Doctors and nurses should have access to patients’ medical records in order to give them the correct advice and treatment.
+D Ex-boyfriends and ex-girlfriends should not share personal or intimate information about their former partners, because such knowledge is private.
+E Teachers often come to know quite a lot of information about the families of their pupils, which they should report if they have any concerns.
+
+TSA-35 | Applying Principles | TSA 2021 question 47
+Acting is surely the most overrated occupation of all time. Although top actors are held in high esteem, sometimes people walk into the profession without any training and win critical acclaim. In the film Captain Phillips, for example, Barkhad Abdi won several awards for best supporting actor, despite having never acted before in his life – he was chosen because of how he looked and, presumably, because he had some natural ability to act. Yet how difficult can something be if natural ability is enough to get by? And in any case, no one should be admired simply for having a natural ability. It is like being congratulated for being tall or having good eyesight. Film actors do not, therefore, deserve to be held in such high regard.
+Which one of the following illustrates the principle used in the above argument?
+A We should not praise a five-year-old child who picks up a golf club for the first time and consistently strikes the ball cleanly.
+B The music Mozart composed towards the end of his life should be thought of more highly than that which he wrote when very young.
+C If we know that a writer has spent a long time drafting and re-drafting their work, then their work is automatically deserving of praise.
+D A successful musician who happened to be in the right place at the right time when they were first recognised does not deserve the accolades they receive.
+E Someone who has a photographic memory and is employed by the security services does not deserve the high salary they might earn.

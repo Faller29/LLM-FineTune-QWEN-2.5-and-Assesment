@@ -1,0 +1,34 @@
+REM Extract this folder inside D:\MSCS213-Simulation.
+REM WINDOW 1: use the real trained adapter path if different.
+cd /d D:\MSCS213-Simulation
+.venv\Scripts\activate.bat
+python web_app.py --adapter results\qwen_lora\best --max-input 512
+
+REM WINDOW 2:
+cd /d D:\MSCS213-Simulation
+.venv\Scripts\activate.bat
+python Single_Model_Reasoning_Evaluation\evaluate.py validate
+
+REM DEVELOPMENT CHECK (six generations; excluded from the final set):
+python Single_Model_Reasoning_Evaluation\evaluate.py run --smoke --out results\single_model_smoke
+python Single_Model_Reasoning_Evaluation\evaluate.py summarize --out results\single_model_smoke
+type results\single_model_smoke\summary.json
+
+REM FINAL DIAGNOSTIC (108 generations, tuned model only):
+python Single_Model_Reasoning_Evaluation\evaluate.py run --out results\single_model_final
+python Single_Model_Reasoning_Evaluation\evaluate.py summarize --out results\single_model_final
+type results\single_model_final\summary.json
+
+REM HUMAN REVIEW (nine responses, three question slots each):
+start "" results\single_model_final\critical_question_review.html
+REM Move the downloaded ratings.json into results\single_model_final, then:
+python Single_Model_Reasoning_Evaluation\evaluate.py summarize --out results\single_model_final --ratings results\single_model_final\ratings.json
+
+REM OPTIONAL RESUME AFTER INTERRUPTION, with unchanged settings:
+REM python Single_Model_Reasoning_Evaluation\evaluate.py run --out results\single_model_final --resume
+
+REM OPTIONAL EXPLANATION AUDIT:
+start "" results\single_model_final\explanation_audit.txt
+
+REM OPTIONAL OFFLINE TESTS:
+REM python Single_Model_Reasoning_Evaluation\test_evaluate.py

@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train": "data/cpu/train.jsonl",
+  "validation": "data/cpu/val.jsonl",
+  "output": "results\\qwen_lora",
+  "max_steps": 80,
+  "grad_accumulation": 4,
+  "rank": 8,
+  "alpha": 16,
+  "lr": 0.0001,
+  "eval_every": 10,
+  "max_val": 8,
+  "max_sequence": 512,
+  "threads": 4,
+  "seed": 42,
+  "training_rows": 210,
+  "validation_rows": 8,
+  "note": "Not NVIDIA NeMo training: CPU LoRA on Qwen2.5 with explicit train-time context budget"
+}

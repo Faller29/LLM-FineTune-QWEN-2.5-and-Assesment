@@ -1,0 +1,65 @@
+{
+  "workbook_commit": "1f5c966e24eb6e434c9271ffde6db3ddcf66ab01",
+  "workbook_sha256": "18b994a0fb12864d97783c28f3389d99165ade59620a6e4e769851926eba77eb",
+  "study_doi": "10.1177/18344909251406111",
+  "study_url": "https://journals.sagepub.com/doi/10.1177/18344909251406111",
+  "repository": "https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM",
+  "subset": "35 original TSA questions in English; five per criterion",
+  "workbook_url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/1f5c966e24eb6e434c9271ffde6db3ddcf66ab01/all_items.xlsx",
+  "answer_key_sources": {
+    "2019": {
+      "url": "https://academiccoaching.co.uk/wp-content/uploads/2025/06/580266-tsa-oxford-2019-section-1-answer-key_0.pdf",
+      "sha256": "f4caf7a4b625e24b40aadbf25bcefd7a6e72eb4447623f76ed1ac12fea8f8642"
+    },
+    "2020": {
+      "url": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Answer-Keys/TSA%202020%20Section%201%20Answer%20Key.pdf",
+      "sha256": "b34171405280457e4c86bd5712c4d3c6e0412f4f459a8fa7b5cb556f2547439d"
+    },
+    "2021": {
+      "url": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Answer-Keys/TSA%202021%20Section%201%20Answer%20Key.pdf",
+      "sha256": "1e1f0219205d288cf0f698258e827a173269ea2a597543a108553ab3d2eb4812"
+    }
+  },
+  "question_paper_sources": {
+    "2019": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202019%20Section%201.pdf",
+    "2020": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202020%20Section%201.pdf",
+    "2021": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202021%20Section%201.pdf"
+  },
+  "imported_ids": [
+    "TSA-01",
+    "TSA-02",
+    "TSA-03",
+    "TSA-04",
+    "TSA-05",
+    "TSA-06",
+    "TSA-07",
+    "TSA-08",
+    "TSA-09",
+    "TSA-10",
+    "TSA-11",
+    "TSA-12",
+    "TSA-13",
+    "TSA-14",
+    "TSA-15",
+    "TSA-16",
+    "TSA-17",
+    "TSA-18",
+    "TSA-19",
+    "TSA-20",
+    "TSA-21",
+    "TSA-22",
+    "TSA-23",
+    "TSA-24",
+    "TSA-25",
+    "TSA-26",
+    "TSA-27",
+    "TSA-28",
+    "TSA-29",
+    "TSA-30",
+    "TSA-31",
+    "TSA-32",
+    "TSA-33",
+    "TSA-34",
+    "TSA-35"
+  ]
+}

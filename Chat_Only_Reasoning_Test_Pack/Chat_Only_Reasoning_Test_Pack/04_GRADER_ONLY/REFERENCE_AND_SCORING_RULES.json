@@ -1,0 +1,1115 @@
+{
+  "protocol": "CHAT-TSA-EW-1.0",
+  "warning": "GRADER ONLY. Never provide this answer key or rubric to a model taking the test.",
+  "scope": {
+    "tsa_original_items": 35,
+    "tsa_new_items": 0,
+    "ew_scenarios": 4,
+    "ew_scoring_units": 21,
+    "ew_paragraph_groups": 18,
+    "rounds": 1
+  },
+  "provenance": {
+    "doi": "10.1177/18344909251406111",
+    "repository": "https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM",
+    "materials_snapshot_commit": "595874976e96861c2541d841d1375a23237e92e7",
+    "materials_sources": {
+      "workbook": {
+        "commit": "595874976e96861c2541d841d1375a23237e92e7",
+        "filename": "all_items.xlsx",
+        "url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/595874976e96861c2541d841d1375a23237e92e7/all_items.xlsx",
+        "sha256": "18b994a0fb12864d97783c28f3389d99165ade59620a6e4e769851926eba77eb"
+      },
+      "manual": {
+        "commit": "595874976e96861c2541d841d1375a23237e92e7",
+        "filename": "Scoring_Manual.docx",
+        "url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/595874976e96861c2541d841d1375a23237e92e7/Scoring%20Manual.docx",
+        "sha256": "6f923550d21cb0525ee13b105f7b694d4b3c03f759cff13ce9ee79cfd2f03258"
+      }
+    },
+    "tsa_workbook_manifest": {
+      "workbook_commit": "1f5c966e24eb6e434c9271ffde6db3ddcf66ab01",
+      "workbook_sha256": "18b994a0fb12864d97783c28f3389d99165ade59620a6e4e769851926eba77eb",
+      "items": [
+        {
+          "id": "TSA-01",
+          "sheet": "TSA_original",
+          "row": 2,
+          "criterion": "Main Conclusion",
+          "year": 2019,
+          "question_number": 1,
+          "gold": "E",
+          "question_sha256": "661e9311537fe16637f1e3837a5f3210af2357df22dcb8587843807959a56492"
+        },
+        {
+          "id": "TSA-02",
+          "sheet": "TSA_original",
+          "row": 3,
+          "criterion": "Main Conclusion",
+          "year": 2019,
+          "question_number": 11,
+          "gold": "D",
+          "question_sha256": "8161c2e06b22f2c84758507e09a4b47d3fe8f269fc0e1a2164a22b27331b8307"
+        },
+        {
+          "id": "TSA-03",
+          "sheet": "TSA_original",
+          "row": 4,
+          "criterion": "Main Conclusion",
+          "year": 2019,
+          "question_number": 27,
+          "gold": "B",
+          "question_sha256": "ebb4121b390f5f4eab50bf003cd09b19b58e7297e8bacbda569d6eab5aa5a9ae"
+        },
+        {
+          "id": "TSA-04",
+          "sheet": "TSA_original",
+          "row": 5,
+          "criterion": "Main Conclusion",
+          "year": 2019,
+          "question_number": 35,
+          "gold": "D",
+          "question_sha256": "4ad3b21a84f1d8eb6e4b68e19a053c78aff296c4da0fd57b34c7dd72bc309176"
+        },
+        {
+          "id": "TSA-05",
+          "sheet": "TSA_original",
+          "row": 6,
+          "criterion": "Main Conclusion",
+          "year": 2019,
+          "question_number": 45,
+          "gold": "D",
+          "question_sha256": "c803eb5c0eb5c833b57ac1e17dca38a9941887d2d88b4f3b2b3e1f41b1580001"
+        },
+        {
+          "id": "TSA-06",
+          "sheet": "TSA_original",
+          "row": 7,
+          "criterion": "Drawing a Conclusion",
+          "year": 2019,
+          "question_number": 4,
+          "gold": "B",
+          "question_sha256": "edd1853688d988edebe0c8d9cc6557fa1c478860bf634338935e145356c6c150"
+        },
+        {
+          "id": "TSA-07",
+          "sheet": "TSA_original",
+          "row": 8,
+          "criterion": "Drawing a Conclusion",
+          "year": 2020,
+          "question_number": 9,
+          "gold": "C",
+          "question_sha256": "48c21756d107226cadef7afc1ee2ebcef0ea9bf97ae68d044ca4b04dfa6278b1"
+        },
+        {
+          "id": "TSA-08",
+          "sheet": "TSA_original",
+          "row": 9,
+          "criterion": "Drawing a Conclusion",
+          "year": 2019,
+          "question_number": 15,
+          "gold": "B",
+          "question_sha256": "721678ad16e0b8552e5e3f2f9aa5c940b160394843adcc9ec902535a396439fc"
+        },
+        {
+          "id": "TSA-09",
+          "sheet": "TSA_original",
+          "row": 10,
+          "criterion": "Drawing a Conclusion",
+          "year": 2019,
+          "question_number": 28,
+          "gold": "B",
+          "question_sha256": "97d089e7ae895b007af4a7be04c826675f71735b7ff4d0101326e6fd31d2a919"
+        },
+        {
+          "id": "TSA-10",
+          "sheet": "TSA_original",
+          "row": 11,
+          "criterion": "Drawing a Conclusion",
+          "year": 2019,
+          "question_number": 39,
+          "gold": "C",
+          "question_sha256": "b05bc0df9b8c4935de0a56e7d7bfd0226efccb4724bde8c5a80b081046fe4b21"
+        },
+        {
+          "id": "TSA-11",
+          "sheet": "TSA_original",
+          "row": 12,
+          "criterion": "Identifying an Assumption",
+          "year": 2020,
+          "question_number": 3,
+          "gold": "A",
+          "question_sha256": "8ed38b0561a27d0fd56f1be298acd589df2440fe933394dc25d54b93273dfa31"
+        },
+        {
+          "id": "TSA-12",
+          "sheet": "TSA_original",
+          "row": 13,
+          "criterion": "Identifying an Assumption",
+          "year": 2019,
+          "question_number": 5,
+          "gold": "A",
+          "question_sha256": "74d21780b57ede79453e6dc114b0206e09e80830fbdeb86ddc7b6bcff7140b4d"
+        },
+        {
+          "id": "TSA-13",
+          "sheet": "TSA_original",
+          "row": 14,
+          "criterion": "Identifying an Assumption",
+          "year": 2019,
+          "question_number": 16,
+          "gold": "A",
+          "question_sha256": "0d89d669a0705d4f2000a13df46b4a53568e0e07ab95ffadf909165e74a387ec"
+        },
+        {
+          "id": "TSA-14",
+          "sheet": "TSA_original",
+          "row": 15,
+          "criterion": "Identifying an Assumption",
+          "year": 2019,
+          "question_number": 29,
+          "gold": "A",
+          "question_sha256": "69093697af9a901804f5d1e437e0b2d97c53a3a0961e53a70d4691443e850ae1"
+        },
+        {
+          "id": "TSA-15",
+          "sheet": "TSA_original",
+          "row": 16,
+          "criterion": "Identifying an Assumption",
+          "year": 2019,
+          "question_number": 40,
+          "gold": "B",
+          "question_sha256": "b8ded5b0c0b0a64ce2e1a2f1f611a04146450e398e2ee1eb94a60051ff2d5d89"
+        },
+        {
+          "id": "TSA-16",
+          "sheet": "TSA_original",
+          "row": 17,
+          "criterion": "Assessing the Impact of Additional Evidence",
+          "year": 2019,
+          "question_number": 10,
+          "gold": "E",
+          "question_sha256": "d5b8b524911413fa8e5efe2e588398b631b8a58e1624e2fd8582823d0f2871cc"
+        },
+        {
+          "id": "TSA-17",
+          "sheet": "TSA_original",
+          "row": 18,
+          "criterion": "Assessing the Impact of Additional Evidence",
+          "year": 2020,
+          "question_number": 10,
+          "gold": "C",
+          "question_sha256": "cef48cc67185bf6ba7311c187e24cc0f9bee68a3ae8e899695e510eabbf741e7"
+        },
+        {
+          "id": "TSA-18",
+          "sheet": "TSA_original",
+          "row": 19,
+          "criterion": "Assessing the Impact of Additional Evidence",
+          "year": 2019,
+          "question_number": 17,
+          "gold": "E",
+          "question_sha256": "3e5213e5f5d0bfbbdc4b7c9ba434fdcda2f73c297d9e48162ffa99c03dab1867"
+        },
+        {
+          "id": "TSA-19",
+          "sheet": "TSA_original",
+          "row": 20,
+          "criterion": "Assessing the Impact of Additional Evidence",
+          "year": 2019,
+          "question_number": 33,
+          "gold": "A",
+          "question_sha256": "4b6d45db690390ae1883c2d1c660e68be9bf4efde8f5e04858b9951a6eea381c"
+        },
+        {
+          "id": "TSA-20",
+          "sheet": "TSA_original",
+          "row": 21,
+          "criterion": "Assessing the Impact of Additional Evidence",
+          "year": 2019,
+          "question_number": 41,
+          "gold": "E",
+          "question_sha256": "10b874173d212e4f5c65b4201574231381e02c3b5cfb7323e3d58486b52795a4"
+        },
+        {
+          "id": "TSA-21",
+          "sheet": "TSA_original",
+          "row": 22,
+          "criterion": "Detecting Reasoning Errors",
+          "year": 2020,
+          "question_number": 1,
+          "gold": "A",
+          "question_sha256": "d8d91317105152e1d72088dff21fb0f16a4f79ba25ac16e81daea8510eced35c"
+        },
+        {
+          "id": "TSA-22",
+          "sheet": "TSA_original",
+          "row": 23,
+          "criterion": "Detecting Reasoning Errors",
+          "year": 2019,
+          "question_number": 3,
+          "gold": "E",
+          "question_sha256": "c3b3948e1ab1acfa3ac17991aed48cfbd23e51c3292268b60224696ce1ea8f61"
+        },
+        {
+          "id": "TSA-23",
+          "sheet": "TSA_original",
+          "row": 24,
+          "criterion": "Detecting Reasoning Errors",
+          "year": 2019,
+          "question_number": 9,
+          "gold": "B",
+          "question_sha256": "487fc49c23a76a881bd8438c3a7ee762369c153860e05824b0c9f571cdf96406"
+        },
+        {
+          "id": "TSA-24",
+          "sheet": "TSA_original",
+          "row": 25,
+          "criterion": "Detecting Reasoning Errors",
+          "year": 2019,
+          "question_number": 21,
+          "gold": "A",
+          "question_sha256": "8ad7338a8176499ee62e0e875e38929f72b62b26e026dec258356f940b6d536b"
+        },
+        {
+          "id": "TSA-25",
+          "sheet": "TSA_original",
+          "row": 26,
+          "criterion": "Detecting Reasoning Errors",
+          "year": 2019,
+          "question_number": 34,
+          "gold": "A",
+          "question_sha256": "db14211067d97dda5e18ecc96fc7095c1b5ecebf3a4fef4a1a0e71e9238a356c"
+        },
+        {
+          "id": "TSA-26",
+          "sheet": "TSA_original",
+          "row": 27,
+          "criterion": "Matching Arguments",
+          "year": 2020,
+          "question_number": 5,
+          "gold": "B",
+          "question_sha256": "40fb75efc7ce9bb2f2782230bad0fd47d47c51e35a52e3a0f8c46279568baba0"
+        },
+        {
+          "id": "TSA-27",
+          "sheet": "TSA_original",
+          "row": 28,
+          "criterion": "Matching Arguments",
+          "year": 2020,
+          "question_number": 11,
+          "gold": "E",
+          "question_sha256": "066bebbe6a74af389eec3301504921ddc1b7c87289f100631f117b976c0cc231"
+        },
+        {
+          "id": "TSA-28",
+          "sheet": "TSA_original",
+          "row": 29,
+          "criterion": "Matching Arguments",
+          "year": 2020,
+          "question_number": 21,
+          "gold": "C",
+          "question_sha256": "b3e5b2cffd4aa1b771815f167158758649a7fb93bcea7faa4ae79d79961e270e"
+        },
+        {
+          "id": "TSA-29",
+          "sheet": "TSA_original",
+          "row": 30,
+          "criterion": "Matching Arguments",
+          "year": 2019,
+          "question_number": 22,
+          "gold": "E",
+          "question_sha256": "994dd396663e74a463cbc2c459a209ef325236a2d630f36cc56c9b7bd203c30b"
+        },
+        {
+          "id": "TSA-30",
+          "sheet": "TSA_original",
+          "row": 31,
+          "criterion": "Matching Arguments",
+          "year": 2019,
+          "question_number": 46,
+          "gold": "E",
+          "question_sha256": "e81b17b54d086832016eaddc05d4e8240452d29339cef5f1eb029d973a727351"
+        },
+        {
+          "id": "TSA-31",
+          "sheet": "TSA_original",
+          "row": 32,
+          "criterion": "Applying Principles",
+          "year": 2020,
+          "question_number": 39,
+          "gold": "B",
+          "question_sha256": "bc40e539bef949d0e2e67d5f69f59e1f1cadcf496746edd50b66fc92ad85ac18"
+        },
+        {
+          "id": "TSA-32",
+          "sheet": "TSA_original",
+          "row": 33,
+          "criterion": "Applying Principles",
+          "year": 2021,
+          "question_number": 4,
+          "gold": "B",
+          "question_sha256": "cb4d2ca2ca9a412bd7014fb1d3261626b52ed18a3adcf33b3d5d8bc18206e74c"
+        },
+        {
+          "id": "TSA-33",
+          "sheet": "TSA_original",
+          "row": 34,
+          "criterion": "Applying Principles",
+          "year": 2021,
+          "question_number": 16,
+          "gold": "A",
+          "question_sha256": "8823e62febb6633aa2c3afa2ff858f2f2c972e58436fe12beda8f47d9b36a561"
+        },
+        {
+          "id": "TSA-34",
+          "sheet": "TSA_original",
+          "row": 35,
+          "criterion": "Applying Principles",
+          "year": 2021,
+          "question_number": 27,
+          "gold": "B",
+          "question_sha256": "6fbf2a52d042566416ac3eeb9be391ad84bbced3a9923f8b1dfbc9db35511d3f"
+        },
+        {
+          "id": "TSA-35",
+          "sheet": "TSA_original",
+          "row": 36,
+          "criterion": "Applying Principles",
+          "year": 2021,
+          "question_number": 47,
+          "gold": "A",
+          "question_sha256": "c7e0f77a67373e93ad4592179b1e330c8b9a59ae303012e5d5e014993faa8546"
+        }
+      ],
+      "study_doi": "10.1177/18344909251406111",
+      "study_url": "https://journals.sagepub.com/doi/10.1177/18344909251406111",
+      "repository": "https://github.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM",
+      "subset": "35 original TSA questions in English; five per criterion",
+      "workbook_url": "https://raw.githubusercontent.com/Jiang-Liming/Evaluating-Critical-Thinking-of-LLM/1f5c966e24eb6e434c9271ffde6db3ddcf66ab01/all_items.xlsx",
+      "answer_key_sources": {
+        "2019": {
+          "url": "https://academiccoaching.co.uk/wp-content/uploads/2025/06/580266-tsa-oxford-2019-section-1-answer-key_0.pdf",
+          "sha256": "f4caf7a4b625e24b40aadbf25bcefd7a6e72eb4447623f76ed1ac12fea8f8642"
+        },
+        "2020": {
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Answer-Keys/TSA%202020%20Section%201%20Answer%20Key.pdf",
+          "sha256": "b34171405280457e4c86bd5712c4d3c6e0412f4f459a8fa7b5cb556f2547439d"
+        },
+        "2021": {
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Answer-Keys/TSA%202021%20Section%201%20Answer%20Key.pdf",
+          "sha256": "1e1f0219205d288cf0f698258e827a173269ea2a597543a108553ab3d2eb4812"
+        }
+      },
+      "question_paper_sources": {
+        "2019": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202019%20Section%201.pdf",
+        "2020": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202020%20Section%201.pdf",
+        "2021": "https://pmt.physicsandmathstutor.com/download/Admissions/TSA/Papers/TSA%202021%20Section%201.pdf"
+      }
+    }
+  },
+  "tsa": {
+    "maximum": 35,
+    "point_rule": "1 for correct committed option, 0 otherwise. Unambiguous equivalent option naming accepted. Unresolved conflicting selections are explicitly flagged and earn 0. Explanation review is supplemental.",
+    "technical_failure_rule": "Record incomplete coverage; do not silently remove tasks or label an incomplete run a complete total.",
+    "items": [
+      {
+        "id": "TSA-10",
+        "sheet": "TSA_original",
+        "row": 11,
+        "criterion": "Drawing a Conclusion",
+        "year": 2019,
+        "question_number": 39,
+        "gold": "C",
+        "question_sha256": "b05bc0df9b8c4935de0a56e7d7bfd0226efccb4724bde8c5a80b081046fe4b21",
+        "text": "One of the greatest achievements of English grammar schools was the development and dissemination of a sophisticated system of standard punctuation for the English language. The complex rules for the use of commas conveyed a range of precise meanings, while the choice between semi-colon, colon and full stop expressed the exact, and often subtle, relationship between statements. Without this kind of attention to punctuation, there is bound to be a loss of precision in communication and in thinking. The current use of commas to join statements together, without any regard for grammar or the nature of the link between them, lacks rigour and covers up lazy thinking.\nWhich one of the following can be drawn as a conclusion from the above?\nA Most writers do not want to waste time thinking through the exact connections between their ideas.\nB Only a minority of people ever grasped the finer aspects of the traditional system of punctuation.\nC Schools should go back to teaching the traditional system of punctuation.\nD The government should reintroduce grammar schools into the UK.\nE The vocabulary and grammar of a language naturally evolve over time, and the same is true of punctuation.",
+        "collection_order": 1,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nOne of the greatest achievements of English grammar schools was the development and dissemination of a sophisticated system of standard punctuation for the English language. The complex rules for the use of commas conveyed a range of precise meanings, while the choice between semi-colon, colon and full stop expressed the exact, and often subtle, relationship between statements. Without this kind of attention to punctuation, there is bound to be a loss of precision in communication and in thinking. The current use of commas to join statements together, without any regard for grammar or the nature of the link between them, lacks rigour and covers up lazy thinking.\nWhich one of the following can be drawn as a conclusion from the above?\nA Most writers do not want to waste time thinking through the exact connections between their ideas.\nB Only a minority of people ever grasped the finer aspects of the traditional system of punctuation.\nC Schools should go back to teaching the traditional system of punctuation.\nD The government should reintroduce grammar schools into the UK.\nE The vocabulary and grammar of a language naturally evolve over time, and the same is true of punctuation."
+      },
+      {
+        "id": "TSA-13",
+        "sheet": "TSA_original",
+        "row": 14,
+        "criterion": "Identifying an Assumption",
+        "year": 2019,
+        "question_number": 16,
+        "gold": "A",
+        "question_sha256": "0d89d669a0705d4f2000a13df46b4a53568e0e07ab95ffadf909165e74a387ec",
+        "text": "The government is planning an increase in fuel tax later this year as part of its strategy to meet carbon emissions targets. Yet motorists and road transport companies have suffered crippling price rises of up to 30% in petrol and diesel bills in the past year because of fuel taxes. The government has enjoyed a £505 million windfall from high oil prices in the last six months alone, with extra revenue coming from North Sea oil reserves. A further increase in fuel tax will impact on all UK households because it will eventually push up the price of shop goods and inflation. So the government must abandon its planned tax increase.\nWhich one of the following is an underlying assumption of the above passage?\nA The impact on people’s pockets is more important than the need to control carbon emissions.\nB The cost of fuel is too high and must be reduced.\nC The only justification for higher fuel taxes is to reduce carbon emissions.\nD Road transport companies could go out of business if fuel tax is increased.\nE The government could use its increased levels of North Sea oil revenue to reduce fuel\ntaxes.",
+        "collection_order": 2,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nThe government is planning an increase in fuel tax later this year as part of its strategy to meet carbon emissions targets. Yet motorists and road transport companies have suffered crippling price rises of up to 30% in petrol and diesel bills in the past year because of fuel taxes. The government has enjoyed a £505 million windfall from high oil prices in the last six months alone, with extra revenue coming from North Sea oil reserves. A further increase in fuel tax will impact on all UK households because it will eventually push up the price of shop goods and inflation. So the government must abandon its planned tax increase.\nWhich one of the following is an underlying assumption of the above passage?\nA The impact on people’s pockets is more important than the need to control carbon emissions.\nB The cost of fuel is too high and must be reduced.\nC The only justification for higher fuel taxes is to reduce carbon emissions.\nD Road transport companies could go out of business if fuel tax is increased.\nE The government could use its increased levels of North Sea oil revenue to reduce fuel\ntaxes."
+      },
+      {
+        "id": "TSA-06",
+        "sheet": "TSA_original",
+        "row": 7,
+        "criterion": "Drawing a Conclusion",
+        "year": 2019,
+        "question_number": 4,
+        "gold": "B",
+        "question_sha256": "edd1853688d988edebe0c8d9cc6557fa1c478860bf634338935e145356c6c150",
+        "text": "Young people are becoming ever more responsible. They are less likely to take drugs or drink than past generations. Very few have serious problems with alcohol or drugs. It is people in their forties who are most likely to be admitted to hospital for drinking-related problems. The latest figures on drug addiction show that 39% of heroin addicts are now over the age of forty, up from 19% in 2006. Fewer than ever are under the age of twenty-four. The number of young adults in prison is falling, but our overcrowded prisons are increasingly home to the older generation: between 2002 and 2013, the number of middle-aged men locked up increased by 130%. The same is true of suicide rates: on both sides of the Atlantic fewer young people but more middle-aged men are killing themselves.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA Young people have far fewer health problems than older generations.\nB Some social problems are increasingly problems of middle-aged people.\nC People who drink are more likely to engage in criminal activity.\nD Drink, drugs and suicide are the biggest killers of middle-aged people.\nE Young people are likely to develop harmful behaviours later in life.",
+        "collection_order": 3,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nYoung people are becoming ever more responsible. They are less likely to take drugs or drink than past generations. Very few have serious problems with alcohol or drugs. It is people in their forties who are most likely to be admitted to hospital for drinking-related problems. The latest figures on drug addiction show that 39% of heroin addicts are now over the age of forty, up from 19% in 2006. Fewer than ever are under the age of twenty-four. The number of young adults in prison is falling, but our overcrowded prisons are increasingly home to the older generation: between 2002 and 2013, the number of middle-aged men locked up increased by 130%. The same is true of suicide rates: on both sides of the Atlantic fewer young people but more middle-aged men are killing themselves.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA Young people have far fewer health problems than older generations.\nB Some social problems are increasingly problems of middle-aged people.\nC People who drink are more likely to engage in criminal activity.\nD Drink, drugs and suicide are the biggest killers of middle-aged people.\nE Young people are likely to develop harmful behaviours later in life."
+      },
+      {
+        "id": "TSA-21",
+        "sheet": "TSA_original",
+        "row": 22,
+        "criterion": "Detecting Reasoning Errors",
+        "year": 2020,
+        "question_number": 1,
+        "gold": "A",
+        "question_sha256": "d8d91317105152e1d72088dff21fb0f16a4f79ba25ac16e81daea8510eced35c",
+        "text": "The 21st century is witnessing a significant rise in the proportion of people being diagnosed by medical professionals as having a mental illness. For example, at the turn of the century, the number of Canadians being treated for depression increased by over 30% in just one year. A recent study in the US found that nearly twice the number of young people there were diagnosed with a mental disorder in 2018 as compared to 2003. The World Health Organization estimates that by 2028, depression will be the second leading type of disability worldwide. It is clear that aspects of the modern world make it more difficult for people to maintain good mental health.\nWhich one of the following best expresses the flaw in the above argument?\nA Changes in health care and a decrease in stigma attached to mental illness may be responsible for higher diagnosis rates.\nB Many people with a mental health diagnosis may be able to function well in society.\nC Significant numbers of people may be hesitant to seek help for mental health concerns\nfrom doctors or other medical professionals.\nD Some physical and behavioural factors may make mental health diagnoses more difficult.\nE In some cultures people may prefer to seek help for mental health concerns from religious leaders as opposed to doctors.",
+        "collection_order": 4,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nThe 21st century is witnessing a significant rise in the proportion of people being diagnosed by medical professionals as having a mental illness. For example, at the turn of the century, the number of Canadians being treated for depression increased by over 30% in just one year. A recent study in the US found that nearly twice the number of young people there were diagnosed with a mental disorder in 2018 as compared to 2003. The World Health Organization estimates that by 2028, depression will be the second leading type of disability worldwide. It is clear that aspects of the modern world make it more difficult for people to maintain good mental health.\nWhich one of the following best expresses the flaw in the above argument?\nA Changes in health care and a decrease in stigma attached to mental illness may be responsible for higher diagnosis rates.\nB Many people with a mental health diagnosis may be able to function well in society.\nC Significant numbers of people may be hesitant to seek help for mental health concerns\nfrom doctors or other medical professionals.\nD Some physical and behavioural factors may make mental health diagnoses more difficult.\nE In some cultures people may prefer to seek help for mental health concerns from religious leaders as opposed to doctors."
+      },
+      {
+        "id": "TSA-32",
+        "sheet": "TSA_original",
+        "row": 33,
+        "criterion": "Applying Principles",
+        "year": 2021,
+        "question_number": 4,
+        "gold": "B",
+        "question_sha256": "cb4d2ca2ca9a412bd7014fb1d3261626b52ed18a3adcf33b3d5d8bc18206e74c",
+        "text": "There is often talk of this or that job being ‘exploitative’ or of people on low wages being ‘exploited’ by their employers, as if there were something deeply unjust about paying someone poorly. But this misses a fundamental point about injustice. You cannot be unjustly treated voluntarily: if you agree to the action, you are not being unjustly treated. Anyone who accepts a job, regardless of the pay, is not being unjustly treated by their employer. Obviously this does not apply to someone forced into a job against their will. But if they have accepted their job, even if the reasons pushing them to accept it might be deemed unfair in a wider sense, the act of employing them cannot itself be deemed unjust.\nWhich one of the following illustrates the principle used in the above argument?\nA An aid worker who freely goes to work in a war zone and then gets kidnapped and held for ransom cannot complain about the actions of their captors.\nB A patient who gives fully informed consent to take part in a clinical trial for a new drug has no right to complain about experiencing the drug’s stated side effects.\nC A person who deviates from the terms of their contract cannot complain if they are dismissed for misconduct.\nD If someone gives out their credit card details to a cold-caller over the phone, they cannot complain about becoming a victim of fraud.\nE Someone who suffers as a result of the policies of a party they did not vote for has a right to claim they have been unfairly treated.",
+        "collection_order": 5,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nThere is often talk of this or that job being ‘exploitative’ or of people on low wages being ‘exploited’ by their employers, as if there were something deeply unjust about paying someone poorly. But this misses a fundamental point about injustice. You cannot be unjustly treated voluntarily: if you agree to the action, you are not being unjustly treated. Anyone who accepts a job, regardless of the pay, is not being unjustly treated by their employer. Obviously this does not apply to someone forced into a job against their will. But if they have accepted their job, even if the reasons pushing them to accept it might be deemed unfair in a wider sense, the act of employing them cannot itself be deemed unjust.\nWhich one of the following illustrates the principle used in the above argument?\nA An aid worker who freely goes to work in a war zone and then gets kidnapped and held for ransom cannot complain about the actions of their captors.\nB A patient who gives fully informed consent to take part in a clinical trial for a new drug has no right to complain about experiencing the drug’s stated side effects.\nC A person who deviates from the terms of their contract cannot complain if they are dismissed for misconduct.\nD If someone gives out their credit card details to a cold-caller over the phone, they cannot complain about becoming a victim of fraud.\nE Someone who suffers as a result of the policies of a party they did not vote for has a right to claim they have been unfairly treated."
+      },
+      {
+        "id": "TSA-23",
+        "sheet": "TSA_original",
+        "row": 24,
+        "criterion": "Detecting Reasoning Errors",
+        "year": 2019,
+        "question_number": 9,
+        "gold": "B",
+        "question_sha256": "487fc49c23a76a881bd8438c3a7ee762369c153860e05824b0c9f571cdf96406",
+        "text": "Texting is the preferred method of communication among young people, with 72% of teenagers saying they text regularly and one in three sending more than a hundred texts per day. Unfortunately, however, very few youngsters seem able to communicate using grammatically correct sentences. They seem to think it ‘gr8’ that correct spelling is no longer considered necessary. Many local employers have complained that school-leavers have no idea how to communicate appropriately, whether face-to-face or in business letters. Many written job applications are phrased so poorly that they go straight in the bin. Mobile phones were banned in my daughter’s school last year, a move which has proved fully justified. Since then test scores in English have improved. All schools need to introduce a similar ban.\nWhich one of the following best expresses the flaw in the above argument?\nA It makes a false statistical comparison between the 72% of teenagers who merely text regularly and those who send more than a hundred texts in a day.\nB It assumes that, because test scores improved after the ban on mobile phones, the improvement was due to the ban.\nC The argument rests on the assumption that communicating by text is inappropriate.\nD Its conclusion, that communicating by text is inappropriate, merely restates one of the\nreasons given in support of the argument.\nE It assumes that correct spelling is a necessary requirement for gaining employment.",
+        "collection_order": 6,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nTexting is the preferred method of communication among young people, with 72% of teenagers saying they text regularly and one in three sending more than a hundred texts per day. Unfortunately, however, very few youngsters seem able to communicate using grammatically correct sentences. They seem to think it ‘gr8’ that correct spelling is no longer considered necessary. Many local employers have complained that school-leavers have no idea how to communicate appropriately, whether face-to-face or in business letters. Many written job applications are phrased so poorly that they go straight in the bin. Mobile phones were banned in my daughter’s school last year, a move which has proved fully justified. Since then test scores in English have improved. All schools need to introduce a similar ban.\nWhich one of the following best expresses the flaw in the above argument?\nA It makes a false statistical comparison between the 72% of teenagers who merely text regularly and those who send more than a hundred texts in a day.\nB It assumes that, because test scores improved after the ban on mobile phones, the improvement was due to the ban.\nC The argument rests on the assumption that communicating by text is inappropriate.\nD Its conclusion, that communicating by text is inappropriate, merely restates one of the\nreasons given in support of the argument.\nE It assumes that correct spelling is a necessary requirement for gaining employment."
+      },
+      {
+        "id": "TSA-30",
+        "sheet": "TSA_original",
+        "row": 31,
+        "criterion": "Matching Arguments",
+        "year": 2019,
+        "question_number": 46,
+        "gold": "E",
+        "question_sha256": "e81b17b54d086832016eaddc05d4e8240452d29339cef5f1eb029d973a727351",
+        "text": "Your cake will be tasty only if you use fresh ingredients which you can only buy at the market. You did not go to the market, so your cake will not be tasty.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA You can only be happy if you are healthy. To be healthy, you have to eat a lot of vegetables. You eat a lot of vegetables so you must be happy.\nB She either went to school or to the playground. She is not in the playground, so she must have gone to school.\nC If you light a candle, there is light and, if there is light, I am able to read to you. You must have lit a candle because I can read.\nD Listening to loud music through earphones damages hearing. His hearing is fine which means that he must not have listened to loud music through earphones.\nE Good knowledge of the car is necessary for fixing it. Without fixing the car, we will not arrive at the wedding in time. We will surely be late as we do not have good knowledge of the car.",
+        "collection_order": 7,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nYour cake will be tasty only if you use fresh ingredients which you can only buy at the market. You did not go to the market, so your cake will not be tasty.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA You can only be happy if you are healthy. To be healthy, you have to eat a lot of vegetables. You eat a lot of vegetables so you must be happy.\nB She either went to school or to the playground. She is not in the playground, so she must have gone to school.\nC If you light a candle, there is light and, if there is light, I am able to read to you. You must have lit a candle because I can read.\nD Listening to loud music through earphones damages hearing. His hearing is fine which means that he must not have listened to loud music through earphones.\nE Good knowledge of the car is necessary for fixing it. Without fixing the car, we will not arrive at the wedding in time. We will surely be late as we do not have good knowledge of the car."
+      },
+      {
+        "id": "TSA-17",
+        "sheet": "TSA_original",
+        "row": 18,
+        "criterion": "Assessing the Impact of Additional Evidence",
+        "year": 2020,
+        "question_number": 10,
+        "gold": "C",
+        "question_sha256": "cef48cc67185bf6ba7311c187e24cc0f9bee68a3ae8e899695e510eabbf741e7",
+        "text": "Despite the government’s promise to be more business friendly, plans have been announced to change the law regarding the paid leave that couples are entitled to take following the birth of a child. This will allow new parents to take more time off work than under the current regulations. It is claimed that the current legislation makes it difficult for those with family commitments to manage all of their responsibilities, but it needs to be recognised that businesses (and in particular small businesses) need to operate in a way that guarantees that staff are available to do the jobs that need doing. The new proposals are undoubtedly going to make the system more complicated and could dissuade businesses from employing certain groups of people. They should be opposed.\nWhich one of the following, if true, most weakens the above argument?\nA The example given is only one of a range of measures being proposed.\nB Many businesses now allow their employees to choose to work from home.\nC The proposals from the government provide support for businesses to help with the cost of\ncovering the work of staff taking leave.\nD The problems associated with covering the work of absent members of staff become increasingly difficult the longer the absence goes on.\nE The proposals will increase the amount of leave that employees are allowed to take in other circumstances as well as following the birth of a child.",
+        "collection_order": 8,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nDespite the government’s promise to be more business friendly, plans have been announced to change the law regarding the paid leave that couples are entitled to take following the birth of a child. This will allow new parents to take more time off work than under the current regulations. It is claimed that the current legislation makes it difficult for those with family commitments to manage all of their responsibilities, but it needs to be recognised that businesses (and in particular small businesses) need to operate in a way that guarantees that staff are available to do the jobs that need doing. The new proposals are undoubtedly going to make the system more complicated and could dissuade businesses from employing certain groups of people. They should be opposed.\nWhich one of the following, if true, most weakens the above argument?\nA The example given is only one of a range of measures being proposed.\nB Many businesses now allow their employees to choose to work from home.\nC The proposals from the government provide support for businesses to help with the cost of\ncovering the work of staff taking leave.\nD The problems associated with covering the work of absent members of staff become increasingly difficult the longer the absence goes on.\nE The proposals will increase the amount of leave that employees are allowed to take in other circumstances as well as following the birth of a child."
+      },
+      {
+        "id": "TSA-27",
+        "sheet": "TSA_original",
+        "row": 28,
+        "criterion": "Matching Arguments",
+        "year": 2020,
+        "question_number": 11,
+        "gold": "E",
+        "question_sha256": "066bebbe6a74af389eec3301504921ddc1b7c87289f100631f117b976c0cc231",
+        "text": "As long as there is the right combination of guests, any party will be a success. The last party was great, so there must have been a perfect selection of guests.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA As long as there is a high level of unemployment, all economies will perform below their maximum potential. Unemployment levels here have risen sharply, so our economy will perform less well than it could do.\nB As long as there are good hotels, any seaside town can get on the tourist trail. Our town is a tourist hotspot, yet none of the hotels are any good.\nC As long as there is somebody in charge, any project will go smoothly. James has taken firm control, so this week’s project will be fine.\nD As long as there are lots of security personnel around, public order is sure to be maintained. We have been having huge problems with public disorder here, so there cannot be many security people.\nE As long as there is lots of water, any habitat will support life. Life is abundant in that habitat, so there must be lots of water.",
+        "collection_order": 9,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nAs long as there is the right combination of guests, any party will be a success. The last party was great, so there must have been a perfect selection of guests.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA As long as there is a high level of unemployment, all economies will perform below their maximum potential. Unemployment levels here have risen sharply, so our economy will perform less well than it could do.\nB As long as there are good hotels, any seaside town can get on the tourist trail. Our town is a tourist hotspot, yet none of the hotels are any good.\nC As long as there is somebody in charge, any project will go smoothly. James has taken firm control, so this week’s project will be fine.\nD As long as there are lots of security personnel around, public order is sure to be maintained. We have been having huge problems with public disorder here, so there cannot be many security people.\nE As long as there is lots of water, any habitat will support life. Life is abundant in that habitat, so there must be lots of water."
+      },
+      {
+        "id": "TSA-25",
+        "sheet": "TSA_original",
+        "row": 26,
+        "criterion": "Detecting Reasoning Errors",
+        "year": 2019,
+        "question_number": 34,
+        "gold": "A",
+        "question_sha256": "db14211067d97dda5e18ecc96fc7095c1b5ecebf3a4fef4a1a0e71e9238a356c",
+        "text": "Much concern is paid to the hazards posed by people using mobile phones while operating motor vehicles. Although using a smartphone or other mobile phone behind the wheel of a car is most certainly dangerous, research is showing that very frequent usage of the phones is harmful more generally. A study has found that individuals with relatively high levels of mobile phone usage are more likely to demonstrate cognitive failures, which can range from forgetting appointments to accidentally bumping into things in the environment. Cognitive failures are associated with the short attention spans also observed in high-frequency mobile phone users. Clearly, if people want to reduce their risk of cognitive failures, they should limit the amount of time they spend on their mobile phones.\nWhich one of the following is the best statement of the flaw in the above argument?\nA High-frequency mobile phone users may have had short attention spans prior to the formation of their phone usage habits.\nB Limiting one’s smartphone or mobile phone usage may not be a sufficient strategy for significantly reducing cognitive failures.\nC Mobile phones may play an important role in the completion of everyday tasks in the lives of many people.\nD Smartphones and other mobile phones may have different applications or features that are not all used in the exact same fashion.\nE The risks posed by using a mobile phone while driving may be much greater than those posed by too-frequent usage of the phones overall.",
+        "collection_order": 10,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nMuch concern is paid to the hazards posed by people using mobile phones while operating motor vehicles. Although using a smartphone or other mobile phone behind the wheel of a car is most certainly dangerous, research is showing that very frequent usage of the phones is harmful more generally. A study has found that individuals with relatively high levels of mobile phone usage are more likely to demonstrate cognitive failures, which can range from forgetting appointments to accidentally bumping into things in the environment. Cognitive failures are associated with the short attention spans also observed in high-frequency mobile phone users. Clearly, if people want to reduce their risk of cognitive failures, they should limit the amount of time they spend on their mobile phones.\nWhich one of the following is the best statement of the flaw in the above argument?\nA High-frequency mobile phone users may have had short attention spans prior to the formation of their phone usage habits.\nB Limiting one’s smartphone or mobile phone usage may not be a sufficient strategy for significantly reducing cognitive failures.\nC Mobile phones may play an important role in the completion of everyday tasks in the lives of many people.\nD Smartphones and other mobile phones may have different applications or features that are not all used in the exact same fashion.\nE The risks posed by using a mobile phone while driving may be much greater than those posed by too-frequent usage of the phones overall."
+      },
+      {
+        "id": "TSA-15",
+        "sheet": "TSA_original",
+        "row": 16,
+        "criterion": "Identifying an Assumption",
+        "year": 2019,
+        "question_number": 40,
+        "gold": "B",
+        "question_sha256": "b8ded5b0c0b0a64ce2e1a2f1f611a04146450e398e2ee1eb94a60051ff2d5d89",
+        "text": "Long hours and poor pay have become commonly accepted, but they are taking a heavy toll on life at home. It is not a pretty picture: an economy where high levels of stress and anxiety are normal, where people get ill because they have lost control of their time, and where marriages are damaged and children suffer. Yet it is a situation that politicians invite us to applaud. They praise ‘strivers’ and ‘hard-working people’, not chilled-out, caring mums and dads. The longer and harder we work, the more admirable we are supposed to be. So the political slogans have clearly been effective, but the resulting glorification of work has made us miserable.\nWhich one of the following is an underlying assumption of the above argument?\nA Most employees are not satisfied with their salary.\nB Political slogans significantly affect people’s everyday behaviour.\nC Restructuring the working week would be beneficial for the economy.\nD Companies could afford shorter hours or better pay for their employees.\nE People who experience less stress at work are better parents.",
+        "collection_order": 11,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nLong hours and poor pay have become commonly accepted, but they are taking a heavy toll on life at home. It is not a pretty picture: an economy where high levels of stress and anxiety are normal, where people get ill because they have lost control of their time, and where marriages are damaged and children suffer. Yet it is a situation that politicians invite us to applaud. They praise ‘strivers’ and ‘hard-working people’, not chilled-out, caring mums and dads. The longer and harder we work, the more admirable we are supposed to be. So the political slogans have clearly been effective, but the resulting glorification of work has made us miserable.\nWhich one of the following is an underlying assumption of the above argument?\nA Most employees are not satisfied with their salary.\nB Political slogans significantly affect people’s everyday behaviour.\nC Restructuring the working week would be beneficial for the economy.\nD Companies could afford shorter hours or better pay for their employees.\nE People who experience less stress at work are better parents."
+      },
+      {
+        "id": "TSA-11",
+        "sheet": "TSA_original",
+        "row": 12,
+        "criterion": "Identifying an Assumption",
+        "year": 2020,
+        "question_number": 3,
+        "gold": "A",
+        "question_sha256": "8ed38b0561a27d0fd56f1be298acd589df2440fe933394dc25d54b93273dfa31",
+        "text": "In the UK we are increasingly engrossed by entertainment: we devote more time to it than sleep and spend more money on it than food and drink. The aim of entertainment is to create a make-believe situation in which emotions can be excited and discharged without affecting real life. While entertainment has its proper place, it can become a preoccupation, dominating our thoughts and sapping our emotional energy. When this happens, the ‘real’ world of action starts to appear comparatively dull and tedious and this, in turn, undermines social cohesion. Our increasing use of entertainment is, then, threatening our wellbeing.\nWhich one of the following is an underlying assumption of the above argument?\nA Our wellbeing depends on social cohesion.\nB People prefer entertainment to food and drink.\nC Viewers copy the behaviour they see in entertainment media.\nD Emotions pose a threat to society.\nE The general public are addicted to entertainment.",
+        "collection_order": 12,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nIn the UK we are increasingly engrossed by entertainment: we devote more time to it than sleep and spend more money on it than food and drink. The aim of entertainment is to create a make-believe situation in which emotions can be excited and discharged without affecting real life. While entertainment has its proper place, it can become a preoccupation, dominating our thoughts and sapping our emotional energy. When this happens, the ‘real’ world of action starts to appear comparatively dull and tedious and this, in turn, undermines social cohesion. Our increasing use of entertainment is, then, threatening our wellbeing.\nWhich one of the following is an underlying assumption of the above argument?\nA Our wellbeing depends on social cohesion.\nB People prefer entertainment to food and drink.\nC Viewers copy the behaviour they see in entertainment media.\nD Emotions pose a threat to society.\nE The general public are addicted to entertainment."
+      },
+      {
+        "id": "TSA-12",
+        "sheet": "TSA_original",
+        "row": 13,
+        "criterion": "Identifying an Assumption",
+        "year": 2019,
+        "question_number": 5,
+        "gold": "A",
+        "question_sha256": "74d21780b57ede79453e6dc114b0206e09e80830fbdeb86ddc7b6bcff7140b4d",
+        "text": "Adults thinking back on their experience of school almost always remember with most gratitude the teachers who taught them more than just a subject, and prepared them for life, not just for an exam. But the current generation of students may not have the same experiences to look back on in future years because the role of teachers has changed. The focus for both students and teachers is now mainly on exam results, and that is how their success or failure is measured. For teachers to share their lives with their students, offering them a model of adulthood to which to aspire, is therefore no longer considered desirable. So children today receive a less valuable education than their parents and grandparents did.\nWhich one of the following is an underlying assumption of the above argument?\nA Education for life is of greater value than merely passing exams.\nB Adults looking back on their childhood often remember only the good parts.\nC Many young people have higher ambitions than becoming like their teachers.\nD Exam results are the vital keys which open the door to education and a livelihood.\nE Offering students a model of adulthood is a more satisfying role than helping them to pass exams.",
+        "collection_order": 13,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nAdults thinking back on their experience of school almost always remember with most gratitude the teachers who taught them more than just a subject, and prepared them for life, not just for an exam. But the current generation of students may not have the same experiences to look back on in future years because the role of teachers has changed. The focus for both students and teachers is now mainly on exam results, and that is how their success or failure is measured. For teachers to share their lives with their students, offering them a model of adulthood to which to aspire, is therefore no longer considered desirable. So children today receive a less valuable education than their parents and grandparents did.\nWhich one of the following is an underlying assumption of the above argument?\nA Education for life is of greater value than merely passing exams.\nB Adults looking back on their childhood often remember only the good parts.\nC Many young people have higher ambitions than becoming like their teachers.\nD Exam results are the vital keys which open the door to education and a livelihood.\nE Offering students a model of adulthood is a more satisfying role than helping them to pass exams."
+      },
+      {
+        "id": "TSA-28",
+        "sheet": "TSA_original",
+        "row": 29,
+        "criterion": "Matching Arguments",
+        "year": 2020,
+        "question_number": 21,
+        "gold": "C",
+        "question_sha256": "b3e5b2cffd4aa1b771815f167158758649a7fb93bcea7faa4ae79d79961e270e",
+        "text": "In real terms, spending on education in the UK is going down. But reductions in funding always mean a reduction in the quality of education provided. In the current climate, we should expect to see the quality of education in the UK diminishing.\nWhich one of the following most closely parallels the reasoning used in the above passage?\nA No one ever succeeds at anything unless they make an effort. But you’ve just won an award for your work in physics, so you must have made an effort.\nB When the water is at this level, it’s either high tide or a flood. High tide is not for another eight hours. So there must be a flood upstream.\nC If you take regular exercise, you’ll be fit in heart and mind. You’ve been working out twice a week for three months now, so you must be happy and healthy.\nD If you eat sweets every day you’re more likely to need dental treatment. Sam has had a lot of dental treatment so he must eat sweets every day.\nE The car won’t run without a working battery. I can’t get the car to start so the battery must be dead.",
+        "collection_order": 14,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nIn real terms, spending on education in the UK is going down. But reductions in funding always mean a reduction in the quality of education provided. In the current climate, we should expect to see the quality of education in the UK diminishing.\nWhich one of the following most closely parallels the reasoning used in the above passage?\nA No one ever succeeds at anything unless they make an effort. But you’ve just won an award for your work in physics, so you must have made an effort.\nB When the water is at this level, it’s either high tide or a flood. High tide is not for another eight hours. So there must be a flood upstream.\nC If you take regular exercise, you’ll be fit in heart and mind. You’ve been working out twice a week for three months now, so you must be happy and healthy.\nD If you eat sweets every day you’re more likely to need dental treatment. Sam has had a lot of dental treatment so he must eat sweets every day.\nE The car won’t run without a working battery. I can’t get the car to start so the battery must be dead."
+      },
+      {
+        "id": "TSA-09",
+        "sheet": "TSA_original",
+        "row": 10,
+        "criterion": "Drawing a Conclusion",
+        "year": 2019,
+        "question_number": 28,
+        "gold": "B",
+        "question_sha256": "97d089e7ae895b007af4a7be04c826675f71735b7ff4d0101326e6fd31d2a919",
+        "text": "Chiropractors rely heavily on manipulating their patients’ spines. This has benefits for some patients, but more than half of all patients suffer mild to moderate adverse effects after seeing a chiropractor. These are mostly local and referred pains that usually last for two to three days. Chiropractors often claim that these are necessary steps on the road to getting better. However, several hundred cases have been documented in which patients were seriously and often permanently damaged after chiropractic manipulations. What usually happens in these tragic instances is that, upon manipulation of the upper spine, an artery supplying the brain is overstretched and simply breaks up, leading to a stroke that can prove fatal.\nWhich one of the following is a conclusion that can be drawn from the above passage?\nA Chiropractic therapy should be banned.\nB Chiropractic therapy may do more harm than good.\nC The spine is the most delicate part of the human body.\nD People should see a doctor before going to a chiropractor.\nE Pain is a necessary part of the healing process.",
+        "collection_order": 15,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nChiropractors rely heavily on manipulating their patients’ spines. This has benefits for some patients, but more than half of all patients suffer mild to moderate adverse effects after seeing a chiropractor. These are mostly local and referred pains that usually last for two to three days. Chiropractors often claim that these are necessary steps on the road to getting better. However, several hundred cases have been documented in which patients were seriously and often permanently damaged after chiropractic manipulations. What usually happens in these tragic instances is that, upon manipulation of the upper spine, an artery supplying the brain is overstretched and simply breaks up, leading to a stroke that can prove fatal.\nWhich one of the following is a conclusion that can be drawn from the above passage?\nA Chiropractic therapy should be banned.\nB Chiropractic therapy may do more harm than good.\nC The spine is the most delicate part of the human body.\nD People should see a doctor before going to a chiropractor.\nE Pain is a necessary part of the healing process."
+      },
+      {
+        "id": "TSA-20",
+        "sheet": "TSA_original",
+        "row": 21,
+        "criterion": "Assessing the Impact of Additional Evidence",
+        "year": 2019,
+        "question_number": 41,
+        "gold": "E",
+        "question_sha256": "10b874173d212e4f5c65b4201574231381e02c3b5cfb7323e3d58486b52795a4",
+        "text": "Despite recent improvements to their training, a new study suggests that the police are as susceptible as the general public to holding false beliefs about crime and punishment. Participants in the study were questioned about their views on a number of crime-related myths such as ‘capital punishment is an effective way to deter criminal activity’ – myths, because they are unsupported by research evidence. Police were just as likely to endorse the misconceptions as the lay participants and, moreover, were more confident in their false beliefs. This is a worrying example of a ‘scientist–practitioner gap’, a term which describes a situation where professionals do not accept the evidence of research relevant to their roles. Studies have shown that training can permanently reduce the ‘scientist–practitioner gap’. Police officers need more training.\nWhich one of the following, if true, most strengthens the above argument?\nA The recruitment process for new police officers often fails to identify false beliefs held by applicants.\nB The majority of police officers do not support the return of capital punishment.\nC The science–practitioner gap is a common phenomenon in many professions, not just the\npolice.\nD Police training has often been criticised in the media for being insufficiently practical.\nE Police officers whose views are not evidence-based are more likely to have complaints made against them by members of the public.",
+        "collection_order": 16,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nDespite recent improvements to their training, a new study suggests that the police are as susceptible as the general public to holding false beliefs about crime and punishment. Participants in the study were questioned about their views on a number of crime-related myths such as ‘capital punishment is an effective way to deter criminal activity’ – myths, because they are unsupported by research evidence. Police were just as likely to endorse the misconceptions as the lay participants and, moreover, were more confident in their false beliefs. This is a worrying example of a ‘scientist–practitioner gap’, a term which describes a situation where professionals do not accept the evidence of research relevant to their roles. Studies have shown that training can permanently reduce the ‘scientist–practitioner gap’. Police officers need more training.\nWhich one of the following, if true, most strengthens the above argument?\nA The recruitment process for new police officers often fails to identify false beliefs held by applicants.\nB The majority of police officers do not support the return of capital punishment.\nC The science–practitioner gap is a common phenomenon in many professions, not just the\npolice.\nD Police training has often been criticised in the media for being insufficiently practical.\nE Police officers whose views are not evidence-based are more likely to have complaints made against them by members of the public."
+      },
+      {
+        "id": "TSA-31",
+        "sheet": "TSA_original",
+        "row": 32,
+        "criterion": "Applying Principles",
+        "year": 2020,
+        "question_number": 39,
+        "gold": "B",
+        "question_sha256": "bc40e539bef949d0e2e67d5f69f59e1f1cadcf496746edd50b66fc92ad85ac18",
+        "text": "If the captain of a national team commits any kind of crime, he or she is likely to be dropped, heavily fined by the sport’s governing body, or barred from future competition. This is on top of any punishment handed down by the courts. Senior politicians, doctors, judges or head teachers who offend also find themselves barred from their professions, with little or no chance of regaining their hard-earned status after serving their sentence. There is nothing unjust in this, although it is effectively a double punishment for a single offence. Privileged people must understand that with rewards come responsibilities, including the responsibility to behave in a more exemplary way than those in ordinary walks of life.\nWhich one of the following illustrates the principle underlying the above argument?\nA A crime is a crime whoever commits it, and no exceptions should be made for highly placed people.\nB A police chief who accepts a bribe deserves more blame than the criminal who offers the bribe.\nC Leading sports personalities should understand that they are role models for young people.\nD It is wrong to use the law to make an example of some people but not others.\nE People on low incomes who commit offences should have reduced sentences.",
+        "collection_order": 17,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nIf the captain of a national team commits any kind of crime, he or she is likely to be dropped, heavily fined by the sport’s governing body, or barred from future competition. This is on top of any punishment handed down by the courts. Senior politicians, doctors, judges or head teachers who offend also find themselves barred from their professions, with little or no chance of regaining their hard-earned status after serving their sentence. There is nothing unjust in this, although it is effectively a double punishment for a single offence. Privileged people must understand that with rewards come responsibilities, including the responsibility to behave in a more exemplary way than those in ordinary walks of life.\nWhich one of the following illustrates the principle underlying the above argument?\nA A crime is a crime whoever commits it, and no exceptions should be made for highly placed people.\nB A police chief who accepts a bribe deserves more blame than the criminal who offers the bribe.\nC Leading sports personalities should understand that they are role models for young people.\nD It is wrong to use the law to make an example of some people but not others.\nE People on low incomes who commit offences should have reduced sentences."
+      },
+      {
+        "id": "TSA-07",
+        "sheet": "TSA_original",
+        "row": 8,
+        "criterion": "Drawing a Conclusion",
+        "year": 2020,
+        "question_number": 9,
+        "gold": "C",
+        "question_sha256": "48c21756d107226cadef7afc1ee2ebcef0ea9bf97ae68d044ca4b04dfa6278b1",
+        "text": "Microscopic malaria parasites enter a person’s bloodstream through mosquito bites and infect red blood cells. They replicate in these cells and penetrate other organs. Until recently, microbiologists sought to block the parasites from entering red blood cells. Rhode Island University studied 700 Tanzanian children infected with malaria and found the parasites use a protein, since named PfSEA-1, to escape from the red blood cells they infect. Having investigated a subgroup of children immune to malaria, the researchers realised these children were producing an antibody that locked protein PfSEA-1 into their red blood cells. Trapped in the red cells, the parasites were destroyed by immune system cells. Scientists have reproduced the antibody and successfully tested it on mice. Experts believe that, after trials, the antibody will be certified for use in the treatment of humans.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA Rhode Island University is a world leader in medical research.\nB After the discovery of protein PfSEA-1, the traditional approaches to fight malaria will be abandoned as ineffective.\nC The discovery of protein PfSEA-1 is likely to help scientists to develop a new way of combatting malaria.\nD World leaders should support and fund the research being conducted by Rhode Island University.\nE A unique feature of the Tanzanian children helped in the discovery of protein PfSEA-1 and its function in spreading malaria.",
+        "collection_order": 18,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nMicroscopic malaria parasites enter a person’s bloodstream through mosquito bites and infect red blood cells. They replicate in these cells and penetrate other organs. Until recently, microbiologists sought to block the parasites from entering red blood cells. Rhode Island University studied 700 Tanzanian children infected with malaria and found the parasites use a protein, since named PfSEA-1, to escape from the red blood cells they infect. Having investigated a subgroup of children immune to malaria, the researchers realised these children were producing an antibody that locked protein PfSEA-1 into their red blood cells. Trapped in the red cells, the parasites were destroyed by immune system cells. Scientists have reproduced the antibody and successfully tested it on mice. Experts believe that, after trials, the antibody will be certified for use in the treatment of humans.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA Rhode Island University is a world leader in medical research.\nB After the discovery of protein PfSEA-1, the traditional approaches to fight malaria will be abandoned as ineffective.\nC The discovery of protein PfSEA-1 is likely to help scientists to develop a new way of combatting malaria.\nD World leaders should support and fund the research being conducted by Rhode Island University.\nE A unique feature of the Tanzanian children helped in the discovery of protein PfSEA-1 and its function in spreading malaria."
+      },
+      {
+        "id": "TSA-26",
+        "sheet": "TSA_original",
+        "row": 27,
+        "criterion": "Matching Arguments",
+        "year": 2020,
+        "question_number": 5,
+        "gold": "B",
+        "question_sha256": "40fb75efc7ce9bb2f2782230bad0fd47d47c51e35a52e3a0f8c46279568baba0",
+        "text": "You are allowed to vote in the general election only if you are at least 18 years old. You have reached 18 so you will be able to vote in the forthcoming election.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA You cannot obtain foreign currency from this bank if you cannot produce acceptable identification. You cannot produce the required identification, therefore we cannot let you have the foreign currency.\nB You can visit your grandmother in hospital providing you have no illness yourself. As you have no illness, you will be able to visit your grandmother.\nC We can afford to go to America this year only if you save up sufficient money. You haven’t saved enough so we will not be able to go.\nD To win the jackpot prize in the national lottery you need a ticket with all six prize-winning numbers. When I heard you had won the jackpot, I knew you had the lucky ticket that matched all the numbers from the draw.\nE Passport applications can only be accepted if photographs are witnessed as a likeness by someone in a professional job. Your application was refused so your witness cannot have been a professional person.",
+        "collection_order": 19,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nYou are allowed to vote in the general election only if you are at least 18 years old. You have reached 18 so you will be able to vote in the forthcoming election.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA You cannot obtain foreign currency from this bank if you cannot produce acceptable identification. You cannot produce the required identification, therefore we cannot let you have the foreign currency.\nB You can visit your grandmother in hospital providing you have no illness yourself. As you have no illness, you will be able to visit your grandmother.\nC We can afford to go to America this year only if you save up sufficient money. You haven’t saved enough so we will not be able to go.\nD To win the jackpot prize in the national lottery you need a ticket with all six prize-winning numbers. When I heard you had won the jackpot, I knew you had the lucky ticket that matched all the numbers from the draw.\nE Passport applications can only be accepted if photographs are witnessed as a likeness by someone in a professional job. Your application was refused so your witness cannot have been a professional person."
+      },
+      {
+        "id": "TSA-01",
+        "sheet": "TSA_original",
+        "row": 2,
+        "criterion": "Main Conclusion",
+        "year": 2019,
+        "question_number": 1,
+        "gold": "E",
+        "question_sha256": "661e9311537fe16637f1e3837a5f3210af2357df22dcb8587843807959a56492",
+        "text": "Like other booming cities, including New York, London has thrived amid globalisation. It is growing by 100 000 new residents a year. However, if London has given striving people plenty of reasons to come, it has done a poor job of housing them. The median price of a London home has tripled over the past two decades. Since 2001 the disposable income of people renting property has fallen by 30 per cent as a result. Businesses are worried too. Commercial property in central London is twice as expensive as in New York. Productivity has begun to slow as promising firms are forced out. Overpriced property is costing London the economic and human diversity on which its prosperity depends.\nWhich one of the following best expresses the main conclusion of the above argument?\nA London needs striving people in order to prosper.\nB Londoners in rented homes have 30 per cent less to spend.\nC London has done a poor job of housing its new residents.\nD Businesses are worried by the recent slowdown in productivity.\nE Expensive property is costing London the diversity it needs to prosper.",
+        "collection_order": 20,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nLike other booming cities, including New York, London has thrived amid globalisation. It is growing by 100 000 new residents a year. However, if London has given striving people plenty of reasons to come, it has done a poor job of housing them. The median price of a London home has tripled over the past two decades. Since 2001 the disposable income of people renting property has fallen by 30 per cent as a result. Businesses are worried too. Commercial property in central London is twice as expensive as in New York. Productivity has begun to slow as promising firms are forced out. Overpriced property is costing London the economic and human diversity on which its prosperity depends.\nWhich one of the following best expresses the main conclusion of the above argument?\nA London needs striving people in order to prosper.\nB Londoners in rented homes have 30 per cent less to spend.\nC London has done a poor job of housing its new residents.\nD Businesses are worried by the recent slowdown in productivity.\nE Expensive property is costing London the diversity it needs to prosper."
+      },
+      {
+        "id": "TSA-34",
+        "sheet": "TSA_original",
+        "row": 35,
+        "criterion": "Applying Principles",
+        "year": 2021,
+        "question_number": 27,
+        "gold": "B",
+        "question_sha256": "6fbf2a52d042566416ac3eeb9be391ad84bbced3a9923f8b1dfbc9db35511d3f",
+        "text": "Rhona is a self-employed IT technician. Some of her clients are also friends. When she checks a computer for problems, she sees what is stored on the hard disk. She has sometimes teased friends in front of others about the websites they have been visiting and the pictures she has seen stored on their computers. She should not have done this, because it is wrong for people to reveal sensitive information which they know only because of their work.\nWhich one of the following illustrates the principle used in the above argument?\nA Anyone who, in the course of their work, discovers evidence of terrorism should report it to the police.\nB Police officers should be dismissed if they pass confidential information to journalists about cases they have investigated.\nC Doctors and nurses should have access to patients’ medical records in order to give them the correct advice and treatment.\nD Ex-boyfriends and ex-girlfriends should not share personal or intimate information about their former partners, because such knowledge is private.\nE Teachers often come to know quite a lot of information about the families of their pupils, which they should report if they have any concerns.",
+        "collection_order": 21,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nRhona is a self-employed IT technician. Some of her clients are also friends. When she checks a computer for problems, she sees what is stored on the hard disk. She has sometimes teased friends in front of others about the websites they have been visiting and the pictures she has seen stored on their computers. She should not have done this, because it is wrong for people to reveal sensitive information which they know only because of their work.\nWhich one of the following illustrates the principle used in the above argument?\nA Anyone who, in the course of their work, discovers evidence of terrorism should report it to the police.\nB Police officers should be dismissed if they pass confidential information to journalists about cases they have investigated.\nC Doctors and nurses should have access to patients’ medical records in order to give them the correct advice and treatment.\nD Ex-boyfriends and ex-girlfriends should not share personal or intimate information about their former partners, because such knowledge is private.\nE Teachers often come to know quite a lot of information about the families of their pupils, which they should report if they have any concerns."
+      },
+      {
+        "id": "TSA-14",
+        "sheet": "TSA_original",
+        "row": 15,
+        "criterion": "Identifying an Assumption",
+        "year": 2019,
+        "question_number": 29,
+        "gold": "A",
+        "question_sha256": "69093697af9a901804f5d1e437e0b2d97c53a3a0961e53a70d4691443e850ae1",
+        "text": "Drivers found to be committing offences such as speeding are now offered the choice between paying the police for a re-education course or taking the traditional penalty of paying a fine and receiving penalty points on their licence. It is no surprise that the number of motorists opting for re-education courses has tripled in five years, but the high cost of such courses has led to accusations that police forces might use the new system for their own benefit. They could easily set up speed traps, catch a number of motorists slightly over the limit, and generate easy income for themselves. Re-education courses are a good idea in theory, but open to abuse by cash-starved police forces.\nWhich one of the following is an underlying assumption of the above argument?\nA The cost of running re-education courses is less than the combined contributions of participants.\nB Re-education is more effective than punishment in preventing further motoring offences.\nC Police forces are more interested in generating income than in preventing motoring\noffences.\nD The number of driving offences committed in the last five years has tripled.\nE Fear of losing a driving licence is greater than fear of financial hardship.",
+        "collection_order": 22,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nDrivers found to be committing offences such as speeding are now offered the choice between paying the police for a re-education course or taking the traditional penalty of paying a fine and receiving penalty points on their licence. It is no surprise that the number of motorists opting for re-education courses has tripled in five years, but the high cost of such courses has led to accusations that police forces might use the new system for their own benefit. They could easily set up speed traps, catch a number of motorists slightly over the limit, and generate easy income for themselves. Re-education courses are a good idea in theory, but open to abuse by cash-starved police forces.\nWhich one of the following is an underlying assumption of the above argument?\nA The cost of running re-education courses is less than the combined contributions of participants.\nB Re-education is more effective than punishment in preventing further motoring offences.\nC Police forces are more interested in generating income than in preventing motoring\noffences.\nD The number of driving offences committed in the last five years has tripled.\nE Fear of losing a driving licence is greater than fear of financial hardship."
+      },
+      {
+        "id": "TSA-19",
+        "sheet": "TSA_original",
+        "row": 20,
+        "criterion": "Assessing the Impact of Additional Evidence",
+        "year": 2019,
+        "question_number": 33,
+        "gold": "A",
+        "question_sha256": "4b6d45db690390ae1883c2d1c660e68be9bf4efde8f5e04858b9951a6eea381c",
+        "text": "A band of rebellious traders in Wales has decided to take their whole town ‘offshore’ in protest at the insignificant amounts of UK tax paid by big businesses. An alliance of shopkeepers from the town want to use the same controversial loopholes favoured by huge multinationals such as Google so that they too can legally avoid UK tax. The coffee giant Starbucks, for\nexample, has been branded immoral for transferring revenues out of the UK and into the Netherlands and Switzerland, where they receive sweetened tax deals. But the shopkeepers of the town cannot have it both ways. If they believe it is immoral for Starbucks to avoid UK tax, it is immoral for them, too. They should continue to pay UK tax in full.\nWhich one of the following, if true, most weakens the above argument?\nA The sole purpose of the protest is to pressure the government into tackling tax avoidance by big business.\nB If the shopkeepers are successful, every town could follow their lead, harming the UK economy even further.\nC Small businesses acting alone cannot obtain the same tax breaks as the giant corporations.\nD Every time the government comes up with a way of tackling tax avoidance, lawyers simply find a new loophole.\nE One of the town traders found that last year he paid seven times more corporation tax than Facebook.",
+        "collection_order": 23,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nA band of rebellious traders in Wales has decided to take their whole town ‘offshore’ in protest at the insignificant amounts of UK tax paid by big businesses. An alliance of shopkeepers from the town want to use the same controversial loopholes favoured by huge multinationals such as Google so that they too can legally avoid UK tax. The coffee giant Starbucks, for\nexample, has been branded immoral for transferring revenues out of the UK and into the Netherlands and Switzerland, where they receive sweetened tax deals. But the shopkeepers of the town cannot have it both ways. If they believe it is immoral for Starbucks to avoid UK tax, it is immoral for them, too. They should continue to pay UK tax in full.\nWhich one of the following, if true, most weakens the above argument?\nA The sole purpose of the protest is to pressure the government into tackling tax avoidance by big business.\nB If the shopkeepers are successful, every town could follow their lead, harming the UK economy even further.\nC Small businesses acting alone cannot obtain the same tax breaks as the giant corporations.\nD Every time the government comes up with a way of tackling tax avoidance, lawyers simply find a new loophole.\nE One of the town traders found that last year he paid seven times more corporation tax than Facebook."
+      },
+      {
+        "id": "TSA-03",
+        "sheet": "TSA_original",
+        "row": 4,
+        "criterion": "Main Conclusion",
+        "year": 2019,
+        "question_number": 27,
+        "gold": "B",
+        "question_sha256": "ebb4121b390f5f4eab50bf003cd09b19b58e7297e8bacbda569d6eab5aa5a9ae",
+        "text": "People are quick to connect attempts to reduce the effects of climate change with the protection of the environment. However, responding to climate change is much more important for humanity than for nature. In the history of the planet, the relative stability of temperatures in the last ten thousand years is the exception rather than the norm. Nature has always found a way to adapt to large temperature variations but human civilisations, all of which have evolved in the last ten thousand years, have developed in a period with unusually reliable and predictable weather. Nature will find a way to move on, but climate change is potentially devastating for humans.\nWhich one of the following best expresses the main conclusion of the above argument?\nA People are quick to connect climate change policies with environmental protection.\nB Acting against climate change is more important for humans than for the environment.\nC Nature has always found a way to adapt to large temperature variations.\nD Human civilisations have not yet been exposed to really large variations in temperature.\nE Nature will find a way to adapt, but climate change is potentially devastating for humans.",
+        "collection_order": 24,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nPeople are quick to connect attempts to reduce the effects of climate change with the protection of the environment. However, responding to climate change is much more important for humanity than for nature. In the history of the planet, the relative stability of temperatures in the last ten thousand years is the exception rather than the norm. Nature has always found a way to adapt to large temperature variations but human civilisations, all of which have evolved in the last ten thousand years, have developed in a period with unusually reliable and predictable weather. Nature will find a way to move on, but climate change is potentially devastating for humans.\nWhich one of the following best expresses the main conclusion of the above argument?\nA People are quick to connect climate change policies with environmental protection.\nB Acting against climate change is more important for humans than for the environment.\nC Nature has always found a way to adapt to large temperature variations.\nD Human civilisations have not yet been exposed to really large variations in temperature.\nE Nature will find a way to adapt, but climate change is potentially devastating for humans."
+      },
+      {
+        "id": "TSA-33",
+        "sheet": "TSA_original",
+        "row": 34,
+        "criterion": "Applying Principles",
+        "year": 2021,
+        "question_number": 16,
+        "gold": "A",
+        "question_sha256": "8823e62febb6633aa2c3afa2ff858f2f2c972e58436fe12beda8f47d9b36a561",
+        "text": "Many drivers think that the laws that make it compulsory to use a seat belt are an intrusion into their private lives – a denial of an autonomous lifestyle choice. But state intervention in our freedom is justified when, because of our short-sightedness, impulsiveness or carelessness, we act in a way that actually or potentially restricts our freedom – especially when dangerous and irreversible consequences are involved. In those cases, the law should protect our future selves from the short-sighted and foolish choices of our earlier selves. It should require us to act in the way that we would act if we carefully took into account our long-term welfare. The legal requirement to wear a seat belt is thus a protection of drivers’ freedom and future selves.\nWhich one of the following best illustrates the principle used in the above argument?\nA Pedestrians are legally prohibited from crossing railway tracks except at designated points.\nB Passengers must be in possession of a valid ticket when boarding a train.\nC The state funds a campaign to raise awareness of the health hazards of drug use.\nD Cigarettes are legally required to be in plain, unbranded packs.\nE Cyclists are advised to wear a helmet to protect their head.",
+        "collection_order": 25,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nMany drivers think that the laws that make it compulsory to use a seat belt are an intrusion into their private lives – a denial of an autonomous lifestyle choice. But state intervention in our freedom is justified when, because of our short-sightedness, impulsiveness or carelessness, we act in a way that actually or potentially restricts our freedom – especially when dangerous and irreversible consequences are involved. In those cases, the law should protect our future selves from the short-sighted and foolish choices of our earlier selves. It should require us to act in the way that we would act if we carefully took into account our long-term welfare. The legal requirement to wear a seat belt is thus a protection of drivers’ freedom and future selves.\nWhich one of the following best illustrates the principle used in the above argument?\nA Pedestrians are legally prohibited from crossing railway tracks except at designated points.\nB Passengers must be in possession of a valid ticket when boarding a train.\nC The state funds a campaign to raise awareness of the health hazards of drug use.\nD Cigarettes are legally required to be in plain, unbranded packs.\nE Cyclists are advised to wear a helmet to protect their head."
+      },
+      {
+        "id": "TSA-29",
+        "sheet": "TSA_original",
+        "row": 30,
+        "criterion": "Matching Arguments",
+        "year": 2019,
+        "question_number": 22,
+        "gold": "E",
+        "question_sha256": "994dd396663e74a463cbc2c459a209ef325236a2d630f36cc56c9b7bd203c30b",
+        "text": "If the vice president did act unlawfully in this matter, he would definitely have had to resign. Since we have confirmation that he has resigned, he must have broken the law.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA If the snake that bit this woman was a king cobra, then she would be dead by now. As she is alive and well, the snake can’t have been a king cobra.\nB If the snake had yellow markings, then it was a pit viper. You say it did have yellow markings, so it must have been a pit viper.\nC If what Mahmood saw was a diamondback rattlesnake, he would have been in real danger. Since there are no rattlesnakes where Mahmood was, he was actually quite safe.\nD If a snake bite goes untreated for too long, there can be serious complications. Since I got prompt treatment, I didn’t have any complications.\nE If the snake that bit this victim was venomous, then the wound would be very inflamed. We can see that there is severe inflammation, so the snake must have been venomous.",
+        "collection_order": 26,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nIf the vice president did act unlawfully in this matter, he would definitely have had to resign. Since we have confirmation that he has resigned, he must have broken the law.\nWhich one of the following most closely parallels the reasoning used in the above argument?\nA If the snake that bit this woman was a king cobra, then she would be dead by now. As she is alive and well, the snake can’t have been a king cobra.\nB If the snake had yellow markings, then it was a pit viper. You say it did have yellow markings, so it must have been a pit viper.\nC If what Mahmood saw was a diamondback rattlesnake, he would have been in real danger. Since there are no rattlesnakes where Mahmood was, he was actually quite safe.\nD If a snake bite goes untreated for too long, there can be serious complications. Since I got prompt treatment, I didn’t have any complications.\nE If the snake that bit this victim was venomous, then the wound would be very inflamed. We can see that there is severe inflammation, so the snake must have been venomous."
+      },
+      {
+        "id": "TSA-22",
+        "sheet": "TSA_original",
+        "row": 23,
+        "criterion": "Detecting Reasoning Errors",
+        "year": 2019,
+        "question_number": 3,
+        "gold": "E",
+        "question_sha256": "c3b3948e1ab1acfa3ac17991aed48cfbd23e51c3292268b60224696ce1ea8f61",
+        "text": "A high degree of self-discipline is one quality exhibited by all athletes who have reached the uppermost levels of competition, whatever the sport. This amount of self-discipline is in evidence long after the initial excitement of a sport has worn off, and an athlete has had to keep going through years of painful and repetitive training sessions. The example of top athletes suggests one approach to improving student behaviour and educational achievement. If more young people could begin training programmes akin to those of elite athletes, they too would develop exceptional levels of personal discipline to apply within their studies.\nWhich one of the following best expresses the flaw in the above argument?\nA High levels of self-discipline may not be all that it takes to become an elite athlete.\nB Young people may be able to develop self-discipline through other kinds of activities.\nC The kind of coaching support available to elite athletes may not be accessible to the\ngeneral population.\nD Good behaviour and educational achievement during one’s school years may not be essential for going on to lead a successful life.\nE Strong self-discipline may not be an effect of the training but rather a capacity already possessed by athletes as they start their training.",
+        "collection_order": 27,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nA high degree of self-discipline is one quality exhibited by all athletes who have reached the uppermost levels of competition, whatever the sport. This amount of self-discipline is in evidence long after the initial excitement of a sport has worn off, and an athlete has had to keep going through years of painful and repetitive training sessions. The example of top athletes suggests one approach to improving student behaviour and educational achievement. If more young people could begin training programmes akin to those of elite athletes, they too would develop exceptional levels of personal discipline to apply within their studies.\nWhich one of the following best expresses the flaw in the above argument?\nA High levels of self-discipline may not be all that it takes to become an elite athlete.\nB Young people may be able to develop self-discipline through other kinds of activities.\nC The kind of coaching support available to elite athletes may not be accessible to the\ngeneral population.\nD Good behaviour and educational achievement during one’s school years may not be essential for going on to lead a successful life.\nE Strong self-discipline may not be an effect of the training but rather a capacity already possessed by athletes as they start their training."
+      },
+      {
+        "id": "TSA-04",
+        "sheet": "TSA_original",
+        "row": 5,
+        "criterion": "Main Conclusion",
+        "year": 2019,
+        "question_number": 35,
+        "gold": "D",
+        "question_sha256": "4ad3b21a84f1d8eb6e4b68e19a053c78aff296c4da0fd57b34c7dd72bc309176",
+        "text": "Nearly everyone thinks it is a bad thing to be a hypocrite, because it is profoundly dishonest to pretend to have moral standards that you do not actually have. But pretending you are better than you are is evidence that you still accept the moral principles you have failed to follow. So it is better than being shameless about your moral failings. Perceived in this way, hypocrisy can be considered to be a virtue. Being a hypocrite shows you feel a need to hide some aspect of your life because it would be too embarrassing to allow it into the open. Many hypocrites wish they were the people they pretend to be: so perhaps one day they will succeed.\nWhich one of the following best expresses the main conclusion of the above argument?\nA Hypocrisy is evidence of an inner need to conceal a shameful aspect of one’s life.\nB It is bad not to show any shame for the mistakes one makes in life.\nC In some cases, hypocrisy may lead to moral improvement.\nD It is possible to think of hypocrisy as a good thing.\nE Hypocrisy is a serious moral weakness.",
+        "collection_order": 28,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nNearly everyone thinks it is a bad thing to be a hypocrite, because it is profoundly dishonest to pretend to have moral standards that you do not actually have. But pretending you are better than you are is evidence that you still accept the moral principles you have failed to follow. So it is better than being shameless about your moral failings. Perceived in this way, hypocrisy can be considered to be a virtue. Being a hypocrite shows you feel a need to hide some aspect of your life because it would be too embarrassing to allow it into the open. Many hypocrites wish they were the people they pretend to be: so perhaps one day they will succeed.\nWhich one of the following best expresses the main conclusion of the above argument?\nA Hypocrisy is evidence of an inner need to conceal a shameful aspect of one’s life.\nB It is bad not to show any shame for the mistakes one makes in life.\nC In some cases, hypocrisy may lead to moral improvement.\nD It is possible to think of hypocrisy as a good thing.\nE Hypocrisy is a serious moral weakness."
+      },
+      {
+        "id": "TSA-24",
+        "sheet": "TSA_original",
+        "row": 25,
+        "criterion": "Detecting Reasoning Errors",
+        "year": 2019,
+        "question_number": 21,
+        "gold": "A",
+        "question_sha256": "8ad7338a8176499ee62e0e875e38929f72b62b26e026dec258356f940b6d536b",
+        "text": "It is universally recognised that Africa’s conservation tourism provides employment, generates wealth and educates future generations while saving endangered species. So we should champion tourism for the sake of conservation. Tourism in the Arctic is thus to be welcomed. As the Arctic ice melts, new shipping routes are opening up. It is unfair to characterise the presence of a large cruise ship in the Northwest Passage as ‘extinction tourism’ that merely indulges people who want to view endangered animals before it is too late. The tourists will return home better informed about the Arctic’s fragile ecosystem.\nWhich one of the following best expresses the flaw in the above argument?\nA It argues a general rule on the basis of one successful example of wildlife tourism.\nB It assumes that wildlife tourists only want to see endangered animals.\nC It assumes that wildlife tourism is more important than successful conservation.\nD It assumes that the cruise-ship tourists will see enough to return home committed to the\nconservation of the Arctic ecosystem.\nE The argument implies that conservation tourism will inevitably lead to the extinction of some species of animal.",
+        "collection_order": 29,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nIt is universally recognised that Africa’s conservation tourism provides employment, generates wealth and educates future generations while saving endangered species. So we should champion tourism for the sake of conservation. Tourism in the Arctic is thus to be welcomed. As the Arctic ice melts, new shipping routes are opening up. It is unfair to characterise the presence of a large cruise ship in the Northwest Passage as ‘extinction tourism’ that merely indulges people who want to view endangered animals before it is too late. The tourists will return home better informed about the Arctic’s fragile ecosystem.\nWhich one of the following best expresses the flaw in the above argument?\nA It argues a general rule on the basis of one successful example of wildlife tourism.\nB It assumes that wildlife tourists only want to see endangered animals.\nC It assumes that wildlife tourism is more important than successful conservation.\nD It assumes that the cruise-ship tourists will see enough to return home committed to the\nconservation of the Arctic ecosystem.\nE The argument implies that conservation tourism will inevitably lead to the extinction of some species of animal."
+      },
+      {
+        "id": "TSA-05",
+        "sheet": "TSA_original",
+        "row": 6,
+        "criterion": "Main Conclusion",
+        "year": 2019,
+        "question_number": 45,
+        "gold": "D",
+        "question_sha256": "c803eb5c0eb5c833b57ac1e17dca38a9941887d2d88b4f3b2b3e1f41b1580001",
+        "text": "An accident at the Fukushima nuclear power plant in Japan in 2011 caused the release of radioactive material, resulting in around half a million people being evacuated from the area. These people have not been allowed to return to the area because of the health risks of exposure to radiation. But the psychological consequences of long-term evacuation may be more significant than the physical effects of radiation. People who wish to return to live in the area around Fukushima should be allowed to. Studies of a similar situation at Chernobyl showed that average life expectancy for evacuees reduced – not predominantly because of cancer caused by radiation, but because of depression, alcoholism and suicide due to the impact of permanent evacuation. There is, moreover, massive disagreement in the scientific community over how much radiation is ‘safe’.\nWhich one of the following best expresses the main conclusion of the above argument?\nA The increased risks of cancer due to exposure to radiation have been exaggerated.\nB There is no consensus among scientists about what constitutes a safe level of radiation.\nC People who are forcibly evacuated from their homes experience reduced life expectancy.\nD People should be allowed to make their own decisions about living in the affected area.\nE The negative effects of radiation may be less significant than the psychological\nconsequences of evacuation.",
+        "collection_order": 30,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nAn accident at the Fukushima nuclear power plant in Japan in 2011 caused the release of radioactive material, resulting in around half a million people being evacuated from the area. These people have not been allowed to return to the area because of the health risks of exposure to radiation. But the psychological consequences of long-term evacuation may be more significant than the physical effects of radiation. People who wish to return to live in the area around Fukushima should be allowed to. Studies of a similar situation at Chernobyl showed that average life expectancy for evacuees reduced – not predominantly because of cancer caused by radiation, but because of depression, alcoholism and suicide due to the impact of permanent evacuation. There is, moreover, massive disagreement in the scientific community over how much radiation is ‘safe’.\nWhich one of the following best expresses the main conclusion of the above argument?\nA The increased risks of cancer due to exposure to radiation have been exaggerated.\nB There is no consensus among scientists about what constitutes a safe level of radiation.\nC People who are forcibly evacuated from their homes experience reduced life expectancy.\nD People should be allowed to make their own decisions about living in the affected area.\nE The negative effects of radiation may be less significant than the psychological\nconsequences of evacuation."
+      },
+      {
+        "id": "TSA-35",
+        "sheet": "TSA_original",
+        "row": 36,
+        "criterion": "Applying Principles",
+        "year": 2021,
+        "question_number": 47,
+        "gold": "A",
+        "question_sha256": "c7e0f77a67373e93ad4592179b1e330c8b9a59ae303012e5d5e014993faa8546",
+        "text": "Acting is surely the most overrated occupation of all time. Although top actors are held in high esteem, sometimes people walk into the profession without any training and win critical acclaim. In the film Captain Phillips, for example, Barkhad Abdi won several awards for best supporting actor, despite having never acted before in his life – he was chosen because of how he looked and, presumably, because he had some natural ability to act. Yet how difficult can something be if natural ability is enough to get by? And in any case, no one should be admired simply for having a natural ability. It is like being congratulated for being tall or having good eyesight. Film actors do not, therefore, deserve to be held in such high regard.\nWhich one of the following illustrates the principle used in the above argument?\nA We should not praise a five-year-old child who picks up a golf club for the first time and consistently strikes the ball cleanly.\nB The music Mozart composed towards the end of his life should be thought of more highly than that which he wrote when very young.\nC If we know that a writer has spent a long time drafting and re-drafting their work, then their work is automatically deserving of praise.\nD A successful musician who happened to be in the right place at the right time when they were first recognised does not deserve the accolades they receive.\nE Someone who has a photographic memory and is employed by the security services does not deserve the high salary they might earn.",
+        "collection_order": 31,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nActing is surely the most overrated occupation of all time. Although top actors are held in high esteem, sometimes people walk into the profession without any training and win critical acclaim. In the film Captain Phillips, for example, Barkhad Abdi won several awards for best supporting actor, despite having never acted before in his life – he was chosen because of how he looked and, presumably, because he had some natural ability to act. Yet how difficult can something be if natural ability is enough to get by? And in any case, no one should be admired simply for having a natural ability. It is like being congratulated for being tall or having good eyesight. Film actors do not, therefore, deserve to be held in such high regard.\nWhich one of the following illustrates the principle used in the above argument?\nA We should not praise a five-year-old child who picks up a golf club for the first time and consistently strikes the ball cleanly.\nB The music Mozart composed towards the end of his life should be thought of more highly than that which he wrote when very young.\nC If we know that a writer has spent a long time drafting and re-drafting their work, then their work is automatically deserving of praise.\nD A successful musician who happened to be in the right place at the right time when they were first recognised does not deserve the accolades they receive.\nE Someone who has a photographic memory and is employed by the security services does not deserve the high salary they might earn."
+      },
+      {
+        "id": "TSA-16",
+        "sheet": "TSA_original",
+        "row": 17,
+        "criterion": "Assessing the Impact of Additional Evidence",
+        "year": 2019,
+        "question_number": 10,
+        "gold": "E",
+        "question_sha256": "d5b8b524911413fa8e5efe2e588398b631b8a58e1624e2fd8582823d0f2871cc",
+        "text": "While it is a woman, Ada Lovelace, who is often credited with originating the concept of software, today’s computer tech-related jobs are held mostly by men. The tech sector must continue to work against factors that inhibit gender equality within it. One such factor appears to be prejudice about women’s abilities to write computer programming code. A recent study of a program-sharing and development website analysed the rates by which suggested code changes were accepted by website users according to the gender of the user contributing the changes. In cases where the contributor’s gender was not made clear on the website, 72 per cent of the suggestions made by women were accepted. In cases where the contributor’s gender was revealed to be female, the acceptance rate fell to 63 per cent.\nWhich one of the following, if true, most weakens the above argument?\nA Over the time period the website was studied, more female users than male users rejected suggested code changes overall.\nB Leading firms in the tech sector have undertaken a variety of high-profile initiatives to encourage more women to pursue computer programming careers.\nC No meaningful differences existed between the code changes suggested by female users who revealed their gender on the website and those who did not.\nD Even by modern standards, Ada Lovelace received an extensive education in mathematics and the sciences.\nE Male contributors to the website experienced a similar drop in their code change acceptance rates when their gender was revealed.",
+        "collection_order": 32,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nWhile it is a woman, Ada Lovelace, who is often credited with originating the concept of software, today’s computer tech-related jobs are held mostly by men. The tech sector must continue to work against factors that inhibit gender equality within it. One such factor appears to be prejudice about women’s abilities to write computer programming code. A recent study of a program-sharing and development website analysed the rates by which suggested code changes were accepted by website users according to the gender of the user contributing the changes. In cases where the contributor’s gender was not made clear on the website, 72 per cent of the suggestions made by women were accepted. In cases where the contributor’s gender was revealed to be female, the acceptance rate fell to 63 per cent.\nWhich one of the following, if true, most weakens the above argument?\nA Over the time period the website was studied, more female users than male users rejected suggested code changes overall.\nB Leading firms in the tech sector have undertaken a variety of high-profile initiatives to encourage more women to pursue computer programming careers.\nC No meaningful differences existed between the code changes suggested by female users who revealed their gender on the website and those who did not.\nD Even by modern standards, Ada Lovelace received an extensive education in mathematics and the sciences.\nE Male contributors to the website experienced a similar drop in their code change acceptance rates when their gender was revealed."
+      },
+      {
+        "id": "TSA-18",
+        "sheet": "TSA_original",
+        "row": 19,
+        "criterion": "Assessing the Impact of Additional Evidence",
+        "year": 2019,
+        "question_number": 17,
+        "gold": "E",
+        "question_sha256": "3e5213e5f5d0bfbbdc4b7c9ba434fdcda2f73c297d9e48162ffa99c03dab1867",
+        "text": "Despite the recent decline in numbers of people getting married, it appears that there is still much to recommend it. Married people are happier, wealthier and live longer. Husbands and wives have a lower risk of disease and a higher life expectancy. They smoke less, drink less and eat more healthily. Those who get married and stay married have on average double the amount of wealth of those who never marry. Surveys show that they are happier than single people and less likely to experience mid-life depression. Married couples benefit from stronger networks of support, with relatives providing more care and assistance in old age and in times of need. Finding and committing to a marriage partner is a goal well worth pursuing.\nWhich one of the following, if true, most weakens the above reasoning?\nA Research suggests that being married boosts the chances of surviving cancer.\nB Statistics on marriage do not differentiate between those who have children and those who do not.\nC In many countries, being married gives advantages in terms of tax payments.\nD Individuals in conflict-ridden relationships are more prone to illness than happy couples.\nE Wealthier couples are four times more likely to marry than poorer couples.",
+        "collection_order": 33,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nDespite the recent decline in numbers of people getting married, it appears that there is still much to recommend it. Married people are happier, wealthier and live longer. Husbands and wives have a lower risk of disease and a higher life expectancy. They smoke less, drink less and eat more healthily. Those who get married and stay married have on average double the amount of wealth of those who never marry. Surveys show that they are happier than single people and less likely to experience mid-life depression. Married couples benefit from stronger networks of support, with relatives providing more care and assistance in old age and in times of need. Finding and committing to a marriage partner is a goal well worth pursuing.\nWhich one of the following, if true, most weakens the above reasoning?\nA Research suggests that being married boosts the chances of surviving cancer.\nB Statistics on marriage do not differentiate between those who have children and those who do not.\nC In many countries, being married gives advantages in terms of tax payments.\nD Individuals in conflict-ridden relationships are more prone to illness than happy couples.\nE Wealthier couples are four times more likely to marry than poorer couples."
+      },
+      {
+        "id": "TSA-02",
+        "sheet": "TSA_original",
+        "row": 3,
+        "criterion": "Main Conclusion",
+        "year": 2019,
+        "question_number": 11,
+        "gold": "D",
+        "question_sha256": "8161c2e06b22f2c84758507e09a4b47d3fe8f269fc0e1a2164a22b27331b8307",
+        "text": "Schools have a duty to support the well-being of their students, and sport is one way to enhance this. Although many young people don’t enjoy the competitive side of sport, there are many physical activities that don’t require a competitive element, such as hillwalking and caving. Schools should offer these, or other non-competitive physical activities, as an alternative to traditional games lessons. Many people don’t continue to play sport after they leave school, yet physical fitness is important in maintaining general health and the ability to work. Introducing alternative physical activities that are attractive for less competitive adults is therefore an important part of preparing students for life after school.\nWhich one of the following best expresses the main conclusion of the above argument?\nA Schools have a duty to prepare students for life after school.\nB Many young people don’t enjoy the competitive side of sport.\nC Many people don’t continue to play sport after they leave school.\nD Schools should offer non-competitive alternatives to traditional games lessons.\nE Young people should be encouraged to find a sport they enjoy.",
+        "collection_order": 34,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nSchools have a duty to support the well-being of their students, and sport is one way to enhance this. Although many young people don’t enjoy the competitive side of sport, there are many physical activities that don’t require a competitive element, such as hillwalking and caving. Schools should offer these, or other non-competitive physical activities, as an alternative to traditional games lessons. Many people don’t continue to play sport after they leave school, yet physical fitness is important in maintaining general health and the ability to work. Introducing alternative physical activities that are attractive for less competitive adults is therefore an important part of preparing students for life after school.\nWhich one of the following best expresses the main conclusion of the above argument?\nA Schools have a duty to prepare students for life after school.\nB Many young people don’t enjoy the competitive side of sport.\nC Many people don’t continue to play sport after they leave school.\nD Schools should offer non-competitive alternatives to traditional games lessons.\nE Young people should be encouraged to find a sport they enjoy."
+      },
+      {
+        "id": "TSA-08",
+        "sheet": "TSA_original",
+        "row": 9,
+        "criterion": "Drawing a Conclusion",
+        "year": 2019,
+        "question_number": 15,
+        "gold": "B",
+        "question_sha256": "721678ad16e0b8552e5e3f2f9aa5c940b160394843adcc9ec902535a396439fc",
+        "text": "Recently a pioneering natural flood management scheme slowed river peak flow by 15 to\n20 per cent, saving a small town’s museum and several homes. As part of this scheme, special dams, designed to leak water gradually, were installed in nearby hills to slow the flow of water off the slopes. An upstream flood storage reservoir was installed, along with the planting of thousands of trees and the restoration of heather moorland, which acted as a sponge. Around half of the reduction in flood water in the town was due to the upstream land management measures, and half due to the effect of the flood storage area. Natural flood management measures improve water quality, prevent erosion and, in some cases, store carbon.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA The reduction in peak flow of a river would be insufficient to prevent flooding if there was very heavy rainfall.\nB The benefits of natural flood management schemes go beyond reducing flood risk.\nC All natural flood management methods are equally effective in reducing river flow.\nD Natural flood management should be introduced in all areas at risk of flooding.\nE Natural flood management methods are most effective in hilly upland areas.",
+        "collection_order": 35,
+        "prompt": "Read the question carefully and select the correct option. Begin your response with Answer: followed by one letter A, B, C, D, or E. Then give a short reason based on the passage.\n\nRecently a pioneering natural flood management scheme slowed river peak flow by 15 to\n20 per cent, saving a small town’s museum and several homes. As part of this scheme, special dams, designed to leak water gradually, were installed in nearby hills to slow the flow of water off the slopes. An upstream flood storage reservoir was installed, along with the planting of thousands of trees and the restoration of heather moorland, which acted as a sponge. Around half of the reduction in flood water in the town was due to the upstream land management measures, and half due to the effect of the flood storage area. Natural flood management measures improve water quality, prevent erosion and, in some cases, store carbon.\nWhich one of the following can be drawn as a conclusion from the above passage?\nA The reduction in peak flow of a river would be insufficient to prevent flooding if there was very heavy rainfall.\nB The benefits of natural flood management schemes go beyond reducing flood risk.\nC All natural flood management methods are equally effective in reducing river flow.\nD Natural flood management should be introduced in all areas at risk of flooding.\nE Natural flood management methods are most effective in hilly upland areas."
+      }
+    ]
+  },
+  "ew": {
+    "maximum": 65,
+    "base_credit_rules": {
+      "0": "No substantive alignment with the reference criterion. Generic good/bad labeling alone is insufficient.",
+      "1": "Limited but relevant recognition; essential details mostly missing.",
+      "2": "Substantially relevant but incomplete recognition/support.",
+      "3": "Complete and adequately supported recognition; equivalent wording accepted."
+    },
+    "closing_original_P9": {
+      "overall_judgment": 1,
+      "paragraph_summary": 1,
+      "scope_overgeneralization": 2,
+      "emotive_language": 1
+    },
+    "closing_location_rule": "Overall judgment/summary concern the total-argument evaluation. Scope/emotive-language observations can appear anywhere in the original response.",
+    "primary_formula": "S_manual = sum(base_points_i) - sum(min(1,error_count_p))",
+    "sensitivity_formula": "S_article_wording = sum(base_points_i) - sum(error_count_p)",
+    "zero_floor": false,
+    "explicit_scope_deductions": [
+      "EW-ORIGINAL-P3",
+      "EW-ORIGINAL-P8"
+    ],
+    "deduction_rules": [
+      "Deduct for documented material errors: invented flaws, endorsements of actually flawed arguments, faulty reasoning, unsupported claims, and the two explicit missing-scope qualifications.",
+      "Record errors once per source-aligned response paragraph group, not per flaw. Original has 9 groups; each added scenario has 3.",
+      "Avoid charging the same error twice within a group. Repeated versions within a group count once; recurrence in separate requested evaluations is documented separately.",
+      "Generic style, vocabulary, length, heading format, repetition alone, or thinking-tag presence/absence receive no penalties or bonuses.",
+      "Map observations in extra conclusions to their relevant existing criterion/group without creating new deduction groups.",
+      "Do not add ordinary omission penalties beyond the explicit scope requirements; reflect missing target insight through base credit.",
+      "An error log supports judgment but its segmentation is subjective; the per-error score is a sensitivity view, not another independent test."
+    ],
+    "scenarios": [
+      {
+        "id": "EW-ORIGINAL",
+        "instruction": "Read the letter to the editor of the Moorburg newspaper. Consider it paragraph by paragraph and as a total argument. Then write a letter to the editor in response to this one. For each paragraph in the letter you are about to read, write a paragraph in reply telling whether you believe the thinking good or bad. Also write a closing paragraph about the total argument. Defend your judgments with reasons.\nYour answer should have nine numbered paragraphs. Numbers one through eight should give your reactions to paragraphs one through eight in the letter. Your paragraph number nine should give your overall evaluation of the letter considered as one total argument. Each paragraph, including the last, should contain your reason(s).\nSpend about 10 minutes reading the letter and thinking about it. Then write for not more than 30 minutes (about three minutes for each of your short paragraphs). \nDo not forget to give your reasons in each paragraph. Please write clearly.\nSign your name to your letter. You are a local citizen, and this topic concerns you.\nRemember, write nine numbered paragraphs and give reasons.",
+        "situation": "\nTHE MOORBURG LETTER\n230 Sycamore Street\nMoorburg\nApril 10\nDear Editor:\nOvernight parking on all streets in Moorburg should be eliminated. To achieve this goal, parking should be prohibited from 2 a.m. to 6 a.m There are a number of reasons why any intelligent citizen should agree.\n1. For one thing, to park overnight is to have a garage in the streets. Now it is illegal for anyone to have a garage in the city streets. Clearly, then, it should be against the law to park overnight in the streets.\n2. Three important streets, Lincoln Avenue, Marquand Avenue, and West Main Street, are very narrow. With cars parked on the streets, there really isn't room for the heavy traffic that passes over them in the afternoon rush hour. When driving home in the afternoon after work, it takes me thirty-five minutes to make a trip that takes ten minutes during the uncrowded time. If there were no cars parked on the side of these streets, they could handle considerably more traffic.\n3. Traffic on some streets is also bad in the morning when factory workers are on their way to the 6 a.m. shift. If there were no cars parked on these streets between 2 a.m. and 6 a.m., then there would be more room for this traffic.\n4. Furthermore, there can be no doubt that, in general, overnight parking on the streets is undesirable. It is definitely bad and should be opposed.\n5. If parking is prohibited from 2 a.m. to 6 a.m., then accidents between parked and moving vehicles will be nearly eliminated during this period. All intelligent citizens would regard the near elimination of accidents in any period as highly desirable. So, we should be in favor of prohibiting parking from 2 a.m. to 6 a.m.\n6. Last month, the Chief of Police, Burgess Jones, ran an experiment which proves that parking should be prohibited from 2 a.m. to 6 a.m. On one of our busiest streets, Marquand Avenue, he placed experimental signs for one day. The signs prohibited parking from 2 a.m. to 6 a.m. During the four-hour period, there was not one accident on Marquand. Everyone knows, of course, that there have been over four hundred accidents on Marquand during the past year.\n7. The opponents of my suggestions have said that conditions are safe enough now. These people don't know what \"safe\" really means. Conditions are not safe if there's even the slightest possible chance for an accident. That's what \"safe\" means. So, conditions are not safe the way they are now.\n8. Finally, let me point out that the Director of the National Traffic Safety Council, Kenneth O. Taylor, has strongly recommended that overnight street parking be prevented on busy streets in cities the size of Moorburg. The National Association of Police Chiefs has made the same recommendation. Both suggest that prohibiting parking from 2 a.m. to 6 a.m. is the best way to prevent overnight parking.\nI invite those who disagree, as well as those who agree with me, to react to my letter through the editor of this paper. Let's get this issue out in the open.\nSincerely, \nRobert R. Raywift ",
+        "prompt": "Read the letter to the editor of the Moorburg newspaper. Consider it paragraph by paragraph and as a total argument. Then write a letter to the editor in response to this one. For each paragraph in the letter you are about to read, write a paragraph in reply telling whether you believe the thinking good or bad. Also write a closing paragraph about the total argument. Defend your judgments with reasons.\nYour answer should have nine numbered paragraphs. Numbers one through eight should give your reactions to paragraphs one through eight in the letter. Your paragraph number nine should give your overall evaluation of the letter considered as one total argument. Each paragraph, including the last, should contain your reason(s).\nSpend about 10 minutes reading the letter and thinking about it. Then write for not more than 30 minutes (about three minutes for each of your short paragraphs). \nDo not forget to give your reasons in each paragraph. Please write clearly.\nSign your name to your letter. You are a local citizen, and this topic concerns you.\nRemember, write nine numbered paragraphs and give reasons.\n\n\nTHE MOORBURG LETTER\n230 Sycamore Street\nMoorburg\nApril 10\nDear Editor:\nOvernight parking on all streets in Moorburg should be eliminated. To achieve this goal, parking should be prohibited from 2 a.m. to 6 a.m There are a number of reasons why any intelligent citizen should agree.\n1. For one thing, to park overnight is to have a garage in the streets. Now it is illegal for anyone to have a garage in the city streets. Clearly, then, it should be against the law to park overnight in the streets.\n2. Three important streets, Lincoln Avenue, Marquand Avenue, and West Main Street, are very narrow. With cars parked on the streets, there really isn't room for the heavy traffic that passes over them in the afternoon rush hour. When driving home in the afternoon after work, it takes me thirty-five minutes to make a trip that takes ten minutes during the uncrowded time. If there were no cars parked on the side of these streets, they could handle considerably more traffic.\n3. Traffic on some streets is also bad in the morning when factory workers are on their way to the 6 a.m. shift. If there were no cars parked on these streets between 2 a.m. and 6 a.m., then there would be more room for this traffic.\n4. Furthermore, there can be no doubt that, in general, overnight parking on the streets is undesirable. It is definitely bad and should be opposed.\n5. If parking is prohibited from 2 a.m. to 6 a.m., then accidents between parked and moving vehicles will be nearly eliminated during this period. All intelligent citizens would regard the near elimination of accidents in any period as highly desirable. So, we should be in favor of prohibiting parking from 2 a.m. to 6 a.m.\n6. Last month, the Chief of Police, Burgess Jones, ran an experiment which proves that parking should be prohibited from 2 a.m. to 6 a.m. On one of our busiest streets, Marquand Avenue, he placed experimental signs for one day. The signs prohibited parking from 2 a.m. to 6 a.m. During the four-hour period, there was not one accident on Marquand. Everyone knows, of course, that there have been over four hundred accidents on Marquand during the past year.\n7. The opponents of my suggestions have said that conditions are safe enough now. These people don't know what \"safe\" really means. Conditions are not safe if there's even the slightest possible chance for an accident. That's what \"safe\" means. So, conditions are not safe the way they are now.\n8. Finally, let me point out that the Director of the National Traffic Safety Council, Kenneth O. Taylor, has strongly recommended that overnight street parking be prevented on busy streets in cities the size of Moorburg. The National Association of Police Chiefs has made the same recommendation. Both suggest that prohibiting parking from 2 a.m. to 6 a.m. is the best way to prevent overnight parking.\nI invite those who disagree, as well as those who agree with me, to react to my letter through the editor of this paper. Let's get this issue out in the open.\nSincerely, \nRobert R. Raywift ",
+        "expected_response_paragraphs": 9,
+        "prompt_sha256": "c19246ebcee865585b2180123ca0422bf62ea9a6077f32883c6de6c98110f3ac"
+      },
+      {
+        "id": "EW-NEW-1",
+        "instruction": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.",
+        "situation": "(1) In recent years, City A has experienced severe air pollution. The mayor of City A speculates that this situation might be due to the city's booming chemical industry in recent years, which has produced large amounts of industrial emissions. Therefore, the mayor asked the environmental protection department to investigate the gas emissions from various chemical plants last year. The investigation revealed that Shengda Chemical Plant had the highest gas emissions. Thus, the mayor believes that City A's air pollution is mainly caused by emissions from Shengda Chemical Plant.\n(2) However, Shengda Chemical Plant denies that their factory emissions are causing City A's air pollution. The factory's employee representative emphasized that Shengda Chemical Plant was among the first batch of factories built in City A, representing the blood and hopes of City A's pioneers. Just as the Daqing Oilfield developed the Daqing Spirit during its construction and development, Shengda Chemical Plant has become a symbol of City A, embodying the spiritual outlook and values of innovation, pioneering, and hard work of City A's people. Therefore, Shengda Chemical Plant should not be held responsible for City A's air pollution.\n(3) Subsequently, the mayor conducted a systematic investigation of various industries and possible pollution sources, identifying the chemical industry as the key target for air pollution improvement in the city. Therefore, the mayor required the environmental protection department to establish gas emission standards for chemical plants based on City A's environmental conditions, requiring all chemical plants in the city to reduce production and control their emissions within the standards set by the environmental protection department. The mayor believes this measure will effectively improve City A's air quality.",
+        "prompt": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.\n\n(1) In recent years, City A has experienced severe air pollution. The mayor of City A speculates that this situation might be due to the city's booming chemical industry in recent years, which has produced large amounts of industrial emissions. Therefore, the mayor asked the environmental protection department to investigate the gas emissions from various chemical plants last year. The investigation revealed that Shengda Chemical Plant had the highest gas emissions. Thus, the mayor believes that City A's air pollution is mainly caused by emissions from Shengda Chemical Plant.\n(2) However, Shengda Chemical Plant denies that their factory emissions are causing City A's air pollution. The factory's employee representative emphasized that Shengda Chemical Plant was among the first batch of factories built in City A, representing the blood and hopes of City A's pioneers. Just as the Daqing Oilfield developed the Daqing Spirit during its construction and development, Shengda Chemical Plant has become a symbol of City A, embodying the spiritual outlook and values of innovation, pioneering, and hard work of City A's people. Therefore, Shengda Chemical Plant should not be held responsible for City A's air pollution.\n(3) Subsequently, the mayor conducted a systematic investigation of various industries and possible pollution sources, identifying the chemical industry as the key target for air pollution improvement in the city. Therefore, the mayor required the environmental protection department to establish gas emission standards for chemical plants based on City A's environmental conditions, requiring all chemical plants in the city to reduce production and control their emissions within the standards set by the environmental protection department. The mayor believes this measure will effectively improve City A's air quality.",
+        "expected_response_paragraphs": 3,
+        "prompt_sha256": "4cfbf65f674d7f9b68af862edde6277cf1a1330a31497bd32474d88d3570e0c7"
+      },
+      {
+        "id": "EW-NEW-2",
+        "instruction": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.",
+        "situation": "(1) Xiao Wu runs a clothing store in a commercial district. Recently, sales have been unsatisfactory. During store inspections, Xiao Wu noticed that when there are many customers, staff cannot provide timely service. He speculated that delayed service might be causing customers to lose their desire to purchase. To prove his hypothesis, he randomly interviewed 6 customers who entered the store (4 female customers and 2 male customers). Two female customers and one male customer said that delayed service would indeed \"dampen\" their desire to purchase, while the remaining customers indicated that service timing did not affect their shopping. Therefore, Xiao Wu concluded that female customers care more about timely service than male customers, so he instructed staff to prioritize serving female customers.\n\n(2) Additionally, Xiao Wu renovated the store because he felt that selecting clothes in a pleasing environment would increase customers' desire to purchase. To verify the effect of this decision, Xiao Wu tracked sales for one week after the renovation, which happened to be during the National Day holiday. Sales increased by 25% compared to the week before renovation, and Xiao Wu was very satisfied with this result, believing it proved his renovation decision was completely correct.\n\n(3) Finally, Xiao Wu recalled that last summer, the store adopted an off-season sales strategy, selling stockpiled leather jackets, wool coats, and down jackets at a discount between June and August, achieving a profit of 100,000 yuan. Based on this, Xiao Wu decided to implement the off-season sales strategy again this winter, selling stockpiled summer clothing at a discount between November and January. He believes this will create another profit peak, achieving or even exceeding 100,000 yuan in profit.",
+        "prompt": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.\n\n(1) Xiao Wu runs a clothing store in a commercial district. Recently, sales have been unsatisfactory. During store inspections, Xiao Wu noticed that when there are many customers, staff cannot provide timely service. He speculated that delayed service might be causing customers to lose their desire to purchase. To prove his hypothesis, he randomly interviewed 6 customers who entered the store (4 female customers and 2 male customers). Two female customers and one male customer said that delayed service would indeed \"dampen\" their desire to purchase, while the remaining customers indicated that service timing did not affect their shopping. Therefore, Xiao Wu concluded that female customers care more about timely service than male customers, so he instructed staff to prioritize serving female customers.\n\n(2) Additionally, Xiao Wu renovated the store because he felt that selecting clothes in a pleasing environment would increase customers' desire to purchase. To verify the effect of this decision, Xiao Wu tracked sales for one week after the renovation, which happened to be during the National Day holiday. Sales increased by 25% compared to the week before renovation, and Xiao Wu was very satisfied with this result, believing it proved his renovation decision was completely correct.\n\n(3) Finally, Xiao Wu recalled that last summer, the store adopted an off-season sales strategy, selling stockpiled leather jackets, wool coats, and down jackets at a discount between June and August, achieving a profit of 100,000 yuan. Based on this, Xiao Wu decided to implement the off-season sales strategy again this winter, selling stockpiled summer clothing at a discount between November and January. He believes this will create another profit peak, achieving or even exceeding 100,000 yuan in profit.",
+        "expected_response_paragraphs": 3,
+        "prompt_sha256": "b6953f13922f9edc7413bc61fa03514575ca3ed0585af9b223a170dfea5e60fa"
+      },
+      {
+        "id": "EW-NEW-3",
+        "instruction": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.",
+        "situation": "(1) There are increasingly more people riding electric bicycles, leading to crowded non-motorized vehicle lanes. Electric bicycles often cross the boundaries of non-motorized lanes into motorized vehicle lanes, which is very dangerous. The busy city center already experiences frequent traffic accidents - in the past year alone, there were over 100 traffic accidents in the city center. If electric bicycles could be banned from these streets, the number of accidents in the city center would greatly decrease.\n(2) An internet user compiled statistics on the number of traffic accidents in our city center and the purchase volume of electric bicycles by our city residents over the past three years, finding that both have been increasing year by year. This shows that the increase in electric bicycles has indeed led to worse traffic conditions, making residents' travel less safe, so it is necessary to restrict electric bicycles from entering the city center.\n(3) Electric bicycles themselves pose safety risks. We've all heard news about electric bicycles causing fires while charging in residential buildings. One could say that an electric bicycle battery while charging is no different from a bomb that could explode at any time. Having these \"bombs\" in the crowded, bustling city center could have unimaginable consequences if danger occurs. Therefore, I strongly recommend banning electric bicycles on busy streets in the city center.",
+        "prompt": "Below are some real-life situations where different people present their views and solutions to certain problems. Please consider whether the argumentation in each \"numbered paragraph\" is strong or weak, and whether there are problems with the views and solutions (such as comprehension bias, logical gaps, inadequate solutions, etc.). Some paragraphs may contain multiple issues. Please analyze and evaluate each paragraph and provide your judgment. All your opinions and judgments need to be supported by reasons.\nEach situation contains three paragraphs, so your answer should also have three paragraphs, corresponding to the three paragraphs in the situation.\n\n(1) There are increasingly more people riding electric bicycles, leading to crowded non-motorized vehicle lanes. Electric bicycles often cross the boundaries of non-motorized lanes into motorized vehicle lanes, which is very dangerous. The busy city center already experiences frequent traffic accidents - in the past year alone, there were over 100 traffic accidents in the city center. If electric bicycles could be banned from these streets, the number of accidents in the city center would greatly decrease.\n(2) An internet user compiled statistics on the number of traffic accidents in our city center and the purchase volume of electric bicycles by our city residents over the past three years, finding that both have been increasing year by year. This shows that the increase in electric bicycles has indeed led to worse traffic conditions, making residents' travel less safe, so it is necessary to restrict electric bicycles from entering the city center.\n(3) Electric bicycles themselves pose safety risks. We've all heard news about electric bicycles causing fires while charging in residential buildings. One could say that an electric bicycle battery while charging is no different from a bomb that could explode at any time. Having these \"bombs\" in the crowded, bustling city center could have unimaginable consequences if danger occurs. Therefore, I strongly recommend banning electric bicycles on busy streets in the city center.",
+        "expected_response_paragraphs": 3,
+        "prompt_sha256": "1fe62fe02b50e6780fce8c80712607d617208ec089bb48527430c6488a4c412e"
+      }
+    ],
+    "units": [
+      {
+        "id": "EW-ORIGINAL-P1",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 1,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. The analogy between \"parking overnight on the street\" and \"having a garage on the street\" is invalid, as there are substantial differences between the two. Alternatively, the definition of \"garage\" in this paragraph is inconsistent - the garage in the first sentence only refers to \"a place where cars can be parked,\" but a garage in legal terms is an actual existing building (or one with property ownership)."
+      },
+      {
+        "id": "EW-ORIGINAL-P2",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 2,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. Prohibiting nighttime parking on streets cannot alleviate afternoon traffic congestion. Alternatively, traffic peaks typically occur in the morning and afternoon, not during the early morning hours when nighttime parking is prohibited. (Time is key and must be clearly stated - full points cannot be awarded if this is not explicitly pointed out.)"
+      },
+      {
+        "id": "EW-ORIGINAL-P3",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 3,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is relatively strong. People who work at 6 AM would commute during the time period when the author believes parking should be prohibited (2 AM-6 AM). If there are no parked vehicles on the streets, traffic conditions would be smoother.\nThis paragraph has a minor weakness: to solve the problem of early morning street congestion, parking should only be prohibited on streets where there are many workers who start work at 6 AM, rather than prohibiting parking on all streets. If participants do not mention this weakness, deduct one point from the original score."
+      },
+      {
+        "id": "EW-ORIGINAL-P4",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 4,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. Using \"nighttime parking is bad\" to support \"we should oppose nighttime parking\" is merely presenting the viewpoint as its own justification, which constitutes circular reasoning. Alternatively, the author has not provided reasons to support the proposition, but is merely emphasizing the viewpoint repeatedly."
+      },
+      {
+        "id": "EW-ORIGINAL-P5",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 5,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. There are three ways for answering, and points will be given for any one of them:\n1) Accidents between parked vehicles at night and moving vehicles at night are a very limited type of accident. There are other more important types of accidents, such as accidents between moving vehicles during other time periods. Therefore, the number of accidents that the ban could eliminate may not be very large.\n2) The author ignores that other things might be more important than eliminating this type of accident, such as the inconvenience and costs that parking prohibition would cause to residents. Residents might consider the negative consequences of parking prohibition on their lives to be more important than reducing this type of accident.\n3) This argument only describes one possible way to eliminate this type of accident. Parking prohibition might be a sufficient condition for eliminating such accidents, but it is not a necessary condition. The fact that parking prohibition can prevent accidents does not mean that parking prohibition is necessary to prevent accidents."
+      },
+      {
+        "id": "EW-ORIGINAL-P6",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 6,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. The results of just one day of experimentation cannot adequately support a causal relationship conclusion. The absence of accidents in such a short time period could have multiple possible causes. Alternatively, we don't know how many of the 400+ accidents involved nighttime parked vehicles. If very few of these accidents involved nighttime parking, then the parking ban might be meaningless to begin with."
+      },
+      {
+        "id": "EW-ORIGINAL-P7",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 7,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is weak. This paragraph's definition of \"safety\" is incorrect, unrealistic, or unachievable. Alternatively, even if the parking prohibition recommendation is adopted, it would still be unsafe. Therefore, this definition is self-contradictory."
+      },
+      {
+        "id": "EW-ORIGINAL-P8",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 8,
+        "flaw": null,
+        "maximum_points": 3,
+        "reference": "This argument is relatively strong. The authorities cited by the author can be considered to have professional knowledge on the topic being discussed, and their recommendations are directly relevant to the proposal in the letter.\nThis paragraph has a minor weakness: these authorities' recommendations only target busy streets, while the author's proposal is to implement parking prohibition on all streets city-wide. If participants do not mention this weakness, deduct one point from this paragraph's score."
+      },
+      {
+        "id": "EW-ORIGINAL-P9",
+        "scenario_id": "EW-ORIGINAL",
+        "paragraph": 9,
+        "flaw": null,
+        "maximum_points": 5,
+        "reference": "The maximum score for the ninth paragraph is 5 points, divided into four parts for scoring:\n① Overall evaluation: This letter is overall weak and contains many errors. Answering this point earns 1 point. If the response does not involve this content, no points are awarded.\n② Summarizing that six out of eight paragraphs contain argumentative errors, specifically pointing out that paragraphs 3 and 8 are relatively strong, while the remaining 6 paragraphs are weak. Answering this point earns 1 point. If the response does not involve this content, no points are awarded.\n③ Pointing out anywhere in the response (paragraphs 1-9) that the author's inference from certain streets' conditions to all streets in the city is incorrect earns 2 points. If the response does not involve this content, no points are awarded.\n④ Using emotional language (\"any sensible citizen\") to manipulate readers' emotions to agree with the author's viewpoint. Pointing this out anywhere in the response earns 1 point. If the response does not involve this content, no points are awarded."
+      },
+      {
+        "id": "EW-NEW-1-P1-F1",
+        "scenario_id": "EW-NEW-1",
+        "paragraph": 1,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "The mayor's investigation is overly simplistic, focusing only on the city's chemical industry while ignoring many other influencing factors, such as: pollution from other industries being more severe, pollution from neighboring cities affecting City A, etc. As long as participants can identify that there may be other influencing factors or pollution sources, they can receive full points.\n"
+      },
+      {
+        "id": "EW-NEW-1-P1-F2",
+        "scenario_id": "EW-NEW-1",
+        "paragraph": 1,
+        "flaw": 2,
+        "maximum_points": 3,
+        "reference": "Although Shengda Chemical Factory has the largest emissions, we do not know its proportion within the entire chemical industry - the proportion may not be high, and other chemical factories may also emit large amounts of gases. Therefore, attributing blame solely to one factory is unreasonable and unfair."
+      },
+      {
+        "id": "EW-NEW-1-P2-F1",
+        "scenario_id": "EW-NEW-1",
+        "paragraph": 2,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] The factory representative conflates the factory's contributions with the problems it causes, but positive impacts cannot negate negative impacts. Another way to express this is that the evidence provided by the employee representative is irrelevant to the conclusion - contributions and importance are unrelated to whether the factory has caused air pollution."
+      },
+      {
+        "id": "EW-NEW-1-P3-F1",
+        "scenario_id": "EW-NEW-1",
+        "paragraph": 3,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "The mayor's plan is overly simplistic and absolute, ignoring potential negative consequences. For example, the plan reduces production, which may generate greater negative impacts on economy.\n"
+      },
+      {
+        "id": "EW-NEW-1-P3-F2",
+        "scenario_id": "EW-NEW-1",
+        "paragraph": 3,
+        "flaw": 2,
+        "maximum_points": 3,
+        "reference": "The mayor's plan does not fundamentally solve the problem and fails to consider better solutions, such as improving technological processes or adopting more environmentally friendly production materials. These approaches could not only address the problem at its source but also reduce pollution without having to decrease production."
+      },
+      {
+        "id": "EW-NEW-2-P1-F1",
+        "scenario_id": "EW-NEW-2",
+        "paragraph": 1,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "The survey sample is too small and lacks representativeness - only 6 customers cannot be used to infer the general situation of the entire customer population.\n"
+      },
+      {
+        "id": "EW-NEW-2-P1-F2",
+        "scenario_id": "EW-NEW-2",
+        "paragraph": 1,
+        "flaw": 2,
+        "maximum_points": 3,
+        "reference": "There is an error in probabilistic reasoning. According to the survey results, both male and female customers each have 50% expressing concern about untimely service, so it is impossible to conclude that \"female customers are more concerned than male customers.\""
+      },
+      {
+        "id": "EW-NEW-2-P2-F1",
+        "scenario_id": "EW-NEW-2",
+        "paragraph": 2,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] The increase in sales is not necessarily caused by the renovation - there are other alternative explanations, with the most obvious being the impact of the National Day holiday. The week after renovation was the National Day holiday, which is a golden period for public shopping."
+      },
+      {
+        "id": "EW-NEW-2-P3-F1",
+        "scenario_id": "EW-NEW-2",
+        "paragraph": 3,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] The argument fails to consider that there may be differences between selling winter clothes in summer and selling summer clothes in winter, which are affected by changes in market environment and consumer demand. For example, winter clothing has higher unit prices while summer clothing has lower unit prices, making it difficult to achieve the same sales revenue."
+      },
+      {
+        "id": "EW-NEW-3-P1-F1",
+        "scenario_id": "EW-NEW-3",
+        "paragraph": 1,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] An important premise of the argument is that a considerable portion of traffic accidents in the city center involve electric bicycles or are caused by electric bicycles. If the number of such accidents is actually very small and their nature is not serious, then banning electric bicycles would be unreasonable, especially considering the inconvenience and social costs caused by the ban."
+      },
+      {
+        "id": "EW-NEW-3-P2-F1",
+        "scenario_id": "EW-NEW-3",
+        "paragraph": 2,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] The positive correlation between the number of traffic accidents and the purchase volume of electric bicycles by city residents may be merely coincidental and does not indicate a causal relationship between the two. Therefore, more people riding electric bicycles is not necessarily the cause of the increase in accident numbers."
+      },
+      {
+        "id": "EW-NEW-3-P3-F1",
+        "scenario_id": "EW-NEW-3",
+        "paragraph": 3,
+        "flaw": 1,
+        "maximum_points": 3,
+        "reference": "[Flaw] Calling electric vehicles \"bombs\" is unreasonable, as there are obvious differences between the two. Electric vehicles only have fire hazards (which most electrical appliances have), and this hazard exists under the specific condition of \"charging in residential buildings.\" We cannot assume that electric vehicles traveling on streets have the same safety hazard, so they cannot be equated with bombs."
+      }
+    ]
+  },
+  "reporting_rules": [
+    "Keep TSA accuracy and EW rubric points separate. No new composite or global pass threshold.",
+    "Use anonymous identity-free evidence, fixed references, and no previous score anchors.",
+    "One AI-assisted rater supplies no measured inter-rater reliability. Label uncertainty and seek independent human review.",
+    "Chat product settings and system instructions are partly uncontrolled; no API-equivalence, causal model-size claim, or proof of internal cognition."
+  ]
+}
